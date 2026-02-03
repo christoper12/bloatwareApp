@@ -125,6 +125,9 @@ Public Class Form1
             Dim name = row.Cells("Name").Value.ToString()
             row.Cells("cbList").Value = _checkedApps.Contains(name)
         Next
+
+        dgListInstall.ClearSelection()
+        dgListInstall.CurrentCell = Nothing
     End Sub
 
     Private Sub txtSearch_TextChanged(sender As Object, e As EventArgs) Handles txtSearch.TextChanged
@@ -374,6 +377,9 @@ Public Class Form1
                 dgUninstallList.Rows.Add(False, app.Name)
             Next
 
+            dgUninstallList.ClearSelection()
+            dgUninstallList.CurrentCell = Nothing
+
             'For Each Name As String In appNames
             '    dgUninstallList.Rows.Add(Name)
             'Next
@@ -461,8 +467,7 @@ Public Class Form1
 
     Private Sub RunPowerShellUninstallScript(selectedApps As List(Of String))
 
-        Dim uninstallPsPath As String =
-        IO.Path.Combine(Application.StartupPath, "powershell", "uninstallProc.ps1")
+        Dim uninstallPsPath As String = IO.Path.Combine(Application.StartupPath, "powershell", "uninstallProc.ps1")
 
         If Not IO.File.Exists(uninstallPsPath) Then
             MessageBox.Show("PowerShell script not found:" & vbCrLf & uninstallPsPath)
@@ -610,71 +615,74 @@ Public Class Form1
     End Sub
 
     Private Sub LoadJsonOptionalToGrid(jsonPath As String)
-        'Try
-        '    If Not File.Exists(jsonPath) Then
-        '        MessageBox.Show("JSON file not found")
-        '        Exit Sub
-        '    End If
-
-        '    Dim json As String = File.ReadAllText(jsonPath)
-
-        '    Dim appNames As List(Of String) = JsonConvert.DeserializeObject(Of List(Of String))(json)
-
-        '    If appNames Is Nothing Then
-        '        appNames = New List(Of String)
-        '    End If
-
-        '    dgOptional.Rows.Clear()
-
-        '    InitGridOptional()
-
-        '    For Each Name As String In appNames
-        '        dgOptional.Rows.Add(Name)
-        '    Next
-        'Catch ex As Exception
-        '    Dim jsonPathUninstall As String = IO.Path.Combine(Application.StartupPath, "config", "optional-apps.json")
-
-        '    Dim emptyJson As String = "[]"
-        '    IO.File.WriteAllText(jsonPathUninstall, emptyJson, Encoding.UTF8)
-        '    LoadJsonOptionalToGrid(jsonPathUninstall)
-        'End Try
-
         Try
-            If Not File.Exists(jsonPath) Then Exit Sub
+            If Not File.Exists(jsonPath) Then
+                MessageBox.Show("JSON file not found")
+                Exit Sub
+            End If
 
-            ' 1. Load daftar Optional (niat user)
-            Dim json As String = File.ReadAllText(jsonPath, Encoding.UTF8)
-            Dim optionalNames As List(Of String) = JsonConvert.DeserializeObject(Of List(Of String))(json)
+            Dim json As String = File.ReadAllText(jsonPath)
 
-            If optionalNames Is Nothing Then Exit Sub
+            Dim appNames As List(Of String) = JsonConvert.DeserializeObject(Of List(Of String))(json)
 
-            '' 2. Ambil HANYA aplikasi yang:
-            ''    - Ada di optional-apps.json
-            ''    - DAN benar-benar terinstall (hasil scan)
-            'Dim installedOptionalApps = _allApps.
-            '        Where(Function(a)
-            '                  optionalNames.
-            '                      Any(Function(n)
-            '                              String.Equals(n, a.Name, StringComparison.OrdinalIgnoreCase)
-            '                          End Function)
-            '              End Function).
-            '        ToList()
+            If appNames Is Nothing Then
+                appNames = New List(Of String)
+            End If
 
-            Dim optionalSet As New HashSet(Of String)(optionalNames, StringComparer.OrdinalIgnoreCase)
-
-            Dim installedOptionalApps = _allApps.Where(Function(a) optionalSet.Contains(a.Name)).ToList()
-
-            ' 3. Render ke grid
             dgOptional.Rows.Clear()
+
             InitGridOptional()
 
-            For Each app In installedOptionalApps
-                dgOptional.Rows.Add(app.Name)
+            For Each Name As String In appNames
+                dgOptional.Rows.Add(Name)
             Next
 
+            dgOptional.ClearSelection()
+            dgOptional.CurrentCell = Nothing
         Catch ex As Exception
-            MessageBox.Show("Failed to load Optional apps: " & ex.Message)
+            Dim jsonPathUninstall As String = IO.Path.Combine(Application.StartupPath, "config", "optional-apps.json")
+
+            Dim emptyJson As String = "[]"
+            IO.File.WriteAllText(jsonPathUninstall, emptyJson, Encoding.UTF8)
+            LoadJsonOptionalToGrid(jsonPathUninstall)
         End Try
+
+        'Try
+        '    If Not File.Exists(jsonPath) Then Exit Sub
+
+        '    ' 1. Load daftar Optional (niat user)
+        '    Dim json As String = File.ReadAllText(jsonPath, Encoding.UTF8)
+        '    Dim optionalNames As List(Of String) = JsonConvert.DeserializeObject(Of List(Of String))(json)
+
+        '    If optionalNames Is Nothing Then Exit Sub
+
+        '    '' 2. Ambil HANYA aplikasi yang:
+        '    ''    - Ada di optional-apps.json
+        '    ''    - DAN benar-benar terinstall (hasil scan)
+        '    'Dim installedOptionalApps = _allApps.
+        '    '        Where(Function(a)
+        '    '                  optionalNames.
+        '    '                      Any(Function(n)
+        '    '                              String.Equals(n, a.Name, StringComparison.OrdinalIgnoreCase)
+        '    '                          End Function)
+        '    '              End Function).
+        '    '        ToList()
+
+        '    Dim optionalSet As New HashSet(Of String)(optionalNames, StringComparer.OrdinalIgnoreCase)
+
+        '    Dim installedOptionalApps = _allApps.Where(Function(a) optionalSet.Contains(a.Name)).ToList()
+
+        '    ' 3. Render ke grid
+        '    dgOptional.Rows.Clear()
+        '    InitGridOptional()
+
+        '    For Each app In installedOptionalApps
+        '        dgOptional.Rows.Add(app.Name)
+        '    Next
+
+        'Catch ex As Exception
+        '    MessageBox.Show("Failed to load Optional apps: " & ex.Message)
+        'End Try
     End Sub
 
     Private Sub InitGridOptional()
@@ -688,6 +696,9 @@ Public Class Form1
         colName.AutoSizeMode = DataGridViewAutoSizeColumnMode.Fill
 
         dgOptional.Columns.Add(colName)
+
+        dgOptional.SelectionMode = DataGridViewSelectionMode.FullRowSelect
+        dgOptional.MultiSelect = False ' atau False, sesuai kebutuhan
     End Sub
 
     Private Sub btnClearOptional_Click(sender As Object, e As EventArgs) Handles btnClearOptional.Click
@@ -697,6 +708,137 @@ Public Class Form1
         IO.File.WriteAllText(jsonPathUninstall, emptyJson, Encoding.UTF8)
 
         LoadJsonOptionalToGrid(jsonPathUninstall)
+    End Sub
+
+    Private Sub dgOptional_CellClick(sender As Object, e As DataGridViewCellEventArgs) Handles dgOptional.CellClick
+        If e.RowIndex < 0 Then Exit Sub
+
+        Dim selectedAppName As String = dgOptional.Rows(e.RowIndex).Cells("Name").Value?.ToString()
+
+        If String.IsNullOrWhiteSpace(selectedAppName) Then Exit Sub
+
+        ' Cek apakah sudah terinstall
+        Dim isInstalled As Boolean = dgListInstall.Rows.
+                Cast(Of DataGridViewRow)().
+                Any(Function(r)
+                        Dim name = r.Cells("Name").Value?.ToString()
+                        Return String.Equals(name, selectedAppName, StringComparison.OrdinalIgnoreCase)
+                    End Function)
+
+        btnInstallUninstallOptional.Text = If(isInstalled, "Uninstall", "Install")
+    End Sub
+
+    Private Sub btnInstallUninstallOptional_Click(sender As Object, e As EventArgs) Handles btnInstallUninstallOptional.Click
+        If dgOptional.SelectedRows.Count = 0 Then
+            MessageBox.Show("The application to uninstall is empty. Please fill it in first before uninstalling the application.")
+            Exit Sub
+        End If
+
+        dgOptional.EndEdit()
+
+        If btnInstallUninstallOptional.Text = "Uninstall" Then
+            Dim selectedApps As New List(Of String)
+
+            For Each row As DataGridViewRow In dgOptional.Rows
+                If row.IsNewRow Then Continue For
+
+                Dim appName As String = row.Cells("Name").Value?.ToString()
+
+                If Not String.IsNullOrWhiteSpace(appName) Then
+                    selectedApps.Add(appName)
+                End If
+            Next
+
+            If selectedApps.Count = 0 Then
+                MessageBox.Show("The application to install is empty. Please select at least one application before installing.", "Information", MessageBoxButtons.OK, MessageBoxIcon.Information)
+                Exit Sub
+            End If
+
+            RunPowerShellUninstallScript(selectedApps)
+
+            LoadLogger()
+        ElseIf btnInstallUninstallOptional.Text = "Install" Then
+            Dim selectedApps As New List(Of String)
+
+            For Each row As DataGridViewRow In dgOptional.SelectedRows
+                If row.IsNewRow Then Continue For
+
+                Dim appName As String = row.Cells("Name").Value?.ToString()
+
+                If Not String.IsNullOrWhiteSpace(appName) Then
+                    selectedApps.Add(appName)
+                End If
+
+                Dim normalizedName = appName.Trim()
+
+                ' ===== BARU MASUK KE SINI JIKA BELUM ADA =====
+                Dim installerPath As String = ""
+
+                MsgBox("Please select the installer file for '" & normalizedName & "' in the next dialog.", MsgBoxStyle.Information, "Select Installer")
+                Dim ofd As New OpenFileDialog()
+                ofd.Title = "Please select the path for the 'Essential' installer."
+                ofd.Filter = "Installer (*.exe;*.msi)|*.exe;*.msi"
+
+                If ofd.ShowDialog() = DialogResult.OK Then
+                    installerPath = ofd.FileName
+
+                    dgOptional.EndEdit()
+
+                    frmInstallApp.saveInstallOptionalData(normalizedName, installerPath)
+
+                    RunPowershellForInstallOptional(selectedApps)
+
+                    LoadLogger()
+                Else
+                    Exit Sub
+                End If
+            Next
+        Else
+            Exit Sub
+        End If
+    End Sub
+
+    Sub RunPowershellForInstallOptional(selectedApps As List(Of String))
+        Dim installPsPath As String = IO.Path.Combine(Application.StartupPath, "powershell", "InstallOptional.ps1")
+
+        If Not IO.File.Exists(installPsPath) Then
+            MessageBox.Show("PowerShell script not found:" & vbCrLf & installPsPath)
+            Exit Sub
+        End If
+
+        Dim selectedArg As String = String.Join("|", selectedApps.Select(Function(x) x.Trim()))
+
+        Dim psi As New ProcessStartInfo()
+        psi.FileName = "powershell.exe"
+        psi.Arguments = $"-ExecutionPolicy Bypass -File ""{installPsPath}"" -SelectedApps ""{selectedArg}"""
+        psi.UseShellExecute = False
+        psi.CreateNoWindow = True
+        psi.RedirectStandardOutput = True
+        psi.RedirectStandardError = True
+
+        Using proc As Process = Process.Start(psi)
+            Dim output As String = proc.StandardOutput.ReadToEnd()
+            Dim err As String = proc.StandardError.ReadToEnd()
+
+            proc.WaitForExit()
+
+            ' Ambil Log directory: (defensive)
+            For Each line In output.Split({Environment.NewLine}, StringSplitOptions.RemoveEmptyEntries)
+                Dim marker As String = "Log directory:"
+
+                If line.IndexOf(marker, StringComparison.OrdinalIgnoreCase) >= 0 Then
+                    _lastLogDir = line.Substring(line.IndexOf(marker, StringComparison.OrdinalIgnoreCase) + marker.Length).Trim()
+                End If
+            Next
+
+            If Not String.IsNullOrWhiteSpace(err) Then
+                MessageBox.Show(err, "PowerShell Error")
+            End If
+        End Using
+    End Sub
+
+    Private Sub btnRefreshOptional_Click(sender As Object, e As EventArgs) Handles btnRefreshOptional.Click
+        btnRefresh.PerformClick()
     End Sub
 
     Private Sub btnMarkToEssential_Click(sender As Object, e As EventArgs) Handles btnMarkToEssential.Click
@@ -804,6 +946,9 @@ Public Class Form1
             For Each appName In missingEssentialApps
                 dgEsential.Rows.Add(False, appName)
             Next
+
+            dgEsential.ClearSelection()
+            dgEsential.CurrentCell = Nothing
 
         Catch ex As Exception
             MessageBox.Show("Failed to load Essential apps: " & ex.Message)
@@ -947,7 +1092,11 @@ Public Class Form1
         End If
     End Sub
 
-    Private Sub Button4_Click(sender As Object, e As EventArgs) Handles btnInstallUninstallOptional.Click
+    Private Sub btnRefeshDataEssential_Click(sender As Object, e As EventArgs) Handles btnRefeshDataEssential.Click
+        btnRefresh.PerformClick()
+    End Sub
 
+    Private Sub btnRefreshDataBloatware_Click(sender As Object, e As EventArgs) Handles btnRefreshDataBloatware.Click
+        btnRefresh.PerformClick()
     End Sub
 End Class

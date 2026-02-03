@@ -1,29 +1,29 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\csangjaya\\Documents\\Kantor\\bloatWareApp\\",
+  "WorkspaceRootPath": "C:\\Users\\csangjaya\\Documents\\Kantor\\bloatwareApp\\",
   "Documents": [
     {
       "AbsoluteMoniker": "D:0:0:{6198290D-A5EF-493B-B300-5B61EC8B648F}|bloatWareApp\\bloatWareApp.vbproj|c:\\users\\csangjaya\\documents\\kantor\\bloatwareapp\\bloatwareapp\\form1.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}",
       "RelativeMoniker": "D:0:0:{6198290D-A5EF-493B-B300-5B61EC8B648F}|bloatWareApp\\bloatWareApp.vbproj|solutionrelative:bloatwareapp\\form1.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{6198290D-A5EF-493B-B300-5B61EC8B648F}|bloatWareApp\\bloatWareApp.vbproj|C:\\Users\\csangjaya\\Documents\\Kantor\\bloatWareApp\\bloatwareapp\\form1.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}|Form",
+      "AbsoluteMoniker": "D:0:0:{6198290D-A5EF-493B-B300-5B61EC8B648F}|bloatWareApp\\bloatWareApp.vbproj|C:\\Users\\csangjaya\\Documents\\Kantor\\bloatwareApp\\bloatwareapp\\form1.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}|Form",
       "RelativeMoniker": "D:0:0:{6198290D-A5EF-493B-B300-5B61EC8B648F}|bloatWareApp\\bloatWareApp.vbproj|solutionrelative:bloatwareapp\\form1.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{6198290D-A5EF-493B-B300-5B61EC8B648F}|bloatWareApp\\bloatWareApp.vbproj|C:\\Users\\csangjaya\\Documents\\Kantor\\bloatWareApp\\bloatwareapp\\frminstallapp.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}|Form",
-      "RelativeMoniker": "D:0:0:{6198290D-A5EF-493B-B300-5B61EC8B648F}|bloatWareApp\\bloatWareApp.vbproj|solutionrelative:bloatwareapp\\frminstallapp.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{6198290D-A5EF-493B-B300-5B61EC8B648F}|bloatWareApp\\bloatWareApp.vbproj|C:\\Users\\csangjaya\\Documents\\Kantor\\bloatWareApp\\bloatwareapp\\frminstallapp.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}",
+      "AbsoluteMoniker": "D:0:0:{6198290D-A5EF-493B-B300-5B61EC8B648F}|bloatWareApp\\bloatWareApp.vbproj|C:\\Users\\csangjaya\\Documents\\Kantor\\bloatwareApp\\bloatwareapp\\frminstallapp.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}",
       "RelativeMoniker": "D:0:0:{6198290D-A5EF-493B-B300-5B61EC8B648F}|bloatWareApp\\bloatWareApp.vbproj|solutionrelative:bloatwareapp\\frminstallapp.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{6198290D-A5EF-493B-B300-5B61EC8B648F}|bloatWareApp\\bloatWareApp.vbproj|C:\\Users\\csangjaya\\Documents\\Kantor\\bloatWareApp\\bloatwareapp\\appconfig.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}",
+      "AbsoluteMoniker": "D:0:0:{6198290D-A5EF-493B-B300-5B61EC8B648F}|bloatWareApp\\bloatWareApp.vbproj|C:\\Users\\csangjaya\\Documents\\Kantor\\bloatwareApp\\bloatwareapp\\frminstallapp.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}|Form",
+      "RelativeMoniker": "D:0:0:{6198290D-A5EF-493B-B300-5B61EC8B648F}|bloatWareApp\\bloatWareApp.vbproj|solutionrelative:bloatwareapp\\frminstallapp.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6198290D-A5EF-493B-B300-5B61EC8B648F}|bloatWareApp\\bloatWareApp.vbproj|C:\\Users\\csangjaya\\Documents\\Kantor\\bloatwareApp\\bloatwareapp\\appconfig.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}",
       "RelativeMoniker": "D:0:0:{6198290D-A5EF-493B-B300-5B61EC8B648F}|bloatWareApp\\bloatWareApp.vbproj|solutionrelative:bloatwareapp\\appconfig.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{6198290D-A5EF-493B-B300-5B61EC8B648F}|bloatWareApp\\bloatWareApp.vbproj|C:\\Users\\csangjaya\\Documents\\Kantor\\bloatWareApp\\bloatwareapp\\appconfigroot.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}",
+      "AbsoluteMoniker": "D:0:0:{6198290D-A5EF-493B-B300-5B61EC8B648F}|bloatWareApp\\bloatWareApp.vbproj|C:\\Users\\csangjaya\\Documents\\Kantor\\bloatwareApp\\bloatwareapp\\appconfigroot.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}",
       "RelativeMoniker": "D:0:0:{6198290D-A5EF-493B-B300-5B61EC8B648F}|bloatWareApp\\bloatWareApp.vbproj|solutionrelative:bloatwareapp\\appconfigroot.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}"
     },
     {
@@ -43,9 +43,9 @@
               "$type": "Document",
               "DocumentIndex": 5,
               "Title": "AppConfigRoot.vb",
-              "DocumentMoniker": "C:\\Users\\csangjaya\\Documents\\Kantor\\bloatWareApp\\bloatWareApp\\AppConfigRoot.vb",
+              "DocumentMoniker": "C:\\Users\\csangjaya\\Documents\\Kantor\\bloatwareApp\\bloatWareApp\\AppConfigRoot.vb",
               "RelativeDocumentMoniker": "bloatWareApp\\AppConfigRoot.vb",
-              "ToolTip": "C:\\Users\\csangjaya\\Documents\\Kantor\\bloatWareApp\\bloatWareApp\\AppConfigRoot.vb",
+              "ToolTip": "C:\\Users\\csangjaya\\Documents\\Kantor\\bloatwareApp\\bloatWareApp\\AppConfigRoot.vb",
               "RelativeToolTip": "bloatWareApp\\AppConfigRoot.vb",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAEAAAA2AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003361|",
@@ -55,9 +55,9 @@
               "$type": "Document",
               "DocumentIndex": 4,
               "Title": "AppConfig.vb",
-              "DocumentMoniker": "C:\\Users\\csangjaya\\Documents\\Kantor\\bloatWareApp\\bloatWareApp\\AppConfig.vb",
+              "DocumentMoniker": "C:\\Users\\csangjaya\\Documents\\Kantor\\bloatwareApp\\bloatWareApp\\AppConfig.vb",
               "RelativeDocumentMoniker": "bloatWareApp\\AppConfig.vb",
-              "ToolTip": "C:\\Users\\csangjaya\\Documents\\Kantor\\bloatWareApp\\bloatWareApp\\AppConfig.vb",
+              "ToolTip": "C:\\Users\\csangjaya\\Documents\\Kantor\\bloatwareApp\\bloatWareApp\\AppConfig.vb",
               "RelativeToolTip": "bloatWareApp\\AppConfig.vb",
               "ViewState": "AgIAAAAAAAAAAAAAAAAuwAEAAAAYAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003361|",
@@ -67,45 +67,47 @@
               "$type": "Document",
               "DocumentIndex": 6,
               "Title": "bloatWareApp",
-              "DocumentMoniker": "C:\\Users\\csangjaya\\Documents\\Kantor\\bloatWareApp\\bloatWareApp\\bloatWareApp.vbproj",
+              "DocumentMoniker": "C:\\Users\\csangjaya\\Documents\\Kantor\\bloatwareApp\\bloatWareApp\\bloatWareApp.vbproj",
               "RelativeDocumentMoniker": "bloatWareApp\\bloatWareApp.vbproj",
-              "ToolTip": "C:\\Users\\csangjaya\\Documents\\Kantor\\bloatWareApp\\bloatWareApp\\bloatWareApp.vbproj",
+              "ToolTip": "C:\\Users\\csangjaya\\Documents\\Kantor\\bloatwareApp\\bloatWareApp\\bloatWareApp.vbproj",
               "RelativeToolTip": "bloatWareApp\\bloatWareApp.vbproj",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
               "WhenOpened": "2026-01-14T01:53:48.603Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 2,
               "Title": "frmInstallApp.vb",
-              "DocumentMoniker": "C:\\Users\\csangjaya\\Documents\\Kantor\\bloatWareApp\\bloatWareApp\\frmInstallApp.vb",
+              "DocumentMoniker": "C:\\Users\\csangjaya\\Documents\\Kantor\\bloatwareApp\\bloatWareApp\\frmInstallApp.vb",
               "RelativeDocumentMoniker": "bloatWareApp\\frmInstallApp.vb",
-              "ToolTip": "C:\\Users\\csangjaya\\Documents\\Kantor\\bloatWareApp\\bloatWareApp\\frmInstallApp.vb",
+              "ToolTip": "C:\\Users\\csangjaya\\Documents\\Kantor\\bloatwareApp\\bloatWareApp\\frmInstallApp.vb",
               "RelativeToolTip": "bloatWareApp\\frmInstallApp.vb",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAgwBEAAABnAAAAAAAAAA==",
+              "ViewState": "AgIAAFYAAAAAAAAAAAAuwHcAAAAEAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003361|",
-              "WhenOpened": "2026-01-22T04:00:55.643Z"
+              "WhenOpened": "2026-01-22T04:00:55.643Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 3,
               "Title": "frmInstallApp.vb [Design]",
-              "DocumentMoniker": "C:\\Users\\csangjaya\\Documents\\Kantor\\bloatWareApp\\bloatWareApp\\frmInstallApp.vb",
+              "DocumentMoniker": "C:\\Users\\csangjaya\\Documents\\Kantor\\bloatwareApp\\bloatWareApp\\frmInstallApp.vb",
               "RelativeDocumentMoniker": "bloatWareApp\\frmInstallApp.vb",
-              "ToolTip": "C:\\Users\\csangjaya\\Documents\\Kantor\\bloatWareApp\\bloatWareApp\\frmInstallApp.vb [Design]",
+              "ToolTip": "C:\\Users\\csangjaya\\Documents\\Kantor\\bloatwareApp\\bloatWareApp\\frmInstallApp.vb [Design]",
               "RelativeToolTip": "bloatWareApp\\frmInstallApp.vb [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003361|",
-              "WhenOpened": "2026-01-22T03:34:40.925Z"
+              "WhenOpened": "2026-01-22T03:34:40.925Z",
+              "EditorCaption": " [Design]"
             },
             {
               "$type": "Document",
               "DocumentIndex": 0,
               "Title": "Form1.vb",
-              "DocumentMoniker": "C:\\Users\\csangjaya\\Documents\\Kantor\\bloatWareApp\\bloatWareApp\\Form1.vb",
+              "DocumentMoniker": "C:\\Users\\csangjaya\\Documents\\Kantor\\bloatwareApp\\bloatWareApp\\Form1.vb",
               "RelativeDocumentMoniker": "bloatWareApp\\Form1.vb",
-              "ToolTip": "C:\\Users\\csangjaya\\Documents\\Kantor\\bloatWareApp\\bloatWareApp\\Form1.vb",
+              "ToolTip": "C:\\Users\\csangjaya\\Documents\\Kantor\\bloatwareApp\\bloatWareApp\\Form1.vb",
               "RelativeToolTip": "bloatWareApp\\Form1.vb",
-              "ViewState": "AgIAAG8CAAAAAAAAAAAwwIUCAABKAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACgAAAAPAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003361|",
               "WhenOpened": "2026-01-12T03:56:17.354Z",
               "EditorCaption": ""
@@ -114,9 +116,9 @@
               "$type": "Document",
               "DocumentIndex": 1,
               "Title": "Form1.vb [Design]",
-              "DocumentMoniker": "C:\\Users\\csangjaya\\Documents\\Kantor\\bloatWareApp\\bloatWareApp\\Form1.vb",
+              "DocumentMoniker": "C:\\Users\\csangjaya\\Documents\\Kantor\\bloatwareApp\\bloatWareApp\\Form1.vb",
               "RelativeDocumentMoniker": "bloatWareApp\\Form1.vb",
-              "ToolTip": "C:\\Users\\csangjaya\\Documents\\Kantor\\bloatWareApp\\bloatWareApp\\Form1.vb [Design]",
+              "ToolTip": "C:\\Users\\csangjaya\\Documents\\Kantor\\bloatwareApp\\bloatWareApp\\Form1.vb [Design]",
               "RelativeToolTip": "bloatWareApp\\Form1.vb [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003361|",
               "WhenOpened": "2026-01-12T03:55:55.711Z",

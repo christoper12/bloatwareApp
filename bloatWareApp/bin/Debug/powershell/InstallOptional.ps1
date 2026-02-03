@@ -9,10 +9,11 @@ if ($SelectedApps) {
 }
 
 $BaseDir = $PSScriptRoot
+
 $LogsDir    = Join-Path (Split-Path $BaseDir -Parent) "logs"
 $ModulesDir = Join-Path $BaseDir "Modules"
 $ConfigDir    = Join-Path (Split-Path $BaseDir -Parent) "config"
-$configPath = Join-Path $ConfigDir "esential-apps.json"
+$configPath = Join-Path $ConfigDir "install-optional-apps.json"
 $config = Get-Content $configPath -Raw | ConvertFrom-Json
 
 # Ensure logs folder exists

@@ -1,0 +1,10 @@
+{
+  "applications": [
+    {
+      "name": "Postman",
+      "installerPath": "C:\\Users\\csangjaya\\Downloads\\VisualStudioSetup.exe",
+      "silentArgs": "/silent /install",
+      "detectName": "Postman"
+    }
+  ]
+}
