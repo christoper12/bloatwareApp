@@ -1,0 +1,22 @@
+{
+  "applications": [
+    {
+      "name": "Notepad++",
+      "installerPath": "C:\\Users\\csangjaya\\Downloads\\npp.8.9.Installer.x64.exe",
+      "silentArgs": "/silent /install",
+      "detectName": "Notepad++"
+    },
+    {
+      "name": "Postman",
+      "installerPath": "C:\\Users\\csangjaya\\Downloads\\VSCodeUserSetup-x64-1.108.0.exe",
+      "silentArgs": "/silent /install",
+      "detectName": "Postman"
+    },
+    {
+      "name": "DBeaver 25.2.4",
+      "installerPath": "",
+      "silentArgs": "/silent /install",
+      "detectName": "DBeaver 25.2.4"
+    }
+  ]
+}

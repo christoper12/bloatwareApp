@@ -1,0 +1,1584 @@
+﻿[
+    {
+        "Name":  "DBeaver 25.2.4",
+        "Version":  "25.2.4",
+        "Publisher":  "DBeaver Corp",
+        "UninstallString":  "\"C:\\Program Files\\DBeaver\\Uninstall.exe\" /allusers",
+        "Source":  "Registry"
+    },
+    {
+        "Name":  "Git",
+        "Version":  "2.51.2",
+        "Publisher":  "The Git Development Community",
+        "UninstallString":  "\"C:\\Program Files\\Git\\unins000.exe\"",
+        "Source":  "Registry"
+    },
+    {
+        "Name":  "Intel(R) Graphics Software \u0026 Drivers",
+        "Version":  "1.0.1084.3",
+        "Publisher":  "Intel(R) Corporation",
+        "UninstallString":  "\"C:\\Program Files\\Intel\\Intel(R) Graphics Software \u0026 Drivers\\Uninstaller.exe\" --uninstaller",
+        "Source":  "Registry"
+    },
+    {
+        "Name":  "Microsoft Visual Studio 2010 Tools for Office Runtime (x64)",
+        "Version":  "10.0.60910",
+        "Publisher":  "Microsoft Corporation",
+        "UninstallString":  "\"c:\\Program Files\\Common Files\\Microsoft Shared\\VSTO\\10.0\\Microsoft Visual Studio 2010 Tools for Office Runtime (x64)\\install.exe\"",
+        "Source":  "Registry"
+    },
+    {
+        "Name":  "NetBeans IDE 8.2",
+        "Version":  "8.2",
+        "Publisher":  "NetBeans.org",
+        "UninstallString":  "\"C:\\Program Files\\NetBeans 8.2\\uninstall.exe\"",
+        "Source":  "Registry"
+    },
+    {
+        "Name":  "Microsoft 365 Apps for enterprise - en-us",
+        "Version":  "16.0.19628.20150",
+        "Publisher":  "Microsoft Corporation",
+        "UninstallString":  "\"C:\\Program Files\\Common Files\\Microsoft Shared\\ClickToRun\\OfficeClickToRun.exe\" scenario=install scenariosubtype=ARP sourcetype=None productstoremove=O365ProPlusRetail.16_en-us_x-none culture=en-us version.16=16.0",
+        "Source":  "Registry"
+    },
+    {
+        "Name":  "Microsoft OneDrive",
+        "Version":  "26.002.0105.0001",
+        "Publisher":  "Microsoft Corporation",
+        "UninstallString":  "\"C:\\Program Files\\Microsoft OneDrive\\26.002.0105.0001\\OneDriveSetup.exe\"  /uninstall  /allusers ",
+        "Source":  "Registry"
+    },
+    {
+        "Name":  "Microsoft OneNote - en-us",
+        "Version":  "16.0.19628.20150",
+        "Publisher":  "Microsoft Corporation",
+        "UninstallString":  "\"C:\\Program Files\\Common Files\\Microsoft Shared\\ClickToRun\\OfficeClickToRun.exe\" scenario=install scenariosubtype=ARP sourcetype=None productstoremove=OneNoteFreeRetail.16_en-us_x-none culture=en-us version.16=16.0",
+        "Source":  "Registry"
+    },
+    {
+        "Name":  "PostgreSQL 14 ",
+        "Version":  "14",
+        "Publisher":  "PostgreSQL Global Development Group",
+        "UninstallString":  "\"C:\\Program Files\\PostgreSQL\\14\\uninstall-postgresql.exe\"",
+        "Source":  "Registry"
+    },
+    {
+        "Name":  "SQLiteStudio",
+        "Version":  "3.4.3",
+        "Publisher":  "sqlitestudio.pl",
+        "UninstallString":  "\"C:\\Program Files\\SQLiteStudio\\uninstall.exe\"",
+        "Source":  "Registry"
+    },
+    {
+        "Name":  "SQLyog 11.11 (64 bit)",
+        "Version":  "11.11 (64 bit)",
+        "Publisher":  "Webyog Inc.",
+        "UninstallString":  "C:\\Program Files\\SQLyog\\uninst.exe",
+        "Source":  "Registry"
+    },
+    {
+        "Name":  "SQLyog Community 13.1.7 (64 bit)",
+        "Version":  "13.1.7 (64 bit)",
+        "Publisher":  "Webyog Inc.",
+        "UninstallString":  "C:\\Program Files\\SQLyog Community\\uninst.exe",
+        "Source":  "Registry"
+    },
+    {
+        "Name":  "XAMPP",
+        "Version":  "8.2.12-0",
+        "Publisher":  "Apache Friends",
+        "UninstallString":  "\"C:\\xampp2\\uninstall.exe\"",
+        "Source":  "Registry"
+    },
+    {
+        "Name":  "Dell SupportAssist",
+        "Version":  "4.10.6.48716",
+        "Publisher":  "Dell Inc.",
+        "UninstallString":  "MsiExec.exe /X{00B9D238-5A72-4BD9-B2DC-0144D8DBD5C8}",
+        "Source":  "Registry"
+    },
+    {
+        "Name":  "Microsoft Visual C++ 2013 x64 Additional Runtime - 12.0.40664",
+        "Version":  "12.0.40664",
+        "Publisher":  "Microsoft Corporation",
+        "UninstallString":  "MsiExec.exe /X{010792BA-551A-3AC0-A7EF-0FAB4156C382}",
+        "Source":  "Registry"
+    },
+    {
+        "Name":  "Microsoft .NET Targeting Pack - 10.0.1 (x64)",
+        "Version":  "80.4.44025",
+        "Publisher":  "Microsoft Corporation",
+        "UninstallString":  "MsiExec.exe /X{010930C3-106A-4DD2-B08C-E93615935B26}",
+        "Source":  "Registry"
+    },
+    {
+        "Name":  "Microsoft SQL Server 2014 Transact-SQL ScriptDom ",
+        "Version":  "12.0.2000.8",
+        "Publisher":  "Microsoft Corporation",
+        "UninstallString":  "MsiExec.exe /I{020CDFE0-C127-4047-B571-37C82396B662}",
+        "Source":  "Registry"
+    },
+    {
+        "Name":  "Microsoft .NET 10.0 Templates 10.0.100-rc.2.25502.107 x64",
+        "Version":  "40.9.60483",
+        "Publisher":  "Microsoft Corporation",
+        "UninstallString":  "MsiExec.exe /I{05261F35-9F47-436A-81BE-78E2B21AB25E}",
+        "Source":  "Registry"
+    },
+    {
+        "Name":  "Microsoft.NET.Sdk.Android.Manifest-6.0.300",
+        "Version":  "128.75.4",
+        "Publisher":  "Microsoft Corporation",
+        "UninstallString":  "MsiExec.exe /X{052CDF8C-E534-462F-8D12-CCB3EA4FC3B3}",
+        "Source":  "Registry"
+    },
+    {
+        "Name":  "Microsoft .NET Runtime - 9.0.10 (x64)",
+        "Version":  "72.40.40927",
+        "Publisher":  "Microsoft Corporation",
+        "UninstallString":  "MsiExec.exe /X{05987870-6EDD-4352-ADEA-4A8694040F3E}",
+        "Source":  "Registry"
+    },
+    {
+        "Name":  "Python 3.11.7 Standard Library (64-bit)",
+        "Version":  "3.11.7150.0",
+        "Publisher":  "Python Software Foundation",
+        "UninstallString":  "MsiExec.exe /I{06F1B875-49F4-476E-BB78-9326ECF8FF39}",
+        "Source":  "Registry"
+    },
+    {
+        "Name":  "Microsoft.NET.Workload.Emscripten.net6.Manifest-10.0.100 (x64)",
+        "Version":  "81.148.44025",
+        "Publisher":  "Microsoft Corporation",
+        "UninstallString":  "MsiExec.exe /X{0824EB00-71AC-43FD-9E94-546F9DFE1DC4}",
+        "Source":  "Registry"
+    },
+    {
+        "Name":  "Microsoft.NET.Sdk.tvOS.Manifest-10.0.100 (x64)",
+        "Version":  "26.1.10502",
+        "Publisher":  "Microsoft Corporation",
+        "UninstallString":  "MsiExec.exe /X{092B05C4-B2F3-4483-820D-10A420C1C89E}",
+        "Source":  "Registry"
+    },
+    {
+        "Name":  "Microsoft ODBC Driver 17 for SQL Server",
+        "Version":  "17.10.6.1",
+        "Publisher":  "Microsoft Corporation",
+        "UninstallString":  "MsiExec.exe /I{0E0F96AC-80DE-4400-A40C-429D63293651}",
+        "Source":  "Registry"
+    },
+    {
+        "Name":  "Microsoft Visual C++ 2022 X64 Debug Runtime - 14.50.35719",
+        "Version":  "14.50.35719",
+        "Publisher":  "Microsoft Corporation",
+        "UninstallString":  "MsiExec.exe /I{0E64BFA1-36E6-472F-8E59-B79D952AA1E0}",
+        "Source":  "Registry"
+    },
+    {
+        "Name":  "Microsoft Workflow Debugger v1.0 for amd64",
+        "Version":  "17.0.36015",
+        "Publisher":  "Microsoft",
+        "UninstallString":  "MsiExec.exe /I{0E6F57B8-F5AE-3F1C-A6A6-A69B5BB85C03}",
+        "Source":  "Registry"
+    },
+    {
+        "Name":  "IIS 10.0 Express",
+        "Version":  "10.0.10007",
+        "Publisher":  "Microsoft Corporation",
+        "UninstallString":  "MsiExec.exe /X{0F4F67F8-21E1-422D-B31C-B3800F4D6E36}",
+        "Source":  "Registry"
+    },
+    {
+        "Name":  "Microsoft ASP.NET Core 9.0.10 Targeting Pack (x64)",
+        "Version":  "9.0.10.25475",
+        "Publisher":  "Microsoft Corporation",
+        "UninstallString":  "MsiExec.exe /X{0F934C41-E7A3-3835-B396-B5C73B103095}",
+        "Source":  "Registry"
+    },
+    {
+        "Name":  "Microsoft .NET AppHost Pack - 10.0.1 (x64_arm64)",
+        "Version":  "80.4.44025",
+        "Publisher":  "Microsoft Corporation",
+        "UninstallString":  "MsiExec.exe /X{10D1D554-363B-46B2-AF16-F89AECB745E9}",
+        "Source":  "Registry"
+    },
+    {
+        "Name":  "Microsoft.NET.Workload.Mono.Toolchain.Current.Manifest-10.0.100 (x64)",
+        "Version":  "81.148.44025",
+        "Publisher":  "Microsoft Corporation",
+        "UninstallString":  "MsiExec.exe /X{1105F4E4-6E34-4B2B-AFD8-93B6F2C7D00C}",
+        "Source":  "Registry"
+    },
+    {
+        "Name":  "Microsoft.NET.Sdk.macOS.Manifest-9.0.100 (x64)",
+        "Version":  "26.0.9752",
+        "Publisher":  "Microsoft Corporation",
+        "UninstallString":  "MsiExec.exe /X{121950B6-0F21-4F0D-BF23-663BD6AA1926}",
+        "Source":  "Registry"
+    },
+    {
+        "Name":  "Microsoft .NET Host FX Resolver - 10.0.1 (x64)",
+        "Version":  "80.4.44025",
+        "Publisher":  "Microsoft Corporation",
+        "UninstallString":  "MsiExec.exe /X{12D4B30A-B8DE-496F-ABBA-8E355A7E2652}",
+        "Source":  "Registry"
+    },
+    {
+        "Name":  "Microsoft .NET 6.0 Templates 6.0.310 (x64)",
+        "Version":  "24.7.52157",
+        "Publisher":  "Microsoft Corporation",
+        "UninstallString":  "MsiExec.exe /I{137EB353-7D71-409C-AB4A-F849D127D183}",
+        "Source":  "Registry"
+    },
+    {
+        "Name":  "Microsoft .NET 9.0 Templates 9.0.306 (x64)",
+        "Version":  "36.11.57780",
+        "Publisher":  "Microsoft Corporation",
+        "UninstallString":  "MsiExec.exe /I{13AFE629-5E82-4C66-80B3-79FB8582B5BC}",
+        "Source":  "Registry"
+    },
+    {
+        "Name":  "Microsoft ASP.NET Core Runtime - 10.0.0 RC 2 (x64)",
+        "Version":  "80.0.42155",
+        "Publisher":  "Microsoft Corporation",
+        "UninstallString":  "MsiExec.exe /X{13D41AA1-98DF-40D2-AD3B-FD0C016A8CA6}",
+        "Source":  "Registry"
+    },
+    {
+        "Name":  "Microsoft .NET AppHost Pack - 9.0.10 (x64_x86)",
+        "Version":  "72.40.40927",
+        "Publisher":  "Microsoft Corporation",
+        "UninstallString":  "MsiExec.exe /X{143745B1-73F8-4E8C-A6F6-962D71AB9901}",
+        "Source":  "Registry"
+    },
+    {
+        "Name":  "Python 3.11.7 Executables (64-bit)",
+        "Version":  "3.11.7150.0",
+        "Publisher":  "Python Software Foundation",
+        "UninstallString":  "MsiExec.exe /I{165DDA05-F183-4133-9902-6B7AA913499A}",
+        "Source":  "Registry"
+    },
+    {
+        "Name":  "Microsoft.NET.Workload.Emscripten.net7.Manifest-10.0.100-rc.2 (x64)",
+        "Version":  "81.144.42155",
+        "Publisher":  "Microsoft Corporation",
+        "UninstallString":  "MsiExec.exe /X{193B9BB3-693D-4A68-8D45-8011898F2F41}",
+        "Source":  "Registry"
+    },
+    {
+        "Name":  "SmartByte Drivers and Services",
+        "Version":  "3.1122.728.7",
+        "Publisher":  "Rivet Networks",
+        "UninstallString":  "MsiExec.exe /I{19A754FE-0343-4311-835F-33EAB7ADEA7B}",
+        "Source":  "Registry"
+    },
+    {
+        "Name":  "Microsoft.NET.Workload.Emscripten.net6.Manifest-10.0.100-rc.2 (x64)",
+        "Version":  "81.144.42155",
+        "Publisher":  "Microsoft Corporation",
+        "UninstallString":  "MsiExec.exe /X{1A347892-C33F-4F89-823F-CFD0958CEAF1}",
+        "Source":  "Registry"
+    },
+    {
+        "Name":  "Microsoft ASP.NET Core 6.0.15 Shared Framework (x64)",
+        "Version":  "6.0.15.23124",
+        "Publisher":  "Microsoft Corporation",
+        "UninstallString":  "MsiExec.exe /X{1B96A111-27AE-31AF-912F-FABECA7C0C1F}",
+        "Source":  "Registry"
+    },
+    {
+        "Name":  "Microsoft .NET AppHost Pack - 6.0.15 (x64_x86)",
+        "Version":  "48.63.56695",
+        "Publisher":  "Microsoft Corporation",
+        "UninstallString":  "MsiExec.exe /X{1BC68372-48BE-4164-ABB6-F0288F02395F}",
+        "Source":  "Registry"
+    },
+    {
+        "Name":  "Microsoft .NET 8.0 Templates 8.0.415 (x64)",
+        "Version":  "32.13.57780",
+        "Publisher":  "Microsoft Corporation",
+        "UninstallString":  "MsiExec.exe /I{1CFEB035-D24B-4C38-8F3A-DFD00666C188}",
+        "Source":  "Registry"
+    },
+    {
+        "Name":  "vs_minshellinteropx64msi",
+        "Version":  "18.0.11101",
+        "Publisher":  "Microsoft Corporation",
+        "UninstallString":  "MsiExec.exe /I{1F183C8C-D1D4-4E02-BFF4-08C5AB78D674}",
+        "Source":  "Registry"
+    },
+    {
+        "Name":  "Microsoft SQL Server 2014 Management Objects  (x64)",
+        "Version":  "12.0.2000.8",
+        "Publisher":  "Microsoft Corporation",
+        "UninstallString":  "MsiExec.exe /I{1F9EB3B6-AED7-4AA7-B8F1-8E314B74B2A5}",
+        "Source":  "Registry"
+    },
+    {
+        "Name":  "Microsoft ASP.NET Core Targeting Pack - 10.0.0 RC 2 (x64)",
+        "Version":  "80.0.42155",
+        "Publisher":  "Microsoft Corporation",
+        "UninstallString":  "MsiExec.exe /X{22FBE9BC-9FCC-41CA-AD9B-0D2E9DA9176A}",
+        "Source":  "Registry"
+    },
+    {
+        "Name":  "Microsoft Windows Desktop Targeting Pack - 10.0.1 (x64)",
+        "Version":  "80.4.44025",
+        "Publisher":  "Microsoft Corporation",
+        "UninstallString":  "MsiExec.exe /X{22FF3E28-2020-4721-8C2D-353FFC90C1B5}",
+        "Source":  "Registry"
+    },
+    {
+        "Name":  "Java 8 Update 261 (64-bit)",
+        "Version":  "8.0.2610.12",
+        "Publisher":  "Oracle Corporation",
+        "UninstallString":  "MsiExec.exe /X{26A24AE4-039D-4CA4-87B4-2F64180261F0}",
+        "Source":  "Registry"
+    },
+    {
+        "Name":  "Java 8 Update 271 (64-bit)",
+        "Version":  "8.0.2710.9",
+        "Publisher":  "Oracle Corporation",
+        "UninstallString":  "MsiExec.exe /X{26A24AE4-039D-4CA4-87B4-2F64180271F0}",
+        "Source":  "Registry"
+    },
+    {
+        "Name":  "TortoiseGit 2.18.0.0 (64 bit)",
+        "Version":  "2.18.0.0",
+        "Publisher":  "TortoiseGit",
+        "UninstallString":  "MsiExec.exe /I{27942F30-68E5-4E0E-B187-BCDB6D7F3903}",
+        "Source":  "Registry"
+    },
+    {
+        "Name":  "Microsoft.NET.Sdk.Android.Manifest-10.0.100-rc.2 (x64)",
+        "Version":  "32.0.40940",
+        "Publisher":  "Microsoft Corporation",
+        "UninstallString":  "MsiExec.exe /X{280E75B9-118E-469A-8BF7-AD4708442FD8}",
+        "Source":  "Registry"
+    },
+    {
+        "Name":  "Microsoft .NET AppHost Pack - 9.0.10 (x64_arm64)",
+        "Version":  "72.40.40927",
+        "Publisher":  "Microsoft Corporation",
+        "UninstallString":  "MsiExec.exe /X{28F7E3D1-C8E7-4F9A-BB4B-7782B8A810A4}",
+        "Source":  "Registry"
+    },
+    {
+        "Name":  "Microsoft Windows Desktop Runtime - 8.0.23 (x64)",
+        "Version":  "64.92.45458",
+        "Publisher":  "Microsoft Corporation",
+        "UninstallString":  "MsiExec.exe /X{29177194-CD94-4A2D-97A4-EF77738E995A}",
+        "Source":  "Registry"
+    },
+    {
+        "Name":  "Microsoft.NET.Sdk.macOS.Manifest-6.0.300",
+        "Version":  "48.57.125",
+        "Publisher":  "Microsoft Corporation",
+        "UninstallString":  "MsiExec.exe /X{2AB77B83-C379-404E-9652-4AB1B4980227}",
+        "Source":  "Registry"
+    },
+    {
+        "Name":  "Microsoft.NET.Sdk.Aspire.Manifest-8.0.100 (x64)",
+        "Version":  "64.136.23253",
+        "Publisher":  "Microsoft Corporation",
+        "UninstallString":  "MsiExec.exe /X{2E5C5364-621F-4F22-8B81-18524D6F0361}",
+        "Source":  "Registry"
+    },
+    {
+        "Name":  "Microsoft Visual C++ 2012 x64 Minimum Runtime - 11.0.60610",
+        "Version":  "11.0.60610",
+        "Publisher":  "Microsoft Corporation",
+        "UninstallString":  "MsiExec.exe /X{2EDC2FA3-1F34-34E5-9085-588C9EFD1CC6}",
+        "Source":  "Registry"
+    },
+    {
+        "Name":  "Microsoft ASP.NET Core 8.0.21 Targeting Pack (x64)",
+        "Version":  "8.0.21.25475",
+        "Publisher":  "Microsoft Corporation",
+        "UninstallString":  "MsiExec.exe /X{2EE6955C-2315-3E18-8D14-C968A697401D}",
+        "Source":  "Registry"
+    },
+    {
+        "Name":  "Microsoft .NET SDK 9.0.306 (x64) from Visual Studio",
+        "Version":  "9.3.625.47604",
+        "Publisher":  "Microsoft Corporation",
+        "UninstallString":  "MsiExec.exe /X{2F38A089-CBC1-44DF-8561-08C0A3D80710}",
+        "Source":  "Registry"
+    },
+    {
+        "Name":  "icecap_collection_x64",
+        "Version":  "18.0.11101",
+        "Publisher":  "Microsoft Corporation",
+        "UninstallString":  "MsiExec.exe /I{31A90F24-89E9-427E-8FA7-C02F37CA2300}",
+        "Source":  "Registry"
+    },
+    {
+        "Name":  "Workflow Manager Tools 1.0 for Visual Studio",
+        "Version":  "17.10.30122.0",
+        "Publisher":  "Microsoft Corporation",
+        "UninstallString":  "MsiExec.exe /I{3274FDA3-2DBA-40F1-B7C6-B7788577FEC6}",
+        "Source":  "Registry"
+    },
+    {
+        "Name":  "Microsoft.NET.Workload.Mono.Toolchain.net6.Manifest (x64)",
+        "Version":  "72.0.40927",
+        "Publisher":  "Microsoft Corporation",
+        "UninstallString":  "MsiExec.exe /X{342CFDA8-6A1A-44BB-8251-CC5B4C7F7631}",
+        "Source":  "Registry"
+    },
+    {
+        "Name":  "Microsoft .NET AppHost Pack - 8.0.21 (x64)",
+        "Version":  "64.84.40925",
+        "Publisher":  "Microsoft Corporation",
+        "UninstallString":  "MsiExec.exe /X{34CB02AA-BC82-4F8F-B139-8540ECFB543A}",
+        "Source":  "Registry"
+    },
+    {
+        "Name":  "Microsoft .NET Runtime - 6.0.15 (x64)",
+        "Version":  "48.63.56695",
+        "Publisher":  "Microsoft Corporation",
+        "UninstallString":  "MsiExec.exe /X{368BE572-D3CE-47B6-A3B1-DE0270E5C109}",
+        "Source":  "Registry"
+    },
+    {
+        "Name":  "Microsoft .NET Toolset 9.0.306 (x64)",
+        "Version":  "36.9.57780",
+        "Publisher":  "Microsoft Corporation",
+        "UninstallString":  "MsiExec.exe /X{39188582-EA3A-4077-B0D3-BC7ED082291F}",
+        "Source":  "Registry"
+    },
+    {
+        "Name":  "Microsoft .NET Runtime - 8.0.23 (x64)",
+        "Version":  "64.92.45415",
+        "Publisher":  "Microsoft Corporation",
+        "UninstallString":  "MsiExec.exe /X{39884818-B550-4209-9A49-81F9D21F6012}",
+        "Source":  "Registry"
+    },
+    {
+        "Name":  "Microsoft Visual Studio 2015 Performance Collection Tools - ENU",
+        "Version":  "14.0.23107",
+        "Publisher":  "Microsoft Corporation",
+        "UninstallString":  "MsiExec.exe /I{3AE40040-2F48-4617-9228-49E999738BDB}",
+        "Source":  "Registry"
+    },
+    {
+        "Name":  "Microsoft .NET Host FX Resolver - 10.0.0 RC 2 (x64)",
+        "Version":  "80.0.42155",
+        "Publisher":  "Microsoft Corporation",
+        "UninstallString":  "MsiExec.exe /X{3BAF016C-C0C3-4A19-957D-E9551EE13A5E}",
+        "Source":  "Registry"
+    },
+    {
+        "Name":  "Microsoft Windows Desktop Runtime - 5.0.17 (x64)",
+        "Version":  "40.68.31219",
+        "Publisher":  "Microsoft Corporation",
+        "UninstallString":  "MsiExec.exe /X{3C31CBA1-A0D9-4B95-A807-AD2313D12F47}",
+        "Source":  "Registry"
+    },
+    {
+        "Name":  "Microsoft.NET.Workload.Emscripten.Current.Manifest-10.0.100 (x64)",
+        "Version":  "81.148.44025",
+        "Publisher":  "Microsoft Corporation",
+        "UninstallString":  "MsiExec.exe /X{3D9990F6-184F-4DD8-8E74-F92648B703FC}",
+        "Source":  "Registry"
+    },
+    {
+        "Name":  "Dell Connected Service Delivery",
+        "Version":  "1.0.0.0",
+        "Publisher":  "Dell Technologies, Inc.",
+        "UninstallString":  "MsiExec.exe /X{3FB1CCCE-13CF-4C2F-A8AB-AA4724050A57}",
+        "Source":  "Registry"
+    },
+    {
+        "Name":  "Microsoft.NET.Sdk.Maui.Manifest-10.0.100-rc.2 (x64)",
+        "Version":  "80.0.42184",
+        "Publisher":  "Microsoft Corporation",
+        "UninstallString":  "MsiExec.exe /X{407911F5-7C04-4579-A280-D5C5339683F2}",
+        "Source":  "Registry"
+    },
+    {
+        "Name":  "Microsoft .NET AppHost Pack - 6.0.15 (x64_arm64)",
+        "Version":  "48.63.56695",
+        "Publisher":  "Microsoft Corporation",
+        "UninstallString":  "MsiExec.exe /X{40937164-2C89-439F-B3AC-1D1D5D07F68F}",
+        "Source":  "Registry"
+    },
+    {
+        "Name":  "Microsoft Command Line Utilities 15 for SQL Server",
+        "Version":  "15.0.1300.359",
+        "Publisher":  "Microsoft Corporation",
+        "UninstallString":  "MsiExec.exe /I{41C0DB18-1790-465E-B0DD-D9CAA35CACBE}",
+        "Source":  "Registry"
+    },
+    {
+        "Name":  "Dell Update for Windows 10",
+        "Version":  "4.3.0",
+        "Publisher":  "Dell Inc.",
+        "UninstallString":  "MsiExec.exe /X{41D2D254-D869-4CD8-B440-5DF49083C4BA}",
+        "Source":  "Registry"
+    },
+    {
+        "Name":  "Microsoft .NET AppHost Pack - 10.0.0 RC 2 (x64_arm64)",
+        "Version":  "80.0.42155",
+        "Publisher":  "Microsoft Corporation",
+        "UninstallString":  "MsiExec.exe /X{41F9C454-AECA-4636-B4B6-8C358B032452}",
+        "Source":  "Registry"
+    },
+    {
+        "Name":  "Microsoft.NET.Sdk.tvOS.Manifest-10.0.100-rc.2 (x64)",
+        "Version":  "251.104.40928",
+        "Publisher":  "Microsoft Corporation",
+        "UninstallString":  "MsiExec.exe /X{427BF3CD-23D1-4E9F-8DA8-F0C4F4A1E35C}",
+        "Source":  "Registry"
+    },
+    {
+        "Name":  "Python 3.11.7 Test Suite (64-bit)",
+        "Version":  "3.11.7150.0",
+        "Publisher":  "Python Software Foundation",
+        "UninstallString":  "MsiExec.exe /I{4485A2A9-AAC6-44AC-A606-D69B4A78979A}",
+        "Source":  "Registry"
+    },
+    {
+        "Name":  "Microsoft.NET.Sdk.MacCatalyst.Manifest-6.0.300",
+        "Version":  "60.89.125",
+        "Publisher":  "Microsoft Corporation",
+        "UninstallString":  "MsiExec.exe /X{459CC7DE-B28A-445C-920D-794B37FF7D55}",
+        "Source":  "Registry"
+    },
+    {
+        "Name":  "Microsoft .NET AppHost Pack - 10.0.0 RC 2 (x64)",
+        "Version":  "80.0.42155",
+        "Publisher":  "Microsoft Corporation",
+        "UninstallString":  "MsiExec.exe /X{4791D2FB-BD5C-4F9C-803B-F2506081CB7C}",
+        "Source":  "Registry"
+    },
+    {
+        "Name":  "Microsoft.NET.Workload.Mono.Toolchain.net8.Manifest-10.0.100 (x64)",
+        "Version":  "81.148.44025",
+        "Publisher":  "Microsoft Corporation",
+        "UninstallString":  "MsiExec.exe /X{49144E21-44CA-41E2-AE4C-AFD8303000C7}",
+        "Source":  "Registry"
+    },
+    {
+        "Name":  "Microsoft SQL Server 2012 Native Client ",
+        "Version":  "11.0.2100.60",
+        "Publisher":  "Microsoft Corporation",
+        "UninstallString":  "MsiExec.exe /I{49D665A2-4C2A-476E-9AB8-FCC425F526FC}",
+        "Source":  "Registry"
+    },
+    {
+        "Name":  "Microsoft.NET.Workload.Mono.Toolchain.net7.Manifest-10.0.100 (x64)",
+        "Version":  "81.148.44025",
+        "Publisher":  "Microsoft Corporation",
+        "UninstallString":  "MsiExec.exe /X{4AF0C57C-7D5E-4BA7-934F-EAE70EAD90CF}",
+        "Source":  "Registry"
+    },
+    {
+        "Name":  "Microsoft Build Tools Language Resources 14.0 (amd64)",
+        "Version":  "14.0.23107",
+        "Publisher":  "Microsoft Corporation",
+        "UninstallString":  "MsiExec.exe /I{4B7958F6-4943-4903-B379-9180DC8C2105}",
+        "Source":  "Registry"
+    },
+    {
+        "Name":  "Windows Software Development Kit DirectX x64 Remote",
+        "Version":  "8.100.25984",
+        "Publisher":  "Microsoft Corporation",
+        "UninstallString":  "MsiExec.exe /I{5247E16E-BCF8-95AB-1653-B3F8FBF8B3F1}",
+        "Source":  "Registry"
+    },
+    {
+        "Name":  "Microsoft Visual C++ 2013 x64 Minimum Runtime - 12.0.40664",
+        "Version":  "12.0.40664",
+        "Publisher":  "Microsoft Corporation",
+        "UninstallString":  "MsiExec.exe /X{53CF6934-A98D-3D84-9146-FC4EDF3D5641}",
+        "Source":  "Registry"
+    },
+    {
+        "Name":  "Visual C++ IDE x64 Package",
+        "Version":  "14.0.23107",
+        "Publisher":  "Microsoft Corporation",
+        "UninstallString":  "MsiExec.exe /I{55168F96-0BEA-3A05-95C7-D31D211D707E}",
+        "Source":  "Registry"
+    },
+    {
+        "Name":  "Microsoft.NET.Workload.Emscripten.Current.Manifest (x64)",
+        "Version":  "72.48.40820",
+        "Publisher":  "Microsoft Corporation",
+        "UninstallString":  "MsiExec.exe /X{55E05528-C196-4338-B0CC-7CB9546E620C}",
+        "Source":  "Registry"
+    },
+    {
+        "Name":  "Microsoft ASP.NET Core Targeting Pack - 10.0.1 (x64)",
+        "Version":  "80.4.44025",
+        "Publisher":  "Microsoft Corporation",
+        "UninstallString":  "MsiExec.exe /X{58C0E442-C5F1-4028-B8BF-DFF5C82B4B70}",
+        "Source":  "Registry"
+    },
+    {
+        "Name":  "Microsoft.NET.Workload.Emscripten.net8.Manifest-10.0.100 (x64)",
+        "Version":  "81.148.44025",
+        "Publisher":  "Microsoft Corporation",
+        "UninstallString":  "MsiExec.exe /X{58D2B598-B3A9-4B81-918B-67D545EEF340}",
+        "Source":  "Registry"
+    },
+    {
+        "Name":  "Microsoft Visual Studio 2015 VsGraphics Helper Dependencies",
+        "Version":  "14.0.23107",
+        "Publisher":  "Microsoft Corporation",
+        "UninstallString":  "MsiExec.exe /I{599702AA-91EB-38C1-B994-CDE35C57E007}",
+        "Source":  "Registry"
+    },
+    {
+        "Name":  "Microsoft .NET Runtime - 5.0.17 (x64)",
+        "Version":  "40.68.31213",
+        "Publisher":  "Microsoft Corporation",
+        "UninstallString":  "MsiExec.exe /X{5A66E598-37BD-4C8A-A7CB-A71C32ABCD78}",
+        "Source":  "Registry"
+    },
+    {
+        "Name":  "DiagnosticsHub_CollectionService",
+        "Version":  "18.0.36317",
+        "Publisher":  "Microsoft Corporation",
+        "UninstallString":  "MsiExec.exe /I{5B46695A-06E3-47AD-BD0B-7C0A7192FF79}",
+        "Source":  "Registry"
+    },
+    {
+        "Name":  "Microsoft Visual Studio Team Foundation Server 2015 Office Integration Language Pack (x64) - ENU",
+        "Version":  "14.0.23102",
+        "Publisher":  "Microsoft Corporation",
+        "UninstallString":  "MsiExec.exe /I{5B7D3F8B-BDA8-382D-9581-18AA7F1E1358}",
+        "Source":  "Registry"
+    },
+    {
+        "Name":  "Microsoft System CLR Types for SQL Server 2019",
+        "Version":  "15.0.2000.5",
+        "Publisher":  "Microsoft Corporation",
+        "UninstallString":  "MsiExec.exe /I{5BC7E9EB-13E8-45DB-8A60-F2481FEB4595}",
+        "Source":  "Registry"
+    },
+    {
+        "Name":  "Microsoft ASP.NET Core 8.0.21 Shared Framework (x64)",
+        "Version":  "8.0.21.25475",
+        "Publisher":  "Microsoft Corporation",
+        "UninstallString":  "MsiExec.exe /X{5ED5DA89-C1DB-33A7-9BC3-821E1FA7E330}",
+        "Source":  "Registry"
+    },
+    {
+        "Name":  "Microsoft .NET AppHost Pack - 6.0.15 (x64)",
+        "Version":  "48.63.56695",
+        "Publisher":  "Microsoft Corporation",
+        "UninstallString":  "MsiExec.exe /X{5EDC94B6-65F8-4F72-AB3A-A212831DC852}",
+        "Source":  "Registry"
+    },
+    {
+        "Name":  "Microsoft Visual C++ 2022 X64 Minimum Runtime - 14.50.35719",
+        "Version":  "14.50.35719",
+        "Publisher":  "Microsoft Corporation",
+        "UninstallString":  "MsiExec.exe /I{61B44572-8722-4DAF-8ACF-8E742D30BCC5}",
+        "Source":  "Registry"
+    },
+    {
+        "Name":  "Microsoft Visual Studio 2015 Diagnostic Tools - amd64",
+        "Version":  "14.0.23107",
+        "Publisher":  "Microsoft Corporation",
+        "UninstallString":  "MsiExec.exe /I{62D2E847-606F-49FB-A38B-F9D5AA936331}",
+        "Source":  "Registry"
+    },
+    {
+        "Name":  "Microsoft.NET.Workload.Mono.Toolchain.net6.Manifest-10.0.100-rc.2 (x64)",
+        "Version":  "81.144.42155",
+        "Publisher":  "Microsoft Corporation",
+        "UninstallString":  "MsiExec.exe /X{62DF9E0F-221F-49C2-8BF1-872F1D4C96F4}",
+        "Source":  "Registry"
+    },
+    {
+        "Name":  "Microsoft.NET.Workload.Emscripten.net9.Manifest-10.0.100 (x64)",
+        "Version":  "81.148.44025",
+        "Publisher":  "Microsoft Corporation",
+        "UninstallString":  "MsiExec.exe /X{642C8F96-EA9D-4BFD-AB4F-44CB225E1695}",
+        "Source":  "Registry"
+    },
+    {
+        "Name":  "Python 3.11.7 Utility Scripts (64-bit)",
+        "Version":  "3.11.7150.0",
+        "Publisher":  "Python Software Foundation",
+        "UninstallString":  "MsiExec.exe /I{648BD466-1803-4A32-83A1-C7DAEF0EFB94}",
+        "Source":  "Registry"
+    },
+    {
+        "Name":  "Java SE Development Kit 8 Update 271 (64-bit)",
+        "Version":  "8.0.2710.9",
+        "Publisher":  "Oracle Corporation",
+        "UninstallString":  "MsiExec.exe /X{64A3A4F4-B792-11D6-A78A-00B0D0180271}",
+        "Source":  "Registry"
+    },
+    {
+        "Name":  "Python 3.11.7 pip Bootstrap (64-bit)",
+        "Version":  "3.11.7150.0",
+        "Publisher":  "Python Software Foundation",
+        "UninstallString":  "MsiExec.exe /I{67967837-AB92-4AB9-8F2D-7EEF26A01EC3}",
+        "Source":  "Registry"
+    },
+    {
+        "Name":  "Python 3.11.7 Core Interpreter (64-bit)",
+        "Version":  "3.11.7150.0",
+        "Publisher":  "Python Software Foundation",
+        "UninstallString":  "MsiExec.exe /I{67A5A229-86BB-4FE8-B85C-E08DC746C755}",
+        "Source":  "Registry"
+    },
+    {
+        "Name":  "Microsoft.NET.Workload.Emscripten.net7.Manifest (x64)",
+        "Version":  "72.48.40820",
+        "Publisher":  "Microsoft Corporation",
+        "UninstallString":  "MsiExec.exe /X{67D45AA8-63D5-46BA-AA33-29B973FF21DA}",
+        "Source":  "Registry"
+    },
+    {
+        "Name":  "Node.js",
+        "Version":  "24.12.0",
+        "Publisher":  "Node.js Foundation",
+        "UninstallString":  "MsiExec.exe /I{686EA7E1-608A-4B99-A50A-448A2B2A7E73}",
+        "Source":  "Registry"
+    },
+    {
+        "Name":  "Microsoft System CLR Types for SQL Server 2014",
+        "Version":  "12.0.2402.11",
+        "Publisher":  "Microsoft Corporation",
+        "UninstallString":  "MsiExec.exe /I{68BA34E8-9B9D-4A74-83F0-7D366B532D75}",
+        "Source":  "Registry"
+    },
+    {
+        "Name":  "Microsoft.NET.Sdk.macOS.Manifest-10.0.100-rc.2 (x64)",
+        "Version":  "251.104.40928",
+        "Publisher":  "Microsoft Corporation",
+        "UninstallString":  "MsiExec.exe /X{69A66F43-AAC3-42E6-892E-ADB2AAF44ABE}",
+        "Source":  "Registry"
+    },
+    {
+        "Name":  "Workflow Manager Client 1.0",
+        "Version":  "2.1.10525.2",
+        "Publisher":  "Microsoft Corporation",
+        "UninstallString":  "MsiExec.exe /I{69CD1F2D-DF68-4E23-9108-1B70783F2855}",
+        "Source":  "Registry"
+    },
+    {
+        "Name":  "Microsoft .NET Targeting Pack - 6.0.15 (x64)",
+        "Version":  "48.63.56695",
+        "Publisher":  "Microsoft Corporation",
+        "UninstallString":  "MsiExec.exe /X{6B721A5A-9654-4FB2-82B6-2F07BD95BC1B}",
+        "Source":  "Registry"
+    },
+    {
+        "Name":  "VS JIT Debugger",
+        "Version":  "17.0.157.0",
+        "Publisher":  "Microsoft Corporation",
+        "UninstallString":  "MsiExec.exe /I{6C1EDC0A-E71D-44D2-821C-213A5CD15498}",
+        "Source":  "Registry"
+    },
+    {
+        "Name":  "Microsoft.NET.Sdk.Android.Manifest-9.0.100 (x64)",
+        "Version":  "35.0.78",
+        "Publisher":  "Microsoft Corporation",
+        "UninstallString":  "MsiExec.exe /X{6C7D2654-26BF-4029-809E-2E018404BA4E}",
+        "Source":  "Registry"
+    },
+    {
+        "Name":  "Microsoft.NET.Workload.Mono.Toolchain.net8.Manifest-10.0.100-rc.2 (x64)",
+        "Version":  "81.144.42155",
+        "Publisher":  "Microsoft Corporation",
+        "UninstallString":  "MsiExec.exe /X{6CC3B798-32B9-48A1-913D-76B468AE585C}",
+        "Source":  "Registry"
+    },
+    {
+        "Name":  "icecap_collection_x64",
+        "Version":  "17.14.36015",
+        "Publisher":  "Microsoft Corporation",
+        "UninstallString":  "MsiExec.exe /I{6DE9FE72-8A86-45DE-A689-049D43CBBF0B}",
+        "Source":  "Registry"
+    },
+    {
+        "Name":  "Dell SupportAssist OS Recovery Plugin for Dell Update",
+        "Version":  "5.5.14.0",
+        "Publisher":  "Dell Inc.",
+        "UninstallString":  "MsiExec.exe /I{6EBF5DC4-FA0B-4692-A954-E7470146943D}",
+        "Source":  "Registry"
+    },
+    {
+        "Name":  "Microsoft .NET Runtime - 10.0.0 RC 2 (x64)",
+        "Version":  "80.0.42155",
+        "Publisher":  "Microsoft Corporation",
+        "UninstallString":  "MsiExec.exe /X{6EEF9C74-68F4-471D-B620-5D592F0189D2}",
+        "Source":  "Registry"
+    },
+    {
+        "Name":  "Microsoft Visual Studio Installer",
+        "Version":  "4.3.1028.52307",
+        "Publisher":  "Microsoft Corporation",
+        "UninstallString":  "\"C:\\Program Files (x86)\\Microsoft Visual Studio\\Installer\\setup.exe\" /uninstall",
+        "Source":  "Registry"
+    },
+    {
+        "Name":  "Microsoft .NET AppHost Pack - 10.0.0 RC 2 (x64_x86)",
+        "Version":  "80.0.42155",
+        "Publisher":  "Microsoft Corporation",
+        "UninstallString":  "MsiExec.exe /X{702DB52B-ACD9-43D0-AFDA-88D839D794B7}",
+        "Source":  "Registry"
+    },
+    {
+        "Name":  "Microsoft Visual Studio Team Foundation Server 2015 Storyboarding Language Pack (x64) - ENU",
+        "Version":  "14.0.23102",
+        "Publisher":  "Microsoft Corporation",
+        "UninstallString":  "MsiExec.exe /I{70FF76E1-4F3F-3475-A501-4F1E87D5A938}",
+        "Source":  "Registry"
+    },
+    {
+        "Name":  "Microsoft Windows Desktop Targeting Pack - 10.0.0 RC 2 (x64)",
+        "Version":  "80.0.42155",
+        "Publisher":  "Microsoft Corporation",
+        "UninstallString":  "MsiExec.exe /X{7247D6DD-C778-496E-B10B-8585BD8F1FED}",
+        "Source":  "Registry"
+    },
+    {
+        "Name":  "Microsoft Visual Studio Team Foundation Server 2015 Office Integration (x64)",
+        "Version":  "14.0.23102",
+        "Publisher":  "Microsoft Corporation",
+        "UninstallString":  "MsiExec.exe /I{732C5708-B3D0-3A93-B4F2-6BA5FCFC5BA1}",
+        "Source":  "Registry"
+    },
+    {
+        "Name":  "Microsoft Visual C++ 2012 x64 Additional Runtime - 11.0.60610",
+        "Version":  "11.0.60610",
+        "Publisher":  "Microsoft Corporation",
+        "UninstallString":  "MsiExec.exe /X{764384C5-BCA9-307C-9AAC-FD443662686A}",
+        "Source":  "Registry"
+    },
+    {
+        "Name":  "Microsoft Windows Desktop Runtime - 10.0.0 RC 2 (x64)",
+        "Version":  "80.0.42155",
+        "Publisher":  "Microsoft Corporation",
+        "UninstallString":  "MsiExec.exe /X{76BB3E62-6658-4B3D-A711-4F298B672E1C}",
+        "Source":  "Registry"
+    },
+    {
+        "Name":  "Microsoft.NET.Workload.Emscripten.net8.Manifest-10.0.100-rc.2 (x64)",
+        "Version":  "81.144.42155",
+        "Publisher":  "Microsoft Corporation",
+        "UninstallString":  "MsiExec.exe /X{7725D933-67EF-4832-B7F2-8EF267C2E499}",
+        "Source":  "Registry"
+    },
+    {
+        "Name":  "Microsoft .NET Toolset 6.0.310 (x64)",
+        "Version":  "24.6.52157",
+        "Publisher":  "Microsoft Corporation",
+        "UninstallString":  "MsiExec.exe /X{778CA30C-87ED-4603-A54C-6AACB1586A6E}",
+        "Source":  "Registry"
+    },
+    {
+        "Name":  "Microsoft SQL Server Compact 4.0 SP1 x64 ENU",
+        "Version":  "4.0.8876.1",
+        "Publisher":  "Microsoft Corporation",
+        "UninstallString":  "MsiExec.exe /X{78909610-D229-459C-A936-25D92283D3FD}",
+        "Source":  "Registry"
+    },
+    {
+        "Name":  "Microsoft.NET.Workload.Emscripten.Manifest",
+        "Version":  "48.27.39026",
+        "Publisher":  "Microsoft Corporation",
+        "UninstallString":  "MsiExec.exe /X{7CBF3451-2A94-4DFD-8355-6B97C5EABB26}",
+        "Source":  "Registry"
+    },
+    {
+        "Name":  "Microsoft.NET.Workload.Mono.Toolchain.net6.Manifest-10.0.100 (x64)",
+        "Version":  "81.148.44025",
+        "Publisher":  "Microsoft Corporation",
+        "UninstallString":  "MsiExec.exe /X{7F26C03D-1431-4683-9971-01473AF8CB89}",
+        "Source":  "Registry"
+    },
+    {
+        "Name":  "Visual Studio 2015 Prerequisites - ENU Language Pack",
+        "Version":  "14.0.23107",
+        "Publisher":  "Microsoft Corporation",
+        "UninstallString":  "MsiExec.exe /X{83B181F2-20B8-4F00-8E71-C66E951A8D4F}",
+        "Source":  "Registry"
+    },
+    {
+        "Name":  "Microsoft Windows Desktop Runtime - 9.0.10 (x64)",
+        "Version":  "72.40.40921",
+        "Publisher":  "Microsoft Corporation",
+        "UninstallString":  "MsiExec.exe /X{8466C2EB-71A6-4529-A615-0E8FE0CCCBED}",
+        "Source":  "Registry"
+    },
+    {
+        "Name":  "Microsoft.NET.Sdk.iOS.Manifest-10.0.100-rc.2 (x64)",
+        "Version":  "251.104.40928",
+        "Publisher":  "Microsoft Corporation",
+        "UninstallString":  "MsiExec.exe /X{8608B9F2-2F29-4B17-AC80-C93B4DEBCBCF}",
+        "Source":  "Registry"
+    },
+    {
+        "Name":  "Microsoft.NET.Sdk.tvOS.Manifest-9.0.100 (x64)",
+        "Version":  "26.0.9752",
+        "Publisher":  "Microsoft Corporation",
+        "UninstallString":  "MsiExec.exe /X{86975E52-FB78-4CFF-9D23-E4DEA2F26F8A}",
+        "Source":  "Registry"
+    },
+    {
+        "Name":  "Microsoft .NET 10.0 Templates 10.0.101 x64",
+        "Version":  "40.10.18029",
+        "Publisher":  "Microsoft Corporation",
+        "UninstallString":  "MsiExec.exe /I{89689C38-93A6-4065-9783-47E96FC49A85}",
+        "Source":  "Registry"
+    },
+    {
+        "Name":  "Microsoft .NET AppHost Pack - 10.0.1 (x64_x86)",
+        "Version":  "80.4.44025",
+        "Publisher":  "Microsoft Corporation",
+        "UninstallString":  "MsiExec.exe /X{89958AAC-B7B4-4419-92DF-56FDD56C73DA}",
+        "Source":  "Registry"
+    },
+    {
+        "Name":  "Microsoft.NET.Sdk.Maui.Manifest-9.0.100 (x64)",
+        "Version":  "9.0.111",
+        "Publisher":  "Microsoft Corporation",
+        "UninstallString":  "MsiExec.exe /X{899DB162-0A4A-407D-BF87-7C6D65F15610}",
+        "Source":  "Registry"
+    },
+    {
+        "Name":  "Microsoft.NET.Sdk.MacCatalyst.Manifest-9.0.100 (x64)",
+        "Version":  "26.0.9752",
+        "Publisher":  "Microsoft Corporation",
+        "UninstallString":  "MsiExec.exe /X{8B045548-527C-4D2A-8A42-44713C3DBA15}",
+        "Source":  "Registry"
+    },
+    {
+        "Name":  "Microsoft.NET.Workload.Mono.Toolchain.net7.Manifest-10.0.100-rc.2 (x64)",
+        "Version":  "81.144.42155",
+        "Publisher":  "Microsoft Corporation",
+        "UninstallString":  "MsiExec.exe /X{8B8C9AC5-EC41-4C13-87DB-DE7E654B57EB}",
+        "Source":  "Registry"
+    },
+    {
+        "Name":  "Microsoft .NET Host FX Resolver - 5.0.17 (x64)",
+        "Version":  "40.68.31213",
+        "Publisher":  "Microsoft Corporation",
+        "UninstallString":  "MsiExec.exe /X{8BA25391-0BE6-443A-8EBF-86A29BAFC479}",
+        "Source":  "Registry"
+    },
+    {
+        "Name":  "Microsoft Build Tools 14.0 (amd64)",
+        "Version":  "14.0.23107",
+        "Publisher":  "Microsoft Corporation",
+        "UninstallString":  "MsiExec.exe /I{8C918E5B-E238-401F-9F6E-4FB84B024CA2}",
+        "Source":  "Registry"
+    },
+    {
+        "Name":  "Microsoft .NET Targeting Pack - 8.0.21 (x64)",
+        "Version":  "64.84.40925",
+        "Publisher":  "Microsoft Corporation",
+        "UninstallString":  "MsiExec.exe /X{8CDA22CF-530B-4F1C-AC79-1DE3DF6D2937}",
+        "Source":  "Registry"
+    },
+    {
+        "Name":  "Microsoft .NET Host - 8.0.23 (x64)",
+        "Version":  "64.92.45415",
+        "Publisher":  "Microsoft Corporation",
+        "UninstallString":  "MsiExec.exe /X{8CE231CE-B9F2-488A-BC60-FA1CE584B85D}",
+        "Source":  "Registry"
+    },
+    {
+        "Name":  "MySQL Connector/ODBC 5.3",
+        "Version":  "5.3.14",
+        "Publisher":  "Oracle Corporation",
+        "UninstallString":  "MsiExec.exe /I{8F1753C5-4394-4310-A3CC-C9AC85D02220}",
+        "Source":  "Registry"
+    },
+    {
+        "Name":  "Office 16 Click-to-Run Extensibility Component",
+        "Version":  "16.0.19426.20170",
+        "Publisher":  "Microsoft Corporation",
+        "UninstallString":  "MsiExec.exe /X{90160000-008C-0000-1000-0000000FF1CE}",
+        "Source":  "Registry"
+    },
+    {
+        "Name":  "vs_minshellx64msi",
+        "Version":  "18.0.11101",
+        "Publisher":  "Microsoft Corporation",
+        "UninstallString":  "MsiExec.exe /I{9317F80D-F1E2-4723-B5FD-98B8502E2D40}",
+        "Source":  "Registry"
+    },
+    {
+        "Name":  "Fusion Service",
+        "Version":  "2.2.14.0",
+        "Publisher":  "Dell.Inc",
+        "UninstallString":  "MsiExec.exe /X{93D141B9-9B5E-485B-8ED1-97DE741EE768}",
+        "Source":  "Registry"
+    },
+    {
+        "Name":  "Windows Software Development Kit for Windows Store Apps DirectX x64 Remote",
+        "Version":  "8.100.26936",
+        "Publisher":  "Microsoft Corporation",
+        "UninstallString":  "MsiExec.exe /I{96F4525A-470D-F15C-796E-58D9988C3E5F}",
+        "Source":  "Registry"
+    },
+    {
+        "Name":  "Microsoft .NET AppHost Pack - 10.0.1 (x64)",
+        "Version":  "80.4.44025",
+        "Publisher":  "Microsoft Corporation",
+        "UninstallString":  "MsiExec.exe /X{97247546-3F97-4F4F-A02F-4563A48CBD10}",
+        "Source":  "Registry"
+    },
+    {
+        "Name":  "Microsoft .NET Host - 10.0.1 (x64)",
+        "Version":  "80.4.44025",
+        "Publisher":  "Microsoft Corporation",
+        "UninstallString":  "MsiExec.exe /X{9A3CDC3E-B643-4C13-8F8B-1E7F999A0C61}",
+        "Source":  "Registry"
+    },
+    {
+        "Name":  "Microsoft SQL Server 2012 Command Line Utilities ",
+        "Version":  "11.0.2100.60",
+        "Publisher":  "Microsoft Corporation",
+        "UninstallString":  "MsiExec.exe /I{9D573E71-1077-4C7E-B4DB-4E22A5D2B48B}",
+        "Source":  "Registry"
+    },
+    {
+        "Name":  "Microsoft .NET AppHost Pack - 8.0.21 (x64_x86)",
+        "Version":  "64.84.40925",
+        "Publisher":  "Microsoft Corporation",
+        "UninstallString":  "MsiExec.exe /X{A0436559-5F3B-4EEB-9A85-672E94CAF89E}",
+        "Source":  "Registry"
+    },
+    {
+        "Name":  "Microsoft.NET.Sdk.macOS.Manifest-10.0.100 (x64)",
+        "Version":  "26.1.10502",
+        "Publisher":  "Microsoft Corporation",
+        "UninstallString":  "MsiExec.exe /X{A0D229D5-1834-4444-B017-EC6BD82D4EB0}",
+        "Source":  "Registry"
+    },
+    {
+        "Name":  "Microsoft .NET Toolset 10.0.100-rc.2.25502.107 (x64)",
+        "Version":  "40.9.60483",
+        "Publisher":  "Microsoft Corporation",
+        "UninstallString":  "MsiExec.exe /X{A20616C9-CE60-4F06-A69B-8E0C68BCA606}",
+        "Source":  "Registry"
+    },
+    {
+        "Name":  "Microsoft Windows Desktop Runtime - 8.0.21 (x64)",
+        "Version":  "64.84.40919",
+        "Publisher":  "Microsoft Corporation",
+        "UninstallString":  "MsiExec.exe /X{A32777AD-F93A-4F26-BEE6-9C5961EA71D6}",
+        "Source":  "Registry"
+    },
+    {
+        "Name":  "Microsoft ASP.NET Core 9.0.10 Shared Framework (x64)",
+        "Version":  "9.0.10.25475",
+        "Publisher":  "Microsoft Corporation",
+        "UninstallString":  "MsiExec.exe /X{A3C9E067-0A4D-31A2-8961-950444D2D67C}",
+        "Source":  "Registry"
+    },
+    {
+        "Name":  "Microsoft .NET Host FX Resolver - 8.0.23 (x64)",
+        "Version":  "64.92.45415",
+        "Publisher":  "Microsoft Corporation",
+        "UninstallString":  "MsiExec.exe /X{A42EAA28-C0A1-4712-A109-796202435469}",
+        "Source":  "Registry"
+    },
+    {
+        "Name":  "Microsoft.NET.Sdk.Maui.Manifest-6.0.300",
+        "Version":  "24.75.5355",
+        "Publisher":  "Microsoft Corporation",
+        "UninstallString":  "MsiExec.exe /X{A560FBB0-69A7-4797-8B25-869C30F7EDBB}",
+        "Source":  "Registry"
+    },
+    {
+        "Name":  "Microsoft.NET.Workload.Mono.Toolchain.Manifest",
+        "Version":  "48.3.39076",
+        "Publisher":  "Microsoft Corporation",
+        "UninstallString":  "MsiExec.exe /X{A626E240-C89F-45CD-BFD7-B263C3D33CAD}",
+        "Source":  "Registry"
+    },
+    {
+        "Name":  "Microsoft .NET Standard Targeting Pack - 2.1.0 (x64)",
+        "Version":  "24.0.28113",
+        "Publisher":  "Microsoft Corporation",
+        "UninstallString":  "MsiExec.exe /X{A7036CFB-B403-4598-85FF-D397ABB88173}",
+        "Source":  "Registry"
+    },
+    {
+        "Name":  "Microsoft Teams Meeting Add-in for Microsoft Office",
+        "Version":  "1.25.28902",
+        "Publisher":  "Microsoft",
+        "UninstallString":  "MsiExec.exe /I{A7AB73A3-CB10-4AA5-9D38-6AEFFBDE4C91}",
+        "Source":  "Registry"
+    },
+    {
+        "Name":  "Python 3.11.7 Tcl/Tk Support (64-bit)",
+        "Version":  "3.11.7150.0",
+        "Publisher":  "Python Software Foundation",
+        "UninstallString":  "MsiExec.exe /I{A83C7065-4EF8-4124-AAEF-98A47FFC8AFF}",
+        "Source":  "Registry"
+    },
+    {
+        "Name":  "Microsoft .NET AppHost Pack - 6.0.15 (x64_arm)",
+        "Version":  "48.63.56695",
+        "Publisher":  "Microsoft Corporation",
+        "UninstallString":  "MsiExec.exe /X{A9F05F28-9FB8-4F3E-807D-45D697531506}",
+        "Source":  "Registry"
+    },
+    {
+        "Name":  "Microsoft.NET.Workload.Emscripten.net9.Manifest-10.0.100-rc.2 (x64)",
+        "Version":  "81.144.42155",
+        "Publisher":  "Microsoft Corporation",
+        "UninstallString":  "MsiExec.exe /X{AACC2F50-983F-4CE0-AACD-9D6FE04B8ED0}",
+        "Source":  "Registry"
+    },
+    {
+        "Name":  "Microsoft ASP.NET Core Runtime - 10.0.1 (x64)",
+        "Version":  "80.4.44025",
+        "Publisher":  "Microsoft Corporation",
+        "UninstallString":  "MsiExec.exe /X{AB53B509-E973-4D79-896A-56D9ADBA7A01}",
+        "Source":  "Registry"
+    },
+    {
+        "Name":  "Microsoft .NET Host - 6.0.15 (x64)",
+        "Version":  "48.63.56695",
+        "Publisher":  "Microsoft Corporation",
+        "UninstallString":  "MsiExec.exe /X{AC25127C-9BB1-4F9A-9B02-B6B6178DD891}",
+        "Source":  "Registry"
+    },
+    {
+        "Name":  "Microsoft.NET.Workload.Mono.Toolchain.net9.Manifest-10.0.100-rc.2 (x64)",
+        "Version":  "81.144.42155",
+        "Publisher":  "Microsoft Corporation",
+        "UninstallString":  "MsiExec.exe /X{AD4C504E-6ADD-414D-9F4C-B89B481651C5}",
+        "Source":  "Registry"
+    },
+    {
+        "Name":  "vs_communityx64msi",
+        "Version":  "18.1.11312",
+        "Publisher":  "Microsoft Corporation",
+        "UninstallString":  "MsiExec.exe /I{ADDEB31C-CB51-440E-914D-FA8C4CEDDAE0}",
+        "Source":  "Registry"
+    },
+    {
+        "Name":  "Microsoft Visual C++ 2022 X64 Additional Runtime - 14.50.35719",
+        "Version":  "14.50.35719",
+        "Publisher":  "Microsoft Corporation",
+        "UninstallString":  "MsiExec.exe /I{AECD4ED0-8A3B-41E9-92D1-6BEE0374CCAF}",
+        "Source":  "Registry"
+    },
+    {
+        "Name":  "Microsoft.NET.Sdk.iOS.Manifest-10.0.100 (x64)",
+        "Version":  "26.1.10502",
+        "Publisher":  "Microsoft Corporation",
+        "UninstallString":  "MsiExec.exe /X{AEE5ABE4-A823-4D30-B678-7F9D98FC296E}",
+        "Source":  "Registry"
+    },
+    {
+        "Name":  "Microsoft.NET.Workload.Mono.Toolchain.net7.Manifest (x64)",
+        "Version":  "72.0.40927",
+        "Publisher":  "Microsoft Corporation",
+        "UninstallString":  "MsiExec.exe /X{B0E3E87D-C8BC-4B05-8B55-A85A7FABBD8E}",
+        "Source":  "Registry"
+    },
+    {
+        "Name":  "Microsoft Windows Desktop Runtime - 6.0.15 (x64)",
+        "Version":  "48.63.56729",
+        "Publisher":  "Microsoft Corporation",
+        "UninstallString":  "MsiExec.exe /X{B353ABAB-7F7C-4605-852D-0E5C3E1FA289}",
+        "Source":  "Registry"
+    },
+    {
+        "Name":  "Microsoft.NET.Sdk.Android.Manifest-10.0.100 (x64)",
+        "Version":  "36.1.2",
+        "Publisher":  "Microsoft Corporation",
+        "UninstallString":  "MsiExec.exe /X{B5D02ACF-388B-4B89-8A94-65781CB27849}",
+        "Source":  "Registry"
+    },
+    {
+        "Name":  "Microsoft Windows Desktop Targeting Pack - 6.0.15 (x64)",
+        "Version":  "48.63.56729",
+        "Publisher":  "Microsoft Corporation",
+        "UninstallString":  "MsiExec.exe /X{B6990776-0EA4-4DC9-9017-A39A120D1C40}",
+        "Source":  "Registry"
+    },
+    {
+        "Name":  "Dell Connected Service Delivery SubAgent",
+        "Version":  "1.0.0.0",
+        "Publisher":  "Dell Technologies, Inc.",
+        "UninstallString":  "MsiExec.exe /X{B953B8A6-5772-4857-B8A7-BCDA2807DC8D}",
+        "Source":  "Registry"
+    },
+    {
+        "Name":  "Microsoft Visual Studio 2015 Diagnostic Tools - amd64",
+        "Version":  "14.0.23107",
+        "Publisher":  "Microsoft Corporation",
+        "UninstallString":  "MsiExec.exe /I{BBAA137F-CE8A-4A38-A251-C90A228098EB}",
+        "Source":  "Registry"
+    },
+    {
+        "Name":  "Microsoft.NET.Workload.Emscripten.Current.Manifest-10.0.100-rc.2 (x64)",
+        "Version":  "81.144.42155",
+        "Publisher":  "Microsoft Corporation",
+        "UninstallString":  "MsiExec.exe /X{BC1E884B-8FC5-4504-9F2F-E7B507D75E5B}",
+        "Source":  "Registry"
+    },
+    {
+        "Name":  "Microsoft .NET AppHost Pack - 8.0.21 (x64_arm64)",
+        "Version":  "64.84.40925",
+        "Publisher":  "Microsoft Corporation",
+        "UninstallString":  "MsiExec.exe /X{BF650E91-6280-47B3-88CD-9BC281C360B3}",
+        "Source":  "Registry"
+    },
+    {
+        "Name":  "Microsoft.NET.Workload.Mono.Toolchain.Current.Manifest-10.0.100-rc.2 (x64)",
+        "Version":  "81.144.42155",
+        "Publisher":  "Microsoft Corporation",
+        "UninstallString":  "MsiExec.exe /X{C28BA2AE-294F-4363-82AA-A74C5004F23F}",
+        "Source":  "Registry"
+    },
+    {
+        "Name":  "Microsoft .NET Targeting Pack - 10.0.0 RC 2 (x64)",
+        "Version":  "80.0.42155",
+        "Publisher":  "Microsoft Corporation",
+        "UninstallString":  "MsiExec.exe /X{C342C9F0-0D1F-4655-B9F9-1AA5BAE1C762}",
+        "Source":  "Registry"
+    },
+    {
+        "Name":  "Dell SupportAssist Remediation",
+        "Version":  "5.5.14.0",
+        "Publisher":  "Dell Inc.",
+        "UninstallString":  "MsiExec.exe /I{C4EB11B2-C049-48D4-93DF-5335FD3FD4D0}",
+        "Source":  "Registry"
+    },
+    {
+        "Name":  "Microsoft.NET.Sdk.MacCatalyst.Manifest-10.0.100 (x64)",
+        "Version":  "26.1.10502",
+        "Publisher":  "Microsoft Corporation",
+        "UninstallString":  "MsiExec.exe /X{C4FE7ACB-D885-44F6-89B6-F3A30988F625}",
+        "Source":  "Registry"
+    },
+    {
+        "Name":  "Microsoft .NET Targeting Pack - 9.0.10 (x64)",
+        "Version":  "72.40.40927",
+        "Publisher":  "Microsoft Corporation",
+        "UninstallString":  "MsiExec.exe /X{C55EE1DF-44DC-4007-86E7-85F3C22F6922}",
+        "Source":  "Registry"
+    },
+    {
+        "Name":  "Microsoft .NET Version Manager (x64) 1.0.0-beta5",
+        "Version":  "1.0.10609.0",
+        "Publisher":  "Microsoft Corporation",
+        "UninstallString":  "MsiExec.exe /X{C5A4ABA3-1ABA-3EF8-B2D5-C3FA37F59738}",
+        "Source":  "Registry"
+    },
+    {
+        "Name":  "Microsoft Windows Desktop Targeting Pack - 8.0.21 (x64)",
+        "Version":  "64.84.40919",
+        "Publisher":  "Microsoft Corporation",
+        "UninstallString":  "MsiExec.exe /X{C7E4AEA8-82D7-4B64-97DE-87DAE2D73964}",
+        "Source":  "Registry"
+    },
+    {
+        "Name":  "Microsoft ASP.NET Core 6.0.15 Targeting Pack (x64)",
+        "Version":  "6.0.15.23124",
+        "Publisher":  "Microsoft Corporation",
+        "UninstallString":  "MsiExec.exe /X{C8469F7A-F0A8-3C4E-A62C-4CCFA6D2B3D9}",
+        "Source":  "Registry"
+    },
+    {
+        "Name":  "Microsoft Visual Studio 2010 Tools for Office Runtime (x64)",
+        "Version":  "10.0.60915",
+        "Publisher":  "Microsoft Corporation",
+        "UninstallString":  "MsiExec.exe /X{C931A1C6-A7BF-3737-874A-818881A37E1B}",
+        "Source":  "Registry"
+    },
+    {
+        "Name":  "Python 3.11.7 Add to Path (64-bit)",
+        "Version":  "3.11.7150.0",
+        "Publisher":  "Python Software Foundation",
+        "UninstallString":  "MsiExec.exe /I{CA66A234-2013-4C94-B419-FB77FF5CC78D}",
+        "Source":  "Registry"
+    },
+    {
+        "Name":  "Microsoft .NET SDK 10.0.100-rc.2.25502.107 (x64) from Visual Studio",
+        "Version":  "40.9.60483",
+        "Publisher":  "Microsoft Corporation",
+        "UninstallString":  "MsiExec.exe /X{D09E656E-C206-4E08-A835-354A6B717D50}",
+        "Source":  "Registry"
+    },
+    {
+        "Name":  "vs_devenx64vmsi",
+        "Version":  "18.0.11101",
+        "Publisher":  "Microsoft Corporation",
+        "UninstallString":  "MsiExec.exe /I{D287EC1B-60A7-43A9-ADE5-D37EDE93565B}",
+        "Source":  "Registry"
+    },
+    {
+        "Name":  "Microsoft Workflow Diagnostic Pack for x64",
+        "Version":  "17.14.36015",
+        "Publisher":  "Microsoft",
+        "UninstallString":  "MsiExec.exe /I{D288C259-034C-3722-8D68-071D03614806}",
+        "Source":  "Registry"
+    },
+    {
+        "Name":  "Python 3.11.7 Documentation (64-bit)",
+        "Version":  "3.11.7150.0",
+        "Publisher":  "Python Software Foundation",
+        "UninstallString":  "MsiExec.exe /I{D3FE33C1-D98A-4A26-99B0-AAD9F9985E58}",
+        "Source":  "Registry"
+    },
+    {
+        "Name":  "Microsoft.NET.Workload.Mono.Toolchain.net9.Manifest-10.0.100 (x64)",
+        "Version":  "81.148.44025",
+        "Publisher":  "Microsoft Corporation",
+        "UninstallString":  "MsiExec.exe /X{D44A8F17-7EC8-4FCF-9CBB-34822DE2EF1E}",
+        "Source":  "Registry"
+    },
+    {
+        "Name":  "Microsoft Visual Studio 2015 Diagnostic Tools - amd64",
+        "Version":  "14.0.23107",
+        "Publisher":  "Microsoft Corporation",
+        "UninstallString":  "MsiExec.exe /I{D4989E74-FBEF-41D8-BBD5-1ABF944C31EE}",
+        "Source":  "Registry"
+    },
+    {
+        "Name":  "Microsoft.NET.Sdk.iOS.Manifest-6.0.300",
+        "Version":  "60.89.125",
+        "Publisher":  "Microsoft Corporation",
+        "UninstallString":  "MsiExec.exe /X{D6421A31-9594-4FE3-86C6-3F9E0D3FCE3C}",
+        "Source":  "Registry"
+    },
+    {
+        "Name":  "Microsoft.NET.Sdk.MacCatalyst.Manifest-10.0.100-rc.2 (x64)",
+        "Version":  "251.104.40928",
+        "Publisher":  "Microsoft Corporation",
+        "UninstallString":  "MsiExec.exe /X{DA1CD7F8-E2CE-4B32-907E-E0E061E0516B}",
+        "Source":  "Registry"
+    },
+    {
+        "Name":  "Microsoft.NET.Sdk.tvOS.Manifest-6.0.300",
+        "Version":  "60.89.125",
+        "Publisher":  "Microsoft Corporation",
+        "UninstallString":  "MsiExec.exe /X{DAE08CB9-F109-4101-8C24-C648E1E7AD45}",
+        "Source":  "Registry"
+    },
+    {
+        "Name":  "Python 3.11.7 Development Libraries (64-bit)",
+        "Version":  "3.11.7150.0",
+        "Publisher":  "Python Software Foundation",
+        "UninstallString":  "MsiExec.exe /I{DCAD7538-AB17-4F9F-85E9-0BE2DAE34520}",
+        "Source":  "Registry"
+    },
+    {
+        "Name":  "Microsoft.NET.Sdk.iOS.Manifest-9.0.100 (x64)",
+        "Version":  "26.0.9752",
+        "Publisher":  "Microsoft Corporation",
+        "UninstallString":  "MsiExec.exe /X{DCB49BE7-CAB9-4AF2-9CB5-C3F0567771AE}",
+        "Source":  "Registry"
+    },
+    {
+        "Name":  "Microsoft .NET Runtime - 10.0.1 (x64)",
+        "Version":  "80.4.44025",
+        "Publisher":  "Microsoft Corporation",
+        "UninstallString":  "MsiExec.exe /X{DD248F59-C0EC-48F9-B8DB-CB8268F9E028}",
+        "Source":  "Registry"
+    },
+    {
+        "Name":  "Microsoft Visual Studio Team Foundation Server 2015 Storyboarding (x64)",
+        "Version":  "14.0.23102",
+        "Publisher":  "Microsoft Corporation",
+        "UninstallString":  "MsiExec.exe /I{DE38EBD8-25AC-3026-BE14-6F829F7050A6}",
+        "Source":  "Registry"
+    },
+    {
+        "Name":  "Microsoft Web Deploy 4.0",
+        "Version":  "10.0.9419",
+        "Publisher":  "Microsoft Corporation",
+        "UninstallString":  "MsiExec.exe /I{DE4FFB86-1944-4273-B040-92E920BD6861}",
+        "Source":  "Registry"
+    },
+    {
+        "Name":  "Visual Studio 2015 Prerequisites",
+        "Version":  "14.0.23107",
+        "Publisher":  "Microsoft Corporation",
+        "UninstallString":  "MsiExec.exe /X{DF32E41C-24AD-4A87-B43A-B38553B1806E}",
+        "Source":  "Registry"
+    },
+    {
+        "Name":  "Microsoft.NET.Workload.Emscripten.net7.Manifest-10.0.100 (x64)",
+        "Version":  "81.148.44025",
+        "Publisher":  "Microsoft Corporation",
+        "UninstallString":  "MsiExec.exe /X{DF4D0FDE-976B-40B6-8101-B39F98931D26}",
+        "Source":  "Registry"
+    },
+    {
+        "Name":  "Dell Core Services",
+        "Version":  "1.11.12.0",
+        "Publisher":  "Dell, Inc.",
+        "UninstallString":  "MsiExec.exe /I{E0DBD23A-8403-4805-AC00-4CB897BAA18E}",
+        "Source":  "Registry"
+    },
+    {
+        "Name":  "Microsoft.NET.Workload.Emscripten.net8.Manifest (x64)",
+        "Version":  "72.48.40820",
+        "Publisher":  "Microsoft Corporation",
+        "UninstallString":  "MsiExec.exe /X{E150B9CB-9D18-4CE1-8E28-27AAE1FD74D2}",
+        "Source":  "Registry"
+    },
+    {
+        "Name":  "Microsoft.NET.Sdk.Maui.Manifest-10.0.100 (x64)",
+        "Version":  "10.0.1",
+        "Publisher":  "Microsoft Corporation",
+        "UninstallString":  "MsiExec.exe /X{E1E2CE4F-2F21-471E-BA6B-DAD17D33717C}",
+        "Source":  "Registry"
+    },
+    {
+        "Name":  "Microsoft SQL Server 2019 LocalDB ",
+        "Version":  "15.0.4382.1",
+        "Publisher":  "Microsoft Corporation",
+        "UninstallString":  "MsiExec.exe /I{E5B3A478-C4C3-49E3-8384-A12D4B2008D4}",
+        "Source":  "Registry"
+    },
+    {
+        "Name":  "Microsoft .NET Host - 5.0.17 (x64)",
+        "Version":  "40.68.31213",
+        "Publisher":  "Microsoft Corporation",
+        "UninstallString":  "MsiExec.exe /X{E663ED1E-899C-40E8-91D0-8D37B95E3C69}",
+        "Source":  "Registry"
+    },
+    {
+        "Name":  "Microsoft .NET Toolset 10.0.101 (x64)",
+        "Version":  "40.10.18029",
+        "Publisher":  "Microsoft Corporation",
+        "UninstallString":  "MsiExec.exe /X{E6BC5C00-F9CA-4BCD-A6B6-B2938627B375}",
+        "Source":  "Registry"
+    },
+    {
+        "Name":  "Microsoft Windows Desktop Runtime - 10.0.1 (x64)",
+        "Version":  "80.4.44025",
+        "Publisher":  "Microsoft Corporation",
+        "UninstallString":  "MsiExec.exe /X{E83798A0-54B2-4BF4-AFD2-53F5FD087C95}",
+        "Source":  "Registry"
+    },
+    {
+        "Name":  "Microsoft Windows Desktop Targeting Pack - 9.0.10 (x64)",
+        "Version":  "72.40.40921",
+        "Publisher":  "Microsoft Corporation",
+        "UninstallString":  "MsiExec.exe /X{E903E2BB-B553-4FA5-BBEA-576567917184}",
+        "Source":  "Registry"
+    },
+    {
+        "Name":  "Microsoft.NET.Workload.Emscripten.net6.Manifest (x64)",
+        "Version":  "72.48.40820",
+        "Publisher":  "Microsoft Corporation",
+        "UninstallString":  "MsiExec.exe /X{EA6C5082-36F1-402A-9B52-8B941A5EC778}",
+        "Source":  "Registry"
+    },
+    {
+        "Name":  "Microsoft .NET Host - 9.0.10 (x64)",
+        "Version":  "72.40.40927",
+        "Publisher":  "Microsoft Corporation",
+        "UninstallString":  "MsiExec.exe /X{EB00D346-1FB5-46E0-89C0-93F056F5ACF4}",
+        "Source":  "Registry"
+    },
+    {
+        "Name":  "Microsoft .NET SDK 10.0.101 (x64) from Visual Studio",
+        "Version":  "40.10.18029",
+        "Publisher":  "Microsoft Corporation",
+        "UninstallString":  "MsiExec.exe /X{EB0869A4-724B-45F8-A32D-71AD21D3125D}",
+        "Source":  "Registry"
+    },
+    {
+        "Name":  "Microsoft .NET Host FX Resolver - 6.0.15 (x64)",
+        "Version":  "48.63.56695",
+        "Publisher":  "Microsoft Corporation",
+        "UninstallString":  "MsiExec.exe /X{EDD929D3-DFE9-40BA-8A13-30F9CE1E2F18}",
+        "Source":  "Registry"
+    },
+    {
+        "Name":  "Microsoft .NET Runtime - 8.0.21 (x64)",
+        "Version":  "64.84.40925",
+        "Publisher":  "Microsoft Corporation",
+        "UninstallString":  "MsiExec.exe /X{EEFB29A5-3E62-4DCE-8527-0DF45D780126}",
+        "Source":  "Registry"
+    },
+    {
+        "Name":  "ISS_Drivers_x64",
+        "Version":  "3.10.100.4589",
+        "Publisher":  "Intel Corporation",
+        "UninstallString":  "MsiExec.exe /I{EF55AD15-80FF-4019-A69F-BA216814A48C}",
+        "Source":  "Registry"
+    },
+    {
+        "Name":  "Microsoft ASP.NET Core Module V2 for IIS Express",
+        "Version":  "17.0.22116.0",
+        "Publisher":  "Microsoft Corporation",
+        "UninstallString":  "MsiExec.exe /X{F0E9CE77-BF19-4BBE-B228-A42F782F82E4}",
+        "Source":  "Registry"
+    },
+    {
+        "Name":  "Microsoft.NET.Workload.Mono.Toolchain.net8.Manifest (x64)",
+        "Version":  "72.0.40927",
+        "Publisher":  "Microsoft Corporation",
+        "UninstallString":  "MsiExec.exe /X{F2B4E34F-2279-415E-B0CD-13A2C41780ED}",
+        "Source":  "Registry"
+    },
+    {
+        "Name":  "VS Script Debugging Common",
+        "Version":  "17.0.157.0",
+        "Publisher":  "Microsoft Corporation",
+        "UninstallString":  "MsiExec.exe /I{F5796163-6EC6-488A-B2DE-E1E94477F6AD}",
+        "Source":  "Registry"
+    },
+    {
+        "Name":  "VS WCF Debugging",
+        "Version":  "17.0.157.0",
+        "Publisher":  "Microsoft Corporation",
+        "UninstallString":  "MsiExec.exe /I{F7F70D15-A1C1-42D5-A47F-AD0AC223C5AD}",
+        "Source":  "Registry"
+    },
+    {
+        "Name":  "Microsoft .NET AppHost Pack - 9.0.10 (x64)",
+        "Version":  "72.40.40927",
+        "Publisher":  "Microsoft Corporation",
+        "UninstallString":  "MsiExec.exe /X{F80DDB5A-1463-4D63-929F-7944A4E33890}",
+        "Source":  "Registry"
+    },
+    {
+        "Name":  "IntelliTraceProfilerProxy",
+        "Version":  "15.0.21225.01",
+        "Publisher":  "Microsoft Corporation",
+        "UninstallString":  "MsiExec.exe /I{F8B9E8C8-61E8-4E9E-879D-F3F498AD0230}",
+        "Source":  "Registry"
+    },
+    {
+        "Name":  "Microsoft ASP.NET Core Module for IIS Express",
+        "Version":  "12.2.18292.0",
+        "Publisher":  "Microsoft Corporation",
+        "UninstallString":  "MsiExec.exe /X{FAFEE5E3-E00A-4CE8-B495-8F66A5FAB236}",
+        "Source":  "Registry"
+    },
+    {
+        "Name":  "Microsoft.NET.Workload.Mono.Toolchain.Current.Manifest (x64)",
+        "Version":  "72.0.40927",
+        "Publisher":  "Microsoft Corporation",
+        "UninstallString":  "MsiExec.exe /X{FC677256-EC6A-460C-84BC-2511A6EA2EE6}",
+        "Source":  "Registry"
+    },
+    {
+        "Name":  "Microsoft Visual Studio 2015 Performance Collection Tools",
+        "Version":  "14.0.23107",
+        "Publisher":  "Microsoft Corporation",
+        "UninstallString":  "MsiExec.exe /I{FCC6E820-B5DB-454E-96E3-B6182DDEEC8D}",
+        "Source":  "Registry"
+    },
+    {
+        "Name":  "Microsoft .NET Host FX Resolver - 9.0.10 (x64)",
+        "Version":  "72.40.40927",
+        "Publisher":  "Microsoft Corporation",
+        "UninstallString":  "MsiExec.exe /X{FDC862D8-5CDD-4FC6-8E9A-873A689600BC}",
+        "Source":  "Registry"
+    }
+]

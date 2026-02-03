@@ -1,0 +1,17 @@
+{
+    "UserName":  "csangjaya",
+    "IsAdmin":  false,
+    "Bitness":  "32-bit",
+    "PSVersion":  "5.1.26100.7462",
+    "PSEdition":  "Desktop",
+    "HostName":  "ConsoleHost",
+    "ProcessPath":  "C:\\Windows\\SysWOW64\\WindowsPowerShell\\v1.0\\powershell.exe",
+    "CurrentDirectory":  "C:\\Users\\csangjaya\\Documents\\Kantor\\bloatWareApp\\bloatWareApp\\bin\\Debug\\powershell",
+    "Profile_CurrentUser":  "C:\\Users\\csangjaya\\Documents\\WindowsPowerShell\\Microsoft.PowerShell_profile.ps1",
+    "Profile_AllUsers":  "C:\\Windows\\SysWOW64\\WindowsPowerShell\\v1.0\\Microsoft.PowerShell_profile.ps1",
+    "ProfileExists_User":  false,
+    "ProfileExists_All":  false,
+    "ExecutionPolicy":  "\r\n        Scope ExecutionPolicy\r\n        ----- ---------------\r\nMachinePolicy       Undefined\r\n   UserPolicy       Undefined\r\n      Process          Bypass\r\n  CurrentUser    RemoteSigned\r\n LocalMachine    RemoteSigned\r\n\r\n\r\n",
+    "PATH":  "C:\\Program Files (x86)\\Common Files\\Oracle\\Java\\javapath;C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\System32\\Wbem;C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\;C:\\WINDOWS\\System32\\OpenSSH\\;C:\\Program Files\\dotnet\\;C:\\Program Files\\Git\\cmd;C:\\Users\\csangjaya\\.dnx\\bin;C:\\Program Files\\Microsoft DNX\\Dnvm\\;C:\\Program Files\\Microsoft SQL Server\\150\\Tools\\Binn\\;C:\\Program Files\\Microsoft SQL Server\\Client SDK\\ODBC\\170\\Tools\\Binn\\;C:\\Program Files\\TortoiseGit\\bin;C:\\xampp\\php;C:\\ProgramData\\ComposerSetup\\bin;C:\\Program Files (x86)\\cloudflared\\;C:\\Program Files\\nodejs\\;C:\\Users\\csangjaya\\AppData\\Local\\Programs\\Python\\Python311\\Scripts\\;C:\\Users\\csangjaya\\AppData\\Local\\Programs\\Python\\Python311\\;C:\\Users\\csangjaya\\AppData\\Local\\Microsoft\\WindowsApps;;C:\\Users\\csangjaya\\AppData\\Local\\Programs\\Microsoft VS Code\\bin;C:\\Users\\csangjaya\\AppData\\Local\\Python\\bin;C:\\Users\\csangjaya\\AppData\\Roaming\\npm;C:\\Users\\csangjaya\\.dotnet\\tools",
+    "LoadedModules":  "\r\nName                            Version\r\n----                            -------\r\nMicrosoft.PowerShell.Management 3.1.0.0\r\nMicrosoft.PowerShell.Security   3.0.0.0\r\nMicrosoft.PowerShell.Utility    3.1.0.0\r\n\r\n\r\n"
+}

@@ -1,0 +1,28 @@
+{
+  "applications": [
+    {
+      "name": "Notepad plus plus",
+      "installerPath": "C:\\Users\\csangjaya\\Downloads\\npp.8.9.Installer.x64.exe",
+      "silentArgs": "/silent /install",
+      "detectName": "Notepad plus plus"
+    },
+    {
+      "name": "Node.js",
+      "installerPath": "C:\\Users\\csangjaya\\Downloads\\node-v24.12.0-x64.msi",
+      "silentArgs": "/silent /install",
+      "detectName": "Node.js"
+    },
+    {
+      "name": "Intel(R) Graphics Software & Drivers",
+      "installerPath": "C:\\Users\\csangjaya\\Downloads\\npp.8.9.Installer.x64.exe",
+      "silentArgs": "/silent /install",
+      "detectName": "Intel(R) Graphics Software & Drivers"
+    },
+    {
+      "name": "Git",
+      "installerPath": "C:\\Users\\csangjaya\\Downloads\\VSCodeUserSetup-x64-1.108.0.exe",
+      "silentArgs": "/silent /install",
+      "detectName": "Git"
+    }
+  ]
+}
