@@ -34,7 +34,7 @@ Public Class frmInstallApp
         Dim app As New AppConfig With {
             .name = name,
             .installerPath = installerPath,
-            .silentArgs = "/silent /install",
+            .silentArgs = "/install",
             .detectName = name
         }
 
@@ -44,7 +44,7 @@ Public Class frmInstallApp
         If existingApp IsNot Nothing Then
             ' Update data
             existingApp.installerPath = installerPath
-            existingApp.silentArgs = "/silent /install"
+            existingApp.silentArgs = "/install"
             existingApp.detectName = name
         Else
             ' Insert baru
@@ -90,7 +90,7 @@ Public Class frmInstallApp
         Dim app As New AppConfig With {
             .name = name,
             .installerPath = installerPath,
-            .silentArgs = "/silent /install",
+            .silentArgs = "/install",
             .detectName = name
         }
 
@@ -100,7 +100,7 @@ Public Class frmInstallApp
         If existingApp IsNot Nothing Then
             ' Update data
             existingApp.installerPath = installerPath
-            existingApp.silentArgs = "/silent /install"
+            existingApp.silentArgs = "/install"
             existingApp.detectName = name
         Else
             ' Insert baru

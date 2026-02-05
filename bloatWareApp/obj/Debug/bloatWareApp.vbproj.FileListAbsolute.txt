@@ -1,0 +1,17 @@
+C:\Users\csangjaya\Documents\Kantor\bloatwareApp\bloatWareApp\bin\Debug\bloatWareApp.exe.config
+C:\Users\csangjaya\Documents\Kantor\bloatwareApp\bloatWareApp\bin\Debug\bloatWareApp.exe
+C:\Users\csangjaya\Documents\Kantor\bloatwareApp\bloatWareApp\bin\Debug\bloatWareApp.pdb
+C:\Users\csangjaya\Documents\Kantor\bloatwareApp\bloatWareApp\bin\Debug\bloatWareApp.xml
+C:\Users\csangjaya\Documents\Kantor\bloatwareApp\bloatWareApp\bin\Debug\Newtonsoft.Json.dll
+C:\Users\csangjaya\Documents\Kantor\bloatwareApp\bloatWareApp\bin\Debug\Newtonsoft.Json.xml
+C:\Users\csangjaya\Documents\Kantor\bloatwareApp\bloatWareApp\obj\Debug\bloatWareApp.vbproj.AssemblyReference.cache
+C:\Users\csangjaya\Documents\Kantor\bloatwareApp\bloatWareApp\obj\Debug\bloatWareApp.Form1.resources
+C:\Users\csangjaya\Documents\Kantor\bloatwareApp\bloatWareApp\obj\Debug\bloatWareApp.frmInstallApp.resources
+C:\Users\csangjaya\Documents\Kantor\bloatwareApp\bloatWareApp\obj\Debug\bloatWareApp.Resources.resources
+C:\Users\csangjaya\Documents\Kantor\bloatwareApp\bloatWareApp\obj\Debug\bloatWareApp.vbproj.GenerateResource.cache
+C:\Users\csangjaya\Documents\Kantor\bloatwareApp\bloatWareApp\obj\Debug\bloatWareApp.vbproj.CoreCompileInputs.cache
+C:\Users\csangjaya\Documents\Kantor\bloatwareApp\bloatWareApp\obj\Debug\bloatWar.07B384DC.Up2Date
+C:\Users\csangjaya\Documents\Kantor\bloatwareApp\bloatWareApp\obj\Debug\bloatWareApp.exe
+C:\Users\csangjaya\Documents\Kantor\bloatwareApp\bloatWareApp\obj\Debug\bloatWareApp.xml
+C:\Users\csangjaya\Documents\Kantor\bloatwareApp\bloatWareApp\obj\Debug\bloatWareApp.pdb
+C:\Users\csangjaya\Documents\Kantor\bloatwareApp\bloatWareApp\obj\Debug\bloatWareApp.exe.config

@@ -91,23 +91,43 @@ function Install-App {
     )
 
     if (-not (Test-Path $Path)) {
-        throw "Installer not found: $Path"
         Write-Log "Installer not found: $Path"
+        throw "Installer not found: $Path"
     }
+
+    $extension = [System.IO.Path]::GetExtension($Path).ToLower()
 
     Write-Host "Installing $Name..."
     Write-Log "Installing $Name from path: $Path"
 
+    # ============================
+    # CLICKONCE INSTALLER
+    # ============================
+    if ($extension -eq ".application") {
+
+        Write-Log "$Name detected as ClickOnce application"
+
+        # ClickOnce MUST be launched via shell
+        Start-Process -FilePath $Path
+
+        Write-Host "$Name ClickOnce installer launched."
+        Write-Log "$Name ClickOnce installer launched successfully."
+
+        return
+    }
+
+    # ============================
+    # STANDARD EXE / MSI INSTALLER
+    # ============================
     $process = Start-Process `
         -FilePath $Path `
         -ArgumentList $Args `
         -Wait `
-        -PassThru `
-        -NoNewWindow
+        -PassThru
 
     if ($process.ExitCode -ne 0) {
-        throw "Install $Name failed. ExitCode: $($process.ExitCode)"
         Write-Log "Install $Name failed. ExitCode: $($process.ExitCode)"
+        throw "Install $Name failed. ExitCode: $($process.ExitCode)"
     }
 
     Write-Host "$Name Successfully installed."
@@ -124,6 +144,27 @@ foreach ($app in $config.applications) {
         continue
     }
 
+    $installerExt = [System.IO.Path]::GetExtension($app.installerPath).ToLower()
+
+    Write-Host "Processing $($app.name)..."
+    Write-Log "Processing $($app.name) (installer: $installerExt)"
+
+    # ============================
+    # CLICKONCE APPLICATION
+    # ============================
+    if ($installerExt -eq ".application") {
+
+        Write-Host "$($app.name) is ClickOnce application"
+        Write-Log "$($app.name) detected as ClickOnce application"
+
+        # ClickOnce handles install / update itself
+        Install-App $app.installerPath $null $app.name
+        continue
+    }
+
+    # ============================
+    # STANDARD INSTALLER (EXE / MSI)
+    # ============================
     Write-Host "Checking $($app.name)..."
 
     if (Test-AppInstalled $app.detectName) {
@@ -133,6 +174,7 @@ foreach ($app in $config.applications) {
     else {
         Write-Host "$($app.name) Not installed."
         Write-Log "$($app.name) Not installed."
+
         Install-App $app.installerPath $app.silentArgs $app.name
     }
 }

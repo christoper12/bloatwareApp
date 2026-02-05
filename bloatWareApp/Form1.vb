@@ -92,7 +92,10 @@ Public Class Form1
             End If
 
             Dim json As String = File.ReadAllText(jsonPath)
-            _allApps = JsonConvert.DeserializeObject(Of List(Of InstalledApp))(json)
+
+            _allApps = JsonConvert.DeserializeObject(Of List(Of InstalledApp))(json) _
+            .OrderBy(Function(a) a.Name, StringComparer.OrdinalIgnoreCase) _
+            .ToList()
 
             BindGrid(_allApps)
 
@@ -102,8 +105,16 @@ Public Class Form1
     End Sub
 
     Private Sub BindGrid(data As List(Of InstalledApp))
-        Dim bindingList As New BindingList(Of InstalledApp)(data)
-        Dim source As New BindingSource(bindingList, Nothing)
+
+        Dim sortableList As New SortableBindingList(Of InstalledApp)(data)
+        Dim source As New BindingSource(sortableList, Nothing)
+
+        dgListInstall.AutoGenerateColumns = True
+        dgListInstall.DataSource = source
+
+
+        'Dim bindingList As New BindingList(Of InstalledApp)(data)
+        'Dim source As New BindingSource(bindingList, Nothing)
 
         dgListInstall.AutoGenerateColumns = True
         dgListInstall.DataSource = source

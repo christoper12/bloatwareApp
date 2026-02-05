@@ -14,29 +14,61 @@ function Get-InstalledApps {
     # 1. Registry apps (EXE / MSI)
     # --------------------------------------------------
     $paths = @(
-        "HKLM:\Software\Microsoft\Windows\CurrentVersion\Uninstall\*"
+        "HKLM:\Software\Microsoft\Windows\CurrentVersion\Uninstall\*",
+        "HKLM:\Software\WOW6432Node\Microsoft\Windows\CurrentVersion\Uninstall\*",
+        "HKCU:\Software\Microsoft\Windows\CurrentVersion\Uninstall\*"
     )
 
-    foreach ($path in $paths) {
-        Get-ChildItem $path -ErrorAction SilentlyContinue | ForEach-Object {
-            try {
-                $props = Get-ItemProperty $_.PSPath `
-                    -Name DisplayName, DisplayVersion, Publisher, UninstallString `
-                    -ErrorAction Stop
+    # $paths = @(
+    #     "HKLM:\Software\WOW6432Node\Microsoft\Windows\CurrentVersion\Uninstall\*"
+    # )
 
-                if ($props.DisplayName) {
-                    $apps += [PSCustomObject]@{
-                        Name            = $props.DisplayName
-                        Version         = $props.DisplayVersion
-                        Publisher       = $props.Publisher
-                        UninstallString = $props.UninstallString
-                        Source          = "Registry"
-                    }
-                }
-            }
-            catch {
-                return
-            }
+    # $paths = @(
+    #     "HKCU:\Software\Microsoft\Windows\CurrentVersion\Uninstall\*"
+    # )
+
+    # foreach ($path in $paths) {
+    #     Get-ChildItem $path -ErrorAction SilentlyContinue | ForEach-Object {
+    #         try {
+    #             $props = Get-ItemProperty $_.PSPath `
+    #                 -Name DisplayName, DisplayVersion, Publisher, UninstallString `
+    #                 -ErrorAction Stop
+
+    #             if ($props.DisplayName) {
+    #                 $apps += [PSCustomObject]@{
+    #                     Name            = $props.DisplayName
+    #                     Version         = $props.DisplayVersion
+    #                     Publisher       = $props.Publisher
+    #                     UninstallString = $props.UninstallString
+    #                     Source          = "Registry"
+    #                 }
+    #             }
+    #         }
+    #         catch {
+    #             return
+    #         }
+    #     }
+    # }
+
+    $programsAndFeatures = foreach ($path in $paths) {
+        Get-ItemProperty $path -ErrorAction SilentlyContinue |
+        Where-Object {
+            $_.DisplayName -and
+            $_.SystemComponent -ne 1
+        } |
+        Select-Object DisplayName, DisplayVersion, Publisher, InstallDate, UninstallString
+    }
+
+    foreach ($program in $programsAndFeatures) {
+        # Hindari duplikat nama
+        if ($apps.Name -contains $program.DisplayName) { continue }
+
+        $apps += [PSCustomObject]@{
+            Name            = $program.DisplayName
+            Version         = $program.DisplayVersion
+            Publisher       = $program.Publisher
+            UninstallString = $program.UninstallString
+            Source          = "Registry"
         }
     }
 

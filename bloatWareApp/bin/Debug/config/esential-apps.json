@@ -1,22 +1,28 @@
 {
   "applications": [
     {
-      "name": "Notepad++",
-      "installerPath": "C:\\Users\\csangjaya\\Downloads\\npp.8.9.Installer.x64.exe",
-      "silentArgs": "/silent /install",
-      "detectName": "Notepad++"
+      "name": "TrackIT Third Party 1.0.0.0",
+      "installerPath": "\\\\persvr02\\trackit$\\TrackIT_Live\\Config\\Installer\\NEW\\Setup TrackIT Third Party.exe",
+      "silentArgs": "/install",
+      "detectName": "TrackIT Third Party 1.0.0.0"
     },
     {
-      "name": "Postman",
-      "installerPath": "C:\\Users\\csangjaya\\Downloads\\VSCodeUserSetup-x64-1.108.0.exe",
-      "silentArgs": "/silent /install",
-      "detectName": "Postman"
+      "name": "TrackIT App",
+      "installerPath": "\\\\persvr02\\trackit$\\TrackIT_Live\\Config\\Installer\\NEW\\TrackIT.application",
+      "silentArgs": "/install",
+      "detectName": "TrackIT App"
     },
     {
-      "name": "DBeaver 25.2.4",
-      "installerPath": "",
-      "silentArgs": "/silent /install",
-      "detectName": "DBeaver 25.2.4"
+      "name": "Microsoft 365 Apps for enterprise - en-us",
+      "installerPath": "\\\\persvr02\\trackit$\\0_Installer\\OfficeSetup.exe",
+      "silentArgs": "/install",
+      "detectName": "Microsoft 365 Apps for enterprise - en-us"
+    },
+    {
+      "name": "Google Chrome",
+      "installerPath": "\\\\persvr02\\trackit$\\0_Installer\\ChromeSetup.exe",
+      "silentArgs": "/install",
+      "detectName": "Google Chrome"
     }
   ]
 }

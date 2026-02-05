@@ -33,11 +33,13 @@ Partial Class Form1
         Me.btnInstallUninstallOptional = New System.Windows.Forms.Button()
         Me.TabPage2 = New System.Windows.Forms.TabPage()
         Me.GroupBox4 = New System.Windows.Forms.GroupBox()
+        Me.btnRefeshDataEssential = New System.Windows.Forms.Button()
         Me.dgEsential = New System.Windows.Forms.DataGridView()
         Me.btnClearEsential = New System.Windows.Forms.Button()
         Me.btnInstall = New System.Windows.Forms.Button()
         Me.TabPage3 = New System.Windows.Forms.TabPage()
         Me.GroupBox2 = New System.Windows.Forms.GroupBox()
+        Me.btnRefreshDataBloatware = New System.Windows.Forms.Button()
         Me.dgUninstallList = New System.Windows.Forms.DataGridView()
         Me.btnDeleteUninstall = New System.Windows.Forms.Button()
         Me.btnUninstall = New System.Windows.Forms.Button()
@@ -52,8 +54,6 @@ Partial Class Form1
         Me.btnAddToUnintallList = New System.Windows.Forms.Button()
         Me.dgListInstall = New System.Windows.Forms.DataGridView()
         Me.cbList = New System.Windows.Forms.DataGridViewCheckBoxColumn()
-        Me.btnRefeshDataEssential = New System.Windows.Forms.Button()
-        Me.btnRefreshDataBloatware = New System.Windows.Forms.Button()
         Me.Panel1.SuspendLayout()
         Me.TabControl1.SuspendLayout()
         Me.TabPage1.SuspendLayout()
@@ -202,6 +202,15 @@ Partial Class Form1
         Me.GroupBox4.TabIndex = 1
         Me.GroupBox4.TabStop = False
         '
+        'btnRefeshDataEssential
+        '
+        Me.btnRefeshDataEssential.Location = New System.Drawing.Point(252, 16)
+        Me.btnRefeshDataEssential.Name = "btnRefeshDataEssential"
+        Me.btnRefeshDataEssential.Size = New System.Drawing.Size(120, 30)
+        Me.btnRefeshDataEssential.TabIndex = 5
+        Me.btnRefeshDataEssential.Text = "Refresh Data"
+        Me.btnRefeshDataEssential.UseVisualStyleBackColor = True
+        '
         'dgEsential
         '
         Me.dgEsential.AllowUserToAddRows = False
@@ -262,6 +271,15 @@ Partial Class Form1
         Me.GroupBox2.Size = New System.Drawing.Size(1396, 284)
         Me.GroupBox2.TabIndex = 0
         Me.GroupBox2.TabStop = False
+        '
+        'btnRefreshDataBloatware
+        '
+        Me.btnRefreshDataBloatware.Location = New System.Drawing.Point(252, 16)
+        Me.btnRefreshDataBloatware.Name = "btnRefreshDataBloatware"
+        Me.btnRefreshDataBloatware.Size = New System.Drawing.Size(120, 30)
+        Me.btnRefreshDataBloatware.TabIndex = 6
+        Me.btnRefreshDataBloatware.Text = "Refresh Data"
+        Me.btnRefreshDataBloatware.UseVisualStyleBackColor = True
         '
         'dgUninstallList
         '
@@ -419,24 +437,6 @@ Partial Class Form1
         Me.cbList.MinimumWidth = 6
         Me.cbList.Name = "cbList"
         Me.cbList.Width = 50
-        '
-        'btnRefeshDataEssential
-        '
-        Me.btnRefeshDataEssential.Location = New System.Drawing.Point(252, 16)
-        Me.btnRefeshDataEssential.Name = "btnRefeshDataEssential"
-        Me.btnRefeshDataEssential.Size = New System.Drawing.Size(120, 30)
-        Me.btnRefeshDataEssential.TabIndex = 5
-        Me.btnRefeshDataEssential.Text = "Refresh Data"
-        Me.btnRefeshDataEssential.UseVisualStyleBackColor = True
-        '
-        'btnRefreshDataBloatware
-        '
-        Me.btnRefreshDataBloatware.Location = New System.Drawing.Point(252, 16)
-        Me.btnRefreshDataBloatware.Name = "btnRefreshDataBloatware"
-        Me.btnRefreshDataBloatware.Size = New System.Drawing.Size(120, 30)
-        Me.btnRefreshDataBloatware.TabIndex = 6
-        Me.btnRefreshDataBloatware.Text = "Refresh Data"
-        Me.btnRefreshDataBloatware.UseVisualStyleBackColor = True
         '
         'Form1
         '
