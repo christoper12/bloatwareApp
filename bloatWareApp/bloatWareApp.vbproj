@@ -105,6 +105,7 @@
     <Compile Include="My Project\Application.Designer.vb">
       <AutoGen>True</AutoGen>
       <DependentUpon>Application.myapp</DependentUpon>
+      <DesignTime>True</DesignTime>
     </Compile>
     <Compile Include="My Project\Resources.Designer.vb">
       <AutoGen>True</AutoGen>
@@ -117,6 +118,18 @@
       <DesignTimeSharedInput>True</DesignTimeSharedInput>
     </Compile>
     <Compile Include="SortableBindingList.vb" />
+    <Compile Include="startupApp\StartupCategory.vb" />
+    <Compile Include="startupApp\startupForm.Designer.vb">
+      <DependentUpon>startupForm.vb</DependentUpon>
+    </Compile>
+    <Compile Include="startupApp\startupForm.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="startupApp\StartupItem.vb" />
+    <Compile Include="startupApp\StartupRaw.vb" />
+    <Compile Include="startupApp\StartupTagFile.vb" />
+    <Compile Include="startupApp\StartupTagItem.vb" />
+    <Compile Include="startupApp\StartupType.vb" />
     <Compile Include="UninstallApp.vb" />
   </ItemGroup>
   <ItemGroup>
@@ -131,6 +144,9 @@
       <LastGenOutput>Resources.Designer.vb</LastGenOutput>
       <CustomToolNamespace>My.Resources</CustomToolNamespace>
       <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="startupApp\startupForm.resx">
+      <DependentUpon>startupForm.vb</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <ItemGroup>

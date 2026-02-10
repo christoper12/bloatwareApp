@@ -1,0 +1,11 @@
+{
+  "Items": [
+    {
+      "Key": null,
+      "Name": "OneDrive",
+      "Source": "Registry",
+      "Location": "Current User",
+      "RegistryPath": "HKCU:\\Software\\Microsoft\\Windows\\CurrentVersion\\Run"
+    }
+  ]
+}

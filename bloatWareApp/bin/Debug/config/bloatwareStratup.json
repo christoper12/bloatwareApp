@@ -1,0 +1,11 @@
+{
+  "Items": [
+    {
+      "Key": null,
+      "Name": "SecurityHealth",
+      "Source": "Registry",
+      "Location": "All Users",
+      "RegistryPath": "HKLM:\\Software\\Microsoft\\Windows\\CurrentVersion\\Run"
+    }
+  ]
+}

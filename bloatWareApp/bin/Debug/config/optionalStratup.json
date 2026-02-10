@@ -1,0 +1,11 @@
+{
+  "Items": [
+    {
+      "Key": null,
+      "Name": "Teams",
+      "Source": "Registry",
+      "Location": "Current User",
+      "RegistryPath": "HKCU:\\Software\\Microsoft\\Windows\\CurrentVersion\\Run"
+    }
+  ]
+}
