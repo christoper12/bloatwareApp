@@ -89,15 +89,15 @@ Public Class startupForm
             'LoadJsonToGrid(dgEssentialStratup, Path.Combine(basePath, "essentialStratup.json"))
             'LoadJsonToGrid(dgBloatwareStratup, Path.Combine(basePath, "bloatwareStratup.json"))
 
-            Dim itemsJsonOptionalStratup = LoadCategory(Path.Combine(basePath, "optionalStratup.json"))
+            Dim itemsJsonOptionalStratup = LoadCategory(Path.Combine(basePath, "optionalStratup.json"), "Optional")
             Dim bindingListJsonOptionalStratup As New BindingList(Of StartupItem)(itemsJsonOptionalStratup)
             dgOptionalStratup.DataSource = bindingListJsonOptionalStratup
 
-            Dim itemsJsonEssentialStratup = LoadCategory(Path.Combine(basePath, "essentialStratup.json"))
+            Dim itemsJsonEssentialStratup = LoadCategory(Path.Combine(basePath, "essentialStratup.json"), "Essential")
             Dim bindingListJsonEssentialStratup As New BindingList(Of StartupItem)(itemsJsonEssentialStratup)
             dgEssentialStratup.DataSource = bindingListJsonEssentialStratup
 
-            Dim itemsJsonBloatwareStratup = LoadCategory(Path.Combine(basePath, "bloatwareStratup.json"))
+            Dim itemsJsonBloatwareStratup = LoadCategory(Path.Combine(basePath, "bloatwareStratup.json"), "Bloatware")
             Dim bindingListJsonBloatwareStratup As New BindingList(Of StartupItem)(itemsJsonBloatwareStratup)
             dgBloatwareStratup.DataSource = bindingListJsonBloatwareStratup
 
@@ -511,15 +511,15 @@ Public Class startupForm
             Dim basePath = Path.Combine(Application.StartupPath, "config")
 
             TabControl1.SelectedTab = TabPageOptionalStratup
-            Dim itemsJsonOptionalStratup = LoadCategory(Path.Combine(basePath, "optionalStratup.json"))
+            Dim itemsJsonOptionalStratup = LoadCategory(Path.Combine(basePath, "optionalStratup.json"), "Optional")
             Dim bindingListJsonOptionalStratup As New BindingList(Of StartupItem)(itemsJsonOptionalStratup)
             dgOptionalStratup.DataSource = bindingListJsonOptionalStratup
 
-            Dim itemsJsonEssentialStratup = LoadCategory(Path.Combine(basePath, "essentialStratup.json"))
+            Dim itemsJsonEssentialStratup = LoadCategory(Path.Combine(basePath, "essentialStratup.json"), "Essential")
             Dim bindingListJsonEssentialStratup As New BindingList(Of StartupItem)(itemsJsonEssentialStratup)
             dgEssentialStratup.DataSource = bindingListJsonEssentialStratup
 
-            Dim itemsJsonBloatwareStratup = LoadCategory(Path.Combine(basePath, "bloatwareStratup.json"))
+            Dim itemsJsonBloatwareStratup = LoadCategory(Path.Combine(basePath, "bloatwareStratup.json"), "Bloatware")
             Dim bindingListJsonBloatwareStratup As New BindingList(Of StartupItem)(itemsJsonBloatwareStratup)
             dgBloatwareStratup.DataSource = bindingListJsonBloatwareStratup
         Catch ex As Exception
@@ -538,15 +538,15 @@ Public Class startupForm
             Dim basePath = Path.Combine(Application.StartupPath, "config")
 
             TabControl1.SelectedTab = TabPageEssentialStratup
-            Dim itemsJsonOptionalStratup = LoadCategory(Path.Combine(basePath, "optionalStratup.json"))
+            Dim itemsJsonOptionalStratup = LoadCategory(Path.Combine(basePath, "optionalStratup.json"), "Optional")
             Dim bindingListJsonOptionalStratup As New BindingList(Of StartupItem)(itemsJsonOptionalStratup)
             dgOptionalStratup.DataSource = bindingListJsonOptionalStratup
 
-            Dim itemsJsonEssentialStratup = LoadCategory(Path.Combine(basePath, "essentialStratup.json"))
+            Dim itemsJsonEssentialStratup = LoadCategory(Path.Combine(basePath, "essentialStratup.json"), "Essential")
             Dim bindingListJsonEssentialStratup As New BindingList(Of StartupItem)(itemsJsonEssentialStratup)
             dgEssentialStratup.DataSource = bindingListJsonEssentialStratup
 
-            Dim itemsJsonBloatwareStratup = LoadCategory(Path.Combine(basePath, "bloatwareStratup.json"))
+            Dim itemsJsonBloatwareStratup = LoadCategory(Path.Combine(basePath, "bloatwareStratup.json"), "Bloatware")
             Dim bindingListJsonBloatwareStratup As New BindingList(Of StartupItem)(itemsJsonBloatwareStratup)
             dgBloatwareStratup.DataSource = bindingListJsonBloatwareStratup
         Catch ex As Exception
@@ -565,15 +565,15 @@ Public Class startupForm
             Dim basePath = Path.Combine(Application.StartupPath, "config")
 
             TabControl1.SelectedTab = TabPageBloatwareStratup
-            Dim itemsJsonOptionalStratup = LoadCategory(Path.Combine(basePath, "optionalStratup.json"))
+            Dim itemsJsonOptionalStratup = LoadCategory(Path.Combine(basePath, "optionalStratup.json"), "Optional")
             Dim bindingListJsonOptionalStratup As New BindingList(Of StartupItem)(itemsJsonOptionalStratup)
             dgOptionalStratup.DataSource = bindingListJsonOptionalStratup
 
-            Dim itemsJsonEssentialStratup = LoadCategory(Path.Combine(basePath, "essentialStratup.json"))
+            Dim itemsJsonEssentialStratup = LoadCategory(Path.Combine(basePath, "essentialStratup.json"), "Essential")
             Dim bindingListJsonEssentialStratup As New BindingList(Of StartupItem)(itemsJsonEssentialStratup)
             dgEssentialStratup.DataSource = bindingListJsonEssentialStratup
 
-            Dim itemsJsonBloatwareStratup = LoadCategory(Path.Combine(basePath, "bloatwareStratup.json"))
+            Dim itemsJsonBloatwareStratup = LoadCategory(Path.Combine(basePath, "bloatwareStratup.json"), "Bloatware")
             Dim bindingListJsonBloatwareStratup As New BindingList(Of StartupItem)(itemsJsonBloatwareStratup)
             dgBloatwareStratup.DataSource = bindingListJsonBloatwareStratup
         Catch ex As Exception
@@ -706,30 +706,53 @@ Public Class startupForm
         End Try
     End Sub
 
-    Private Function LoadCategory(jsonPath As String) As List(Of StartupItem)
+    Private Function LoadCategory(jsonPath As String, categoryType As String) As List(Of StartupItem)
 
         If Not File.Exists(jsonPath) Then
             Return New List(Of StartupItem)
         End If
 
         Dim text = File.ReadAllText(jsonPath)
+        Dim category =
+        JsonConvert.DeserializeObject(Of StartupTagFile)(text)
 
-        Dim fileData = JsonConvert.DeserializeObject(Of StartupTagFile)(text)
-
-        If fileData Is Nothing OrElse fileData.Items Is Nothing Then
+        If category Is Nothing OrElse category.Items Is Nothing Then
             Return New List(Of StartupItem)
         End If
 
         Dim result As New List(Of StartupItem)
 
-        For Each startupTag In fileData.Items
+        For Each starupTag In category.Items
 
-            Dim sysItem = AllStartupItems.
-            FirstOrDefault(Function(x) BuildStartupKey(x) = startupTag.Key)
+            Dim sysItem = AllStartupItems.FirstOrDefault(Function(x) BuildStartupKey(x) = starupTag.Key)
 
-            If sysItem IsNot Nothing Then
-                result.Add(sysItem)
-            End If
+            Select Case categoryType
+
+                Case "Optional", "Bloatware"
+
+                    ' Tampilkan hanya jika ADA di sistem
+                    If sysItem IsNot Nothing Then
+                        result.Add(sysItem)
+                    End If
+
+                Case "Essential"
+
+                    ' Tampilkan hanya jika TIDAK ADA di sistem
+                    If sysItem Is Nothing Then
+
+                        ' buat dummy item agar bisa tampil
+                        result.Add(New StartupItem With {
+                        .Name = starupTag.Name,
+                        .Source = starupTag.Source,
+                        .Location = starupTag.Location,
+                        .IsEnabled = False,
+                        .CanDisable = False,
+                        .DisableReason = "Not currently in startup"
+                    })
+
+                    End If
+
+            End Select
 
         Next
 
@@ -780,7 +803,7 @@ Public Class startupForm
 
             File.WriteAllText(jsonPath, JsonConvert.SerializeObject(category, Formatting.Indented))
 
-            Dim itemsJsonOptionalStratup = LoadCategory(Path.Combine(basePath, "optionalStratup.json"))
+            Dim itemsJsonOptionalStratup = LoadCategory(Path.Combine(basePath, "optionalStratup.json"), "Optional")
             Dim bindingListJsonOptionalStratup As New BindingList(Of StartupItem)(itemsJsonOptionalStratup)
             dgOptionalStratup.DataSource = bindingListJsonOptionalStratup
 
@@ -836,7 +859,7 @@ Public Class startupForm
 
             File.WriteAllText(jsonPath, JsonConvert.SerializeObject(category, Formatting.Indented))
 
-            Dim itemsJsonEssentialStratup = LoadCategory(Path.Combine(basePath, "essentialStratup.json"))
+            Dim itemsJsonEssentialStratup = LoadCategory(Path.Combine(basePath, "essentialStratup.json"), "Essential")
             Dim bindingListJsonEssentialStratup As New BindingList(Of StartupItem)(itemsJsonEssentialStratup)
             dgEssentialStratup.DataSource = bindingListJsonEssentialStratup
 
@@ -892,7 +915,7 @@ Public Class startupForm
 
             File.WriteAllText(jsonPath, JsonConvert.SerializeObject(category, Formatting.Indented))
 
-            Dim itemsJsonBloatwareStratup = LoadCategory(Path.Combine(basePath, "bloatwareStratup.json"))
+            Dim itemsJsonBloatwareStratup = LoadCategory(Path.Combine(basePath, "bloatwareStratup.json"), "Bloatware")
             Dim bindingListJsonBloatwareStratup As New BindingList(Of StartupItem)(itemsJsonBloatwareStratup)
             dgBloatwareStratup.DataSource = bindingListJsonBloatwareStratup
 
