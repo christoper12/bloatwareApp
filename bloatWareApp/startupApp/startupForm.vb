@@ -110,39 +110,6 @@ Public Class startupForm
     End Sub
 
     Private Sub startupForm_Load(sender As Object, e As EventArgs) Handles MyBase.Load
-        'If Not IsRunAsAdministrator() Then
-
-        '    Dim result = MessageBox.Show(
-        '    "The application requires Administrator rights to continue." & vbCrLf &
-        '    "Click OK to restart as Administrator.",
-        '    "Administrator Access Rights",
-        '    MessageBoxButtons.OKCancel,
-        '    MessageBoxIcon.Warning
-        ')
-
-        '    If result = DialogResult.OK Then
-        '        Try
-        '            Dim psi As New ProcessStartInfo()
-        '            psi.FileName = Application.ExecutablePath
-        '            psi.UseShellExecute = True
-        '            psi.Verb = "runas" ' Windows akan minta username/password admin
-
-        '            Process.Start(psi)
-
-        '        Catch ex As Exception
-        '            MessageBox.Show(
-        '            "Administrator request was canceled or failed.",
-        '            "Elevation Failed",
-        '            MessageBoxButtons.OK,
-        '            MessageBoxIcon.Error
-        '        )
-        '        End Try
-        '    End If
-
-        '    Application.Exit()
-        '    Return
-        'End If
-
         PictureBox1.Visible = False
 
         prepareDgStartup()
@@ -391,27 +358,6 @@ Public Class startupForm
                 row.DefaultCellStyle.BackColor = Color.FromArgb(245, 245, 245)
             End If
         Next
-    End Sub
-
-    Private Sub dgStartup_CellValueChanged(sender As Object, e As DataGridViewCellEventArgs) Handles dgStartup.CellValueChanged
-        'If IsLoading Then Return
-
-        'If e.RowIndex < 0 Then Return
-        'If dgStartup.Columns(e.ColumnIndex).Name <> "colEnabled" Then Return
-
-        'Dim item = CType(dgStartup.Rows(e.RowIndex).DataBoundItem, StartupItem)
-
-        'If Not item.CanDisable Then
-        '    MessageBox.Show(item.DisableReason, "Action not allowed")
-        '    dgStartup.CancelEdit()
-        '    Return
-        'End If 
-
-        'If item.IsEnabled Then
-        '    EnableStartupItem(item)
-        'Else
-        '    DisableStartupItem(item)
-        'End If
     End Sub
 
     Private Sub DisableStartupItem(item As StartupItem)
