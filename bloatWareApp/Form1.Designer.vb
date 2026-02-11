@@ -22,6 +22,7 @@ Partial Class Form1
     'Do not modify it using the code editor.
     <System.Diagnostics.DebuggerStepThrough()>
     Private Sub InitializeComponent()
+        Dim resources As System.ComponentModel.ComponentResourceManager = New System.ComponentModel.ComponentResourceManager(GetType(Form1))
         Me.btnRefresh = New System.Windows.Forms.Button()
         Me.Panel1 = New System.Windows.Forms.Panel()
         Me.TabControl1 = New System.Windows.Forms.TabControl()
@@ -54,6 +55,8 @@ Partial Class Form1
         Me.btnAddToUnintallList = New System.Windows.Forms.Button()
         Me.dgListInstall = New System.Windows.Forms.DataGridView()
         Me.cbList = New System.Windows.Forms.DataGridViewCheckBoxColumn()
+        Me.MenuStrip1 = New System.Windows.Forms.MenuStrip()
+        Me.StartupSettingToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
         Me.Panel1.SuspendLayout()
         Me.TabControl1.SuspendLayout()
         Me.TabPage1.SuspendLayout()
@@ -68,6 +71,7 @@ Partial Class Form1
         Me.GroupBox3.SuspendLayout()
         Me.GroupBox1.SuspendLayout()
         CType(Me.dgListInstall, System.ComponentModel.ISupportInitialize).BeginInit()
+        Me.MenuStrip1.SuspendLayout()
         Me.SuspendLayout()
         '
         'btnRefresh
@@ -87,9 +91,10 @@ Partial Class Form1
         Me.Panel1.Controls.Add(Me.TabControl1)
         Me.Panel1.Controls.Add(Me.GroupBox3)
         Me.Panel1.Controls.Add(Me.GroupBox1)
+        Me.Panel1.Controls.Add(Me.MenuStrip1)
         Me.Panel1.Location = New System.Drawing.Point(0, 0)
         Me.Panel1.Name = "Panel1"
-        Me.Panel1.Size = New System.Drawing.Size(1444, 1058)
+        Me.Panel1.Size = New System.Drawing.Size(1444, 921)
         Me.Panel1.TabIndex = 1
         '
         'TabControl1
@@ -100,10 +105,10 @@ Partial Class Form1
         Me.TabControl1.Controls.Add(Me.TabPage1)
         Me.TabControl1.Controls.Add(Me.TabPage2)
         Me.TabControl1.Controls.Add(Me.TabPage3)
-        Me.TabControl1.Location = New System.Drawing.Point(9, 462)
+        Me.TabControl1.Location = New System.Drawing.Point(7, 397)
         Me.TabControl1.Name = "TabControl1"
         Me.TabControl1.SelectedIndex = 0
-        Me.TabControl1.Size = New System.Drawing.Size(1416, 325)
+        Me.TabControl1.Size = New System.Drawing.Size(1416, 323)
         Me.TabControl1.TabIndex = 4
         '
         'TabPage1
@@ -112,7 +117,7 @@ Partial Class Form1
         Me.TabPage1.Location = New System.Drawing.Point(4, 25)
         Me.TabPage1.Name = "TabPage1"
         Me.TabPage1.Padding = New System.Windows.Forms.Padding(3)
-        Me.TabPage1.Size = New System.Drawing.Size(1408, 296)
+        Me.TabPage1.Size = New System.Drawing.Size(1408, 294)
         Me.TabPage1.TabIndex = 0
         Me.TabPage1.Text = "Optional"
         Me.TabPage1.UseVisualStyleBackColor = True
@@ -128,7 +133,7 @@ Partial Class Form1
         Me.GroupBox5.Controls.Add(Me.btnInstallUninstallOptional)
         Me.GroupBox5.Location = New System.Drawing.Point(6, 6)
         Me.GroupBox5.Name = "GroupBox5"
-        Me.GroupBox5.Size = New System.Drawing.Size(1396, 284)
+        Me.GroupBox5.Size = New System.Drawing.Size(1396, 282)
         Me.GroupBox5.TabIndex = 2
         Me.GroupBox5.TabStop = False
         '
@@ -155,7 +160,7 @@ Partial Class Form1
         Me.dgOptional.ReadOnly = True
         Me.dgOptional.RowHeadersWidth = 51
         Me.dgOptional.RowTemplate.Height = 24
-        Me.dgOptional.Size = New System.Drawing.Size(1384, 226)
+        Me.dgOptional.Size = New System.Drawing.Size(1384, 224)
         Me.dgOptional.TabIndex = 2
         '
         'btnClearOptional
@@ -321,9 +326,9 @@ Partial Class Form1
         Me.GroupBox3.Anchor = CType(((System.Windows.Forms.AnchorStyles.Bottom Or System.Windows.Forms.AnchorStyles.Left) _
             Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
         Me.GroupBox3.Controls.Add(Me.txtLog)
-        Me.GroupBox3.Location = New System.Drawing.Point(3, 794)
+        Me.GroupBox3.Location = New System.Drawing.Point(7, 726)
         Me.GroupBox3.Name = "GroupBox3"
-        Me.GroupBox3.Size = New System.Drawing.Size(1431, 259)
+        Me.GroupBox3.Size = New System.Drawing.Size(1431, 190)
         Me.GroupBox3.TabIndex = 0
         Me.GroupBox3.TabStop = False
         Me.GroupBox3.Text = "Log"
@@ -338,7 +343,7 @@ Partial Class Form1
         Me.txtLog.Name = "txtLog"
         Me.txtLog.ReadOnly = True
         Me.txtLog.ScrollBars = System.Windows.Forms.ScrollBars.Vertical
-        Me.txtLog.Size = New System.Drawing.Size(1419, 232)
+        Me.txtLog.Size = New System.Drawing.Size(1419, 163)
         Me.txtLog.TabIndex = 0
         '
         'GroupBox1
@@ -353,9 +358,9 @@ Partial Class Form1
         Me.GroupBox1.Controls.Add(Me.btnAddToUnintallList)
         Me.GroupBox1.Controls.Add(Me.btnRefresh)
         Me.GroupBox1.Controls.Add(Me.dgListInstall)
-        Me.GroupBox1.Location = New System.Drawing.Point(7, 3)
+        Me.GroupBox1.Location = New System.Drawing.Point(7, 39)
         Me.GroupBox1.Name = "GroupBox1"
-        Me.GroupBox1.Size = New System.Drawing.Size(1427, 454)
+        Me.GroupBox1.Size = New System.Drawing.Size(1427, 352)
         Me.GroupBox1.TabIndex = 2
         Me.GroupBox1.TabStop = False
         Me.GroupBox1.Text = "List of installed apps"
@@ -427,7 +432,7 @@ Partial Class Form1
         Me.dgListInstall.Name = "dgListInstall"
         Me.dgListInstall.RowHeadersWidth = 51
         Me.dgListInstall.RowTemplate.Height = 24
-        Me.dgListInstall.Size = New System.Drawing.Size(1402, 376)
+        Me.dgListInstall.Size = New System.Drawing.Size(1402, 274)
         Me.dgListInstall.TabIndex = 1
         '
         'cbList
@@ -438,14 +443,36 @@ Partial Class Form1
         Me.cbList.Name = "cbList"
         Me.cbList.Width = 50
         '
+        'MenuStrip1
+        '
+        Me.MenuStrip1.BackColor = System.Drawing.SystemColors.ActiveBorder
+        Me.MenuStrip1.ImageScalingSize = New System.Drawing.Size(20, 20)
+        Me.MenuStrip1.Items.AddRange(New System.Windows.Forms.ToolStripItem() {Me.StartupSettingToolStripMenuItem})
+        Me.MenuStrip1.Location = New System.Drawing.Point(0, 0)
+        Me.MenuStrip1.Name = "MenuStrip1"
+        Me.MenuStrip1.Size = New System.Drawing.Size(1444, 28)
+        Me.MenuStrip1.TabIndex = 5
+        Me.MenuStrip1.Text = "MenuStrip1"
+        '
+        'StartupSettingToolStripMenuItem
+        '
+        Me.StartupSettingToolStripMenuItem.BackColor = System.Drawing.SystemColors.ButtonFace
+        Me.StartupSettingToolStripMenuItem.Name = "StartupSettingToolStripMenuItem"
+        Me.StartupSettingToolStripMenuItem.Size = New System.Drawing.Size(122, 24)
+        Me.StartupSettingToolStripMenuItem.Text = "Startup Setting"
+        '
         'Form1
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(8.0!, 16.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
-        Me.ClientSize = New System.Drawing.Size(1446, 1065)
+        Me.ClientSize = New System.Drawing.Size(1446, 928)
         Me.Controls.Add(Me.Panel1)
+        Me.Icon = CType(resources.GetObject("$this.Icon"), System.Drawing.Icon)
         Me.Name = "Form1"
+        Me.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen
+        Me.Text = "Bloatware App"
         Me.Panel1.ResumeLayout(False)
+        Me.Panel1.PerformLayout()
         Me.TabControl1.ResumeLayout(False)
         Me.TabPage1.ResumeLayout(False)
         Me.GroupBox5.ResumeLayout(False)
@@ -461,6 +488,8 @@ Partial Class Form1
         Me.GroupBox1.ResumeLayout(False)
         Me.GroupBox1.PerformLayout()
         CType(Me.dgListInstall, System.ComponentModel.ISupportInitialize).EndInit()
+        Me.MenuStrip1.ResumeLayout(False)
+        Me.MenuStrip1.PerformLayout()
         Me.ResumeLayout(False)
 
     End Sub
@@ -497,4 +526,6 @@ Partial Class Form1
     Friend WithEvents btnRefreshOptional As Button
     Friend WithEvents btnRefeshDataEssential As Button
     Friend WithEvents btnRefreshDataBloatware As Button
+    Friend WithEvents MenuStrip1 As MenuStrip
+    Friend WithEvents StartupSettingToolStripMenuItem As ToolStripMenuItem
 End Class

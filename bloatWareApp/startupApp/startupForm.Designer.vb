@@ -22,32 +22,38 @@ Partial Class startupForm
     'Do not modify it using the code editor.
     <System.Diagnostics.DebuggerStepThrough()> _
     Private Sub InitializeComponent()
+        Dim resources As System.ComponentModel.ComponentResourceManager = New System.ComponentModel.ComponentResourceManager(GetType(startupForm))
         Me.btnRefresh = New System.Windows.Forms.Button()
         Me.dgStartup = New System.Windows.Forms.DataGridView()
         Me.TabControl1 = New System.Windows.Forms.TabControl()
-        Me.TabPage1 = New System.Windows.Forms.TabPage()
+        Me.TabPageOptionalStratup = New System.Windows.Forms.TabPage()
         Me.GroupBox1 = New System.Windows.Forms.GroupBox()
+        Me.btnDeleteOptionalStartup = New System.Windows.Forms.Button()
         Me.dgOptionalStratup = New System.Windows.Forms.DataGridView()
-        Me.TabPage2 = New System.Windows.Forms.TabPage()
+        Me.TabPageEssentialStratup = New System.Windows.Forms.TabPage()
         Me.GroupBox2 = New System.Windows.Forms.GroupBox()
+        Me.btnDeleteEssentiallStartup = New System.Windows.Forms.Button()
         Me.dgEssentialStratup = New System.Windows.Forms.DataGridView()
-        Me.TabPage3 = New System.Windows.Forms.TabPage()
+        Me.TabPageBloatwareStratup = New System.Windows.Forms.TabPage()
         Me.GroupBox3 = New System.Windows.Forms.GroupBox()
+        Me.btnDeleteBloatwareStartup = New System.Windows.Forms.Button()
         Me.dgBloatwareStratup = New System.Windows.Forms.DataGridView()
         Me.btnMarkToOptional = New System.Windows.Forms.Button()
         Me.btnMarkToEssential = New System.Windows.Forms.Button()
         Me.btnAddToUnintallList = New System.Windows.Forms.Button()
+        Me.PictureBox1 = New System.Windows.Forms.PictureBox()
         CType(Me.dgStartup, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.TabControl1.SuspendLayout()
-        Me.TabPage1.SuspendLayout()
+        Me.TabPageOptionalStratup.SuspendLayout()
         Me.GroupBox1.SuspendLayout()
         CType(Me.dgOptionalStratup, System.ComponentModel.ISupportInitialize).BeginInit()
-        Me.TabPage2.SuspendLayout()
+        Me.TabPageEssentialStratup.SuspendLayout()
         Me.GroupBox2.SuspendLayout()
         CType(Me.dgEssentialStratup, System.ComponentModel.ISupportInitialize).BeginInit()
-        Me.TabPage3.SuspendLayout()
+        Me.TabPageBloatwareStratup.SuspendLayout()
         Me.GroupBox3.SuspendLayout()
         CType(Me.dgBloatwareStratup, System.ComponentModel.ISupportInitialize).BeginInit()
+        CType(Me.PictureBox1, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.SuspendLayout()
         '
         'btnRefresh
@@ -76,37 +82,47 @@ Partial Class startupForm
         Me.TabControl1.Anchor = CType((((System.Windows.Forms.AnchorStyles.Top Or System.Windows.Forms.AnchorStyles.Bottom) _
             Or System.Windows.Forms.AnchorStyles.Left) _
             Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
-        Me.TabControl1.Controls.Add(Me.TabPage1)
-        Me.TabControl1.Controls.Add(Me.TabPage2)
-        Me.TabControl1.Controls.Add(Me.TabPage3)
+        Me.TabControl1.Controls.Add(Me.TabPageOptionalStratup)
+        Me.TabControl1.Controls.Add(Me.TabPageEssentialStratup)
+        Me.TabControl1.Controls.Add(Me.TabPageBloatwareStratup)
         Me.TabControl1.Location = New System.Drawing.Point(6, 297)
         Me.TabControl1.Name = "TabControl1"
         Me.TabControl1.SelectedIndex = 0
         Me.TabControl1.Size = New System.Drawing.Size(1062, 336)
         Me.TabControl1.TabIndex = 2
         '
-        'TabPage1
+        'TabPageOptionalStratup
         '
-        Me.TabPage1.Controls.Add(Me.GroupBox1)
-        Me.TabPage1.Location = New System.Drawing.Point(4, 25)
-        Me.TabPage1.Name = "TabPage1"
-        Me.TabPage1.Padding = New System.Windows.Forms.Padding(3)
-        Me.TabPage1.Size = New System.Drawing.Size(1054, 307)
-        Me.TabPage1.TabIndex = 0
-        Me.TabPage1.Text = "Optional"
-        Me.TabPage1.UseVisualStyleBackColor = True
+        Me.TabPageOptionalStratup.Controls.Add(Me.GroupBox1)
+        Me.TabPageOptionalStratup.Location = New System.Drawing.Point(4, 25)
+        Me.TabPageOptionalStratup.Name = "TabPageOptionalStratup"
+        Me.TabPageOptionalStratup.Padding = New System.Windows.Forms.Padding(3)
+        Me.TabPageOptionalStratup.Size = New System.Drawing.Size(1054, 307)
+        Me.TabPageOptionalStratup.TabIndex = 0
+        Me.TabPageOptionalStratup.Text = "Optional"
+        Me.TabPageOptionalStratup.UseVisualStyleBackColor = True
         '
         'GroupBox1
         '
         Me.GroupBox1.Anchor = CType((((System.Windows.Forms.AnchorStyles.Top Or System.Windows.Forms.AnchorStyles.Bottom) _
             Or System.Windows.Forms.AnchorStyles.Left) _
             Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
+        Me.GroupBox1.Controls.Add(Me.btnDeleteOptionalStartup)
         Me.GroupBox1.Controls.Add(Me.dgOptionalStratup)
         Me.GroupBox1.Location = New System.Drawing.Point(6, 2)
         Me.GroupBox1.Name = "GroupBox1"
         Me.GroupBox1.Size = New System.Drawing.Size(1042, 299)
         Me.GroupBox1.TabIndex = 0
         Me.GroupBox1.TabStop = False
+        '
+        'btnDeleteOptionalStartup
+        '
+        Me.btnDeleteOptionalStartup.Location = New System.Drawing.Point(6, 11)
+        Me.btnDeleteOptionalStartup.Name = "btnDeleteOptionalStartup"
+        Me.btnDeleteOptionalStartup.Size = New System.Drawing.Size(98, 30)
+        Me.btnDeleteOptionalStartup.TabIndex = 11
+        Me.btnDeleteOptionalStartup.Text = "Delete"
+        Me.btnDeleteOptionalStartup.UseVisualStyleBackColor = True
         '
         'dgOptionalStratup
         '
@@ -121,28 +137,38 @@ Partial Class startupForm
         Me.dgOptionalStratup.Size = New System.Drawing.Size(1030, 246)
         Me.dgOptionalStratup.TabIndex = 0
         '
-        'TabPage2
+        'TabPageEssentialStratup
         '
-        Me.TabPage2.Controls.Add(Me.GroupBox2)
-        Me.TabPage2.Location = New System.Drawing.Point(4, 25)
-        Me.TabPage2.Name = "TabPage2"
-        Me.TabPage2.Padding = New System.Windows.Forms.Padding(3)
-        Me.TabPage2.Size = New System.Drawing.Size(1054, 307)
-        Me.TabPage2.TabIndex = 1
-        Me.TabPage2.Text = "Essential"
-        Me.TabPage2.UseVisualStyleBackColor = True
+        Me.TabPageEssentialStratup.Controls.Add(Me.GroupBox2)
+        Me.TabPageEssentialStratup.Location = New System.Drawing.Point(4, 25)
+        Me.TabPageEssentialStratup.Name = "TabPageEssentialStratup"
+        Me.TabPageEssentialStratup.Padding = New System.Windows.Forms.Padding(3)
+        Me.TabPageEssentialStratup.Size = New System.Drawing.Size(1054, 307)
+        Me.TabPageEssentialStratup.TabIndex = 1
+        Me.TabPageEssentialStratup.Text = "Essential"
+        Me.TabPageEssentialStratup.UseVisualStyleBackColor = True
         '
         'GroupBox2
         '
         Me.GroupBox2.Anchor = CType((((System.Windows.Forms.AnchorStyles.Top Or System.Windows.Forms.AnchorStyles.Bottom) _
             Or System.Windows.Forms.AnchorStyles.Left) _
             Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
+        Me.GroupBox2.Controls.Add(Me.btnDeleteEssentiallStartup)
         Me.GroupBox2.Controls.Add(Me.dgEssentialStratup)
         Me.GroupBox2.Location = New System.Drawing.Point(6, 2)
         Me.GroupBox2.Name = "GroupBox2"
         Me.GroupBox2.Size = New System.Drawing.Size(1042, 299)
         Me.GroupBox2.TabIndex = 1
         Me.GroupBox2.TabStop = False
+        '
+        'btnDeleteEssentiallStartup
+        '
+        Me.btnDeleteEssentiallStartup.Location = New System.Drawing.Point(6, 11)
+        Me.btnDeleteEssentiallStartup.Name = "btnDeleteEssentiallStartup"
+        Me.btnDeleteEssentiallStartup.Size = New System.Drawing.Size(98, 30)
+        Me.btnDeleteEssentiallStartup.TabIndex = 12
+        Me.btnDeleteEssentiallStartup.Text = "Delete"
+        Me.btnDeleteEssentiallStartup.UseVisualStyleBackColor = True
         '
         'dgEssentialStratup
         '
@@ -157,27 +183,37 @@ Partial Class startupForm
         Me.dgEssentialStratup.Size = New System.Drawing.Size(1030, 246)
         Me.dgEssentialStratup.TabIndex = 1
         '
-        'TabPage3
+        'TabPageBloatwareStratup
         '
-        Me.TabPage3.Controls.Add(Me.GroupBox3)
-        Me.TabPage3.Location = New System.Drawing.Point(4, 25)
-        Me.TabPage3.Name = "TabPage3"
-        Me.TabPage3.Size = New System.Drawing.Size(1054, 307)
-        Me.TabPage3.TabIndex = 2
-        Me.TabPage3.Text = "Bloatware"
-        Me.TabPage3.UseVisualStyleBackColor = True
+        Me.TabPageBloatwareStratup.Controls.Add(Me.GroupBox3)
+        Me.TabPageBloatwareStratup.Location = New System.Drawing.Point(4, 25)
+        Me.TabPageBloatwareStratup.Name = "TabPageBloatwareStratup"
+        Me.TabPageBloatwareStratup.Size = New System.Drawing.Size(1054, 307)
+        Me.TabPageBloatwareStratup.TabIndex = 2
+        Me.TabPageBloatwareStratup.Text = "Bloatware"
+        Me.TabPageBloatwareStratup.UseVisualStyleBackColor = True
         '
         'GroupBox3
         '
         Me.GroupBox3.Anchor = CType((((System.Windows.Forms.AnchorStyles.Top Or System.Windows.Forms.AnchorStyles.Bottom) _
             Or System.Windows.Forms.AnchorStyles.Left) _
             Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
+        Me.GroupBox3.Controls.Add(Me.btnDeleteBloatwareStartup)
         Me.GroupBox3.Controls.Add(Me.dgBloatwareStratup)
         Me.GroupBox3.Location = New System.Drawing.Point(6, 2)
         Me.GroupBox3.Name = "GroupBox3"
         Me.GroupBox3.Size = New System.Drawing.Size(1042, 299)
         Me.GroupBox3.TabIndex = 2
         Me.GroupBox3.TabStop = False
+        '
+        'btnDeleteBloatwareStartup
+        '
+        Me.btnDeleteBloatwareStartup.Location = New System.Drawing.Point(6, 11)
+        Me.btnDeleteBloatwareStartup.Name = "btnDeleteBloatwareStartup"
+        Me.btnDeleteBloatwareStartup.Size = New System.Drawing.Size(98, 30)
+        Me.btnDeleteBloatwareStartup.TabIndex = 12
+        Me.btnDeleteBloatwareStartup.Text = "Delete"
+        Me.btnDeleteBloatwareStartup.UseVisualStyleBackColor = True
         '
         'dgBloatwareStratup
         '
@@ -219,30 +255,45 @@ Partial Class startupForm
         Me.btnAddToUnintallList.Text = "Mark To Bloatware List"
         Me.btnAddToUnintallList.UseVisualStyleBackColor = True
         '
+        'PictureBox1
+        '
+        Me.PictureBox1.Image = Global.bloatWareApp.My.Resources.Resources.Loading
+        Me.PictureBox1.InitialImage = Nothing
+        Me.PictureBox1.Location = New System.Drawing.Point(449, 103)
+        Me.PictureBox1.Name = "PictureBox1"
+        Me.PictureBox1.Size = New System.Drawing.Size(166, 152)
+        Me.PictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage
+        Me.PictureBox1.TabIndex = 11
+        Me.PictureBox1.TabStop = False
+        '
         'startupForm
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(8.0!, 16.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
         Me.ClientSize = New System.Drawing.Size(1080, 645)
+        Me.Controls.Add(Me.PictureBox1)
         Me.Controls.Add(Me.btnMarkToOptional)
         Me.Controls.Add(Me.btnMarkToEssential)
         Me.Controls.Add(Me.btnAddToUnintallList)
         Me.Controls.Add(Me.TabControl1)
         Me.Controls.Add(Me.dgStartup)
         Me.Controls.Add(Me.btnRefresh)
+        Me.Icon = CType(resources.GetObject("$this.Icon"), System.Drawing.Icon)
         Me.Name = "startupForm"
+        Me.StartPosition = System.Windows.Forms.FormStartPosition.CenterParent
         Me.Text = "Startup Form"
         CType(Me.dgStartup, System.ComponentModel.ISupportInitialize).EndInit()
         Me.TabControl1.ResumeLayout(False)
-        Me.TabPage1.ResumeLayout(False)
+        Me.TabPageOptionalStratup.ResumeLayout(False)
         Me.GroupBox1.ResumeLayout(False)
         CType(Me.dgOptionalStratup, System.ComponentModel.ISupportInitialize).EndInit()
-        Me.TabPage2.ResumeLayout(False)
+        Me.TabPageEssentialStratup.ResumeLayout(False)
         Me.GroupBox2.ResumeLayout(False)
         CType(Me.dgEssentialStratup, System.ComponentModel.ISupportInitialize).EndInit()
-        Me.TabPage3.ResumeLayout(False)
+        Me.TabPageBloatwareStratup.ResumeLayout(False)
         Me.GroupBox3.ResumeLayout(False)
         CType(Me.dgBloatwareStratup, System.ComponentModel.ISupportInitialize).EndInit()
+        CType(Me.PictureBox1, System.ComponentModel.ISupportInitialize).EndInit()
         Me.ResumeLayout(False)
 
     End Sub
@@ -250,11 +301,11 @@ Partial Class startupForm
     Friend WithEvents btnRefresh As Button
     Friend WithEvents dgStartup As DataGridView
     Friend WithEvents TabControl1 As TabControl
-    Friend WithEvents TabPage1 As TabPage
-    Friend WithEvents TabPage2 As TabPage
+    Friend WithEvents TabPageOptionalStratup As TabPage
+    Friend WithEvents TabPageEssentialStratup As TabPage
     Friend WithEvents GroupBox1 As GroupBox
     Friend WithEvents GroupBox2 As GroupBox
-    Friend WithEvents TabPage3 As TabPage
+    Friend WithEvents TabPageBloatwareStratup As TabPage
     Friend WithEvents GroupBox3 As GroupBox
     Friend WithEvents dgOptionalStratup As DataGridView
     Friend WithEvents dgEssentialStratup As DataGridView
@@ -262,4 +313,8 @@ Partial Class startupForm
     Friend WithEvents btnMarkToOptional As Button
     Friend WithEvents btnMarkToEssential As Button
     Friend WithEvents btnAddToUnintallList As Button
+    Friend WithEvents btnDeleteOptionalStartup As Button
+    Friend WithEvents btnDeleteEssentiallStartup As Button
+    Friend WithEvents btnDeleteBloatwareStartup As Button
+    Friend WithEvents PictureBox1 As PictureBox
 End Class

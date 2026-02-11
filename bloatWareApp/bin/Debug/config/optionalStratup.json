@@ -1,7 +1,7 @@
 {
   "Items": [
     {
-      "Key": null,
+      "Key": "Registry|Current User|Teams",
       "Name": "Teams",
       "Source": "Registry",
       "Location": "Current User",

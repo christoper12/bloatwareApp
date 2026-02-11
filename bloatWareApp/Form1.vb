@@ -1110,4 +1110,8 @@ Public Class Form1
     Private Sub btnRefreshDataBloatware_Click(sender As Object, e As EventArgs) Handles btnRefreshDataBloatware.Click
         btnRefresh.PerformClick()
     End Sub
+
+    Private Sub StartupSettingToolStripMenuItem_Click(sender As Object, e As EventArgs) Handles StartupSettingToolStripMenuItem.Click
+        startupForm.ShowDialog(Me)
+    End Sub
 End Class

@@ -1,7 +1,7 @@
 {
   "Items": [
     {
-      "Key": null,
+      "Key": "Registry|All Users|SecurityHealth",
       "Name": "SecurityHealth",
       "Source": "Registry",
       "Location": "All Users",

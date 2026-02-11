@@ -1,7 +1,7 @@
 {
   "Items": [
     {
-      "Key": null,
+      "Key": "Registry|Current User|OneDrive",
       "Name": "OneDrive",
       "Source": "Registry",
       "Location": "Current User",
