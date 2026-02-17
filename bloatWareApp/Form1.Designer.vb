@@ -33,7 +33,7 @@ Partial Class Form1
         Me.btnClearOptional = New System.Windows.Forms.Button()
         Me.btnInstallUninstallOptional = New System.Windows.Forms.Button()
         Me.TabPage2 = New System.Windows.Forms.TabPage()
-        Me.GroupBox4 = New System.Windows.Forms.GroupBox()
+        Me.btnShowDataEssentialMaster = New System.Windows.Forms.GroupBox()
         Me.btnRefeshDataEssential = New System.Windows.Forms.Button()
         Me.dgEsential = New System.Windows.Forms.DataGridView()
         Me.btnClearEsential = New System.Windows.Forms.Button()
@@ -57,13 +57,14 @@ Partial Class Form1
         Me.cbList = New System.Windows.Forms.DataGridViewCheckBoxColumn()
         Me.MenuStrip1 = New System.Windows.Forms.MenuStrip()
         Me.StartupSettingToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
+        Me.Button1 = New System.Windows.Forms.Button()
         Me.Panel1.SuspendLayout()
         Me.TabControl1.SuspendLayout()
         Me.TabPage1.SuspendLayout()
         Me.GroupBox5.SuspendLayout()
         CType(Me.dgOptional, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.TabPage2.SuspendLayout()
-        Me.GroupBox4.SuspendLayout()
+        Me.btnShowDataEssentialMaster.SuspendLayout()
         CType(Me.dgEsential, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.TabPage3.SuspendLayout()
         Me.GroupBox2.SuspendLayout()
@@ -183,29 +184,30 @@ Partial Class Form1
         '
         'TabPage2
         '
-        Me.TabPage2.Controls.Add(Me.GroupBox4)
+        Me.TabPage2.Controls.Add(Me.btnShowDataEssentialMaster)
         Me.TabPage2.Location = New System.Drawing.Point(4, 25)
         Me.TabPage2.Name = "TabPage2"
         Me.TabPage2.Padding = New System.Windows.Forms.Padding(3)
-        Me.TabPage2.Size = New System.Drawing.Size(1408, 296)
+        Me.TabPage2.Size = New System.Drawing.Size(1408, 294)
         Me.TabPage2.TabIndex = 1
         Me.TabPage2.Text = "Essential"
         Me.TabPage2.UseVisualStyleBackColor = True
         '
-        'GroupBox4
+        'btnShowDataEssentialMaster
         '
-        Me.GroupBox4.Anchor = CType((((System.Windows.Forms.AnchorStyles.Top Or System.Windows.Forms.AnchorStyles.Bottom) _
+        Me.btnShowDataEssentialMaster.Anchor = CType((((System.Windows.Forms.AnchorStyles.Top Or System.Windows.Forms.AnchorStyles.Bottom) _
             Or System.Windows.Forms.AnchorStyles.Left) _
             Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
-        Me.GroupBox4.Controls.Add(Me.btnRefeshDataEssential)
-        Me.GroupBox4.Controls.Add(Me.dgEsential)
-        Me.GroupBox4.Controls.Add(Me.btnClearEsential)
-        Me.GroupBox4.Controls.Add(Me.btnInstall)
-        Me.GroupBox4.Location = New System.Drawing.Point(6, 6)
-        Me.GroupBox4.Name = "GroupBox4"
-        Me.GroupBox4.Size = New System.Drawing.Size(1396, 284)
-        Me.GroupBox4.TabIndex = 1
-        Me.GroupBox4.TabStop = False
+        Me.btnShowDataEssentialMaster.Controls.Add(Me.Button1)
+        Me.btnShowDataEssentialMaster.Controls.Add(Me.btnRefeshDataEssential)
+        Me.btnShowDataEssentialMaster.Controls.Add(Me.dgEsential)
+        Me.btnShowDataEssentialMaster.Controls.Add(Me.btnClearEsential)
+        Me.btnShowDataEssentialMaster.Controls.Add(Me.btnInstall)
+        Me.btnShowDataEssentialMaster.Location = New System.Drawing.Point(6, 6)
+        Me.btnShowDataEssentialMaster.Name = "btnShowDataEssentialMaster"
+        Me.btnShowDataEssentialMaster.Size = New System.Drawing.Size(1396, 284)
+        Me.btnShowDataEssentialMaster.TabIndex = 1
+        Me.btnShowDataEssentialMaster.TabStop = False
         '
         'btnRefeshDataEssential
         '
@@ -257,7 +259,7 @@ Partial Class Form1
         Me.TabPage3.Location = New System.Drawing.Point(4, 25)
         Me.TabPage3.Name = "TabPage3"
         Me.TabPage3.Padding = New System.Windows.Forms.Padding(3)
-        Me.TabPage3.Size = New System.Drawing.Size(1408, 296)
+        Me.TabPage3.Size = New System.Drawing.Size(1408, 294)
         Me.TabPage3.TabIndex = 2
         Me.TabPage3.Text = "Bloatware"
         Me.TabPage3.UseVisualStyleBackColor = True
@@ -461,6 +463,15 @@ Partial Class Form1
         Me.StartupSettingToolStripMenuItem.Size = New System.Drawing.Size(122, 24)
         Me.StartupSettingToolStripMenuItem.Text = "Startup Setting"
         '
+        'Button1
+        '
+        Me.Button1.Location = New System.Drawing.Point(1223, 16)
+        Me.Button1.Name = "Button1"
+        Me.Button1.Size = New System.Drawing.Size(167, 30)
+        Me.Button1.TabIndex = 6
+        Me.Button1.Text = "Master Essential Data"
+        Me.Button1.UseVisualStyleBackColor = True
+        '
         'Form1
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(8.0!, 16.0!)
@@ -478,7 +489,7 @@ Partial Class Form1
         Me.GroupBox5.ResumeLayout(False)
         CType(Me.dgOptional, System.ComponentModel.ISupportInitialize).EndInit()
         Me.TabPage2.ResumeLayout(False)
-        Me.GroupBox4.ResumeLayout(False)
+        Me.btnShowDataEssentialMaster.ResumeLayout(False)
         CType(Me.dgEsential, System.ComponentModel.ISupportInitialize).EndInit()
         Me.TabPage3.ResumeLayout(False)
         Me.GroupBox2.ResumeLayout(False)
@@ -517,7 +528,7 @@ Partial Class Form1
     Friend WithEvents dgOptional As DataGridView
     Friend WithEvents btnClearOptional As Button
     Friend WithEvents btnInstallUninstallOptional As Button
-    Friend WithEvents GroupBox4 As GroupBox
+    Friend WithEvents btnShowDataEssentialMaster As GroupBox
     Friend WithEvents dgEsential As DataGridView
     Friend WithEvents btnClearEsential As Button
     Friend WithEvents btnInstall As Button
@@ -528,4 +539,5 @@ Partial Class Form1
     Friend WithEvents btnRefreshDataBloatware As Button
     Friend WithEvents MenuStrip1 As MenuStrip
     Friend WithEvents StartupSettingToolStripMenuItem As ToolStripMenuItem
+    Friend WithEvents Button1 As Button
 End Class

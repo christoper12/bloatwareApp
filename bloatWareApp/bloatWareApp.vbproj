@@ -100,6 +100,12 @@
     <Compile Include="frmInstallApp.vb">
       <SubType>Form</SubType>
     </Compile>
+    <Compile Include="frmMasterEssentialData.Designer.vb">
+      <DependentUpon>frmMasterEssentialData.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frmMasterEssentialData.vb">
+      <SubType>Form</SubType>
+    </Compile>
     <Compile Include="InstalledApp.vb" />
     <Compile Include="My Project\AssemblyInfo.vb" />
     <Compile Include="My Project\Application.Designer.vb">
@@ -138,6 +144,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="frmInstallApp.resx">
       <DependentUpon>frmInstallApp.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmMasterEssentialData.resx">
+      <DependentUpon>frmMasterEssentialData.vb</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="My Project\Resources.resx">
       <Generator>VbMyResourcesResXFileCodeGenerator</Generator>

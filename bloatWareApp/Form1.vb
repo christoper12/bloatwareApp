@@ -7,38 +7,38 @@ Imports System.Text
 Public Class Form1
     Private Sub Form1_Load(sender As Object, e As EventArgs) Handles MyBase.Load
 
-        'If Not IsRunAsAdministrator() Then
+        If Not IsRunAsAdministrator() Then
 
-        '    Dim result = MessageBox.Show(
-        '    "The application requires Administrator rights to continue." & vbCrLf &
-        '    "Click OK to restart as Administrator.",
-        '    "Administrator Access Rights",
-        '    MessageBoxButtons.OKCancel,
-        '    MessageBoxIcon.Warning
-        ')
+            Dim result = MessageBox.Show(
+            "The application requires Administrator rights to continue." & vbCrLf &
+            "Click OK to restart as Administrator.",
+            "Administrator Access Rights",
+            MessageBoxButtons.OKCancel,
+            MessageBoxIcon.Warning
+        )
 
-        '    If result = DialogResult.OK Then
-        '        Try
-        '            Dim psi As New ProcessStartInfo()
-        '            psi.FileName = Application.ExecutablePath
-        '            psi.UseShellExecute = True
-        '            psi.Verb = "runas" ' Windows akan minta username/password admin
+            If result = DialogResult.OK Then
+                Try
+                    Dim psi As New ProcessStartInfo()
+                    psi.FileName = Application.ExecutablePath
+                    psi.UseShellExecute = True
+                    psi.Verb = "runas" ' Windows akan minta username/password admin
 
-        '            Process.Start(psi)
+                    Process.Start(psi)
 
-        '        Catch ex As Exception
-        '            MessageBox.Show(
-        '            "Administrator request was canceled or failed.",
-        '            "Elevation Failed",
-        '            MessageBoxButtons.OK,
-        '            MessageBoxIcon.Error
-        '        )
-        '        End Try
-        '    End If
+                Catch ex As Exception
+                    MessageBox.Show(
+                    "Administrator request was canceled or failed.",
+                    "Elevation Failed",
+                    MessageBoxButtons.OK,
+                    MessageBoxIcon.Error
+                )
+                End Try
+            End If
 
-        '    Application.Exit()
-        '    Return
-        'End If
+            Application.Exit()
+            Return
+        End If
 
         ' ==========================
         ' KODE NORMAL ANDA LANJUT DI SINI
@@ -1113,5 +1113,10 @@ Public Class Form1
 
     Private Sub StartupSettingToolStripMenuItem_Click(sender As Object, e As EventArgs) Handles StartupSettingToolStripMenuItem.Click
         startupForm.ShowDialog(Me)
+    End Sub
+
+    Private Sub Button1_Click(sender As Object, e As EventArgs) Handles Button1.Click
+        frmMasterEssentialData.Close()
+        frmMasterEssentialData.Show()
     End Sub
 End Class
