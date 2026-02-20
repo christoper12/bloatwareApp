@@ -34,6 +34,7 @@ Partial Class Form1
         Me.btnInstallUninstallOptional = New System.Windows.Forms.Button()
         Me.TabPage2 = New System.Windows.Forms.TabPage()
         Me.btnShowDataEssentialMaster = New System.Windows.Forms.GroupBox()
+        Me.Button1 = New System.Windows.Forms.Button()
         Me.btnRefeshDataEssential = New System.Windows.Forms.Button()
         Me.dgEsential = New System.Windows.Forms.DataGridView()
         Me.btnClearEsential = New System.Windows.Forms.Button()
@@ -57,7 +58,6 @@ Partial Class Form1
         Me.cbList = New System.Windows.Forms.DataGridViewCheckBoxColumn()
         Me.MenuStrip1 = New System.Windows.Forms.MenuStrip()
         Me.StartupSettingToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
-        Me.Button1 = New System.Windows.Forms.Button()
         Me.Panel1.SuspendLayout()
         Me.TabControl1.SuspendLayout()
         Me.TabPage1.SuspendLayout()
@@ -208,6 +208,15 @@ Partial Class Form1
         Me.btnShowDataEssentialMaster.Size = New System.Drawing.Size(1396, 284)
         Me.btnShowDataEssentialMaster.TabIndex = 1
         Me.btnShowDataEssentialMaster.TabStop = False
+        '
+        'Button1
+        '
+        Me.Button1.Location = New System.Drawing.Point(1223, 16)
+        Me.Button1.Name = "Button1"
+        Me.Button1.Size = New System.Drawing.Size(167, 30)
+        Me.Button1.TabIndex = 6
+        Me.Button1.Text = "Master Essential Data"
+        Me.Button1.UseVisualStyleBackColor = True
         '
         'btnRefeshDataEssential
         '
@@ -462,15 +471,6 @@ Partial Class Form1
         Me.StartupSettingToolStripMenuItem.Name = "StartupSettingToolStripMenuItem"
         Me.StartupSettingToolStripMenuItem.Size = New System.Drawing.Size(122, 24)
         Me.StartupSettingToolStripMenuItem.Text = "Startup Setting"
-        '
-        'Button1
-        '
-        Me.Button1.Location = New System.Drawing.Point(1223, 16)
-        Me.Button1.Name = "Button1"
-        Me.Button1.Size = New System.Drawing.Size(167, 30)
-        Me.Button1.TabIndex = 6
-        Me.Button1.Text = "Master Essential Data"
-        Me.Button1.UseVisualStyleBackColor = True
         '
         'Form1
         '

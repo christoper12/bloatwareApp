@@ -1,1 +1,408 @@
-﻿[]
+﻿[
+    {
+        "Name":  "DBeaver 25.2.4",
+        "Version":  "25.2.4",
+        "Publisher":  "DBeaver Corp",
+        "UninstallString":  "\"C:\\Program Files\\DBeaver\\Uninstall.exe\" /allusers",
+        "Source":  "Registry"
+    },
+    {
+        "Name":  "Git",
+        "Version":  "2.51.2",
+        "Publisher":  "The Git Development Community",
+        "UninstallString":  "\"C:\\Program Files\\Git\\unins000.exe\"",
+        "Source":  "Registry"
+    },
+    {
+        "Name":  "Intel(R) Graphics Software \u0026 Drivers",
+        "Version":  "1.0.1084.3",
+        "Publisher":  "Intel(R) Corporation",
+        "UninstallString":  "\"C:\\Program Files\\Intel\\Intel(R) Graphics Software \u0026 Drivers\\Uninstaller.exe\" --uninstaller",
+        "Source":  "Registry"
+    },
+    {
+        "Name":  "Microsoft Visual Studio 2010 Tools for Office Runtime (x64)",
+        "Version":  "10.0.60910",
+        "Publisher":  "Microsoft Corporation",
+        "UninstallString":  "\"c:\\Program Files\\Common Files\\Microsoft Shared\\VSTO\\10.0\\Microsoft Visual Studio 2010 Tools for Office Runtime (x64)\\install.exe\"",
+        "Source":  "Registry"
+    },
+    {
+        "Name":  "Visual Studio Community 2026",
+        "Version":  "18.1.1",
+        "Publisher":  "Microsoft Corporation",
+        "UninstallString":  "\"C:\\Program Files (x86)\\Microsoft Visual Studio\\Installer\\setup.exe\" uninstall --installPath \"C:\\Program Files\\Microsoft Visual Studio\\18\\Community\"",
+        "Source":  "Registry"
+    },
+    {
+        "Name":  "Visual Studio Community 2026 Insiders",
+        "Version":  "Insiders [11201.2]",
+        "Publisher":  "Microsoft Corporation",
+        "UninstallString":  "\"C:\\Program Files (x86)\\Microsoft Visual Studio\\Installer\\setup.exe\" uninstall --installPath \"C:\\Program Files\\Microsoft Visual Studio\\18\\Insiders\"",
+        "Source":  "Registry"
+    },
+    {
+        "Name":  "Visual Studio Community 2022",
+        "Version":  "17.14.19",
+        "Publisher":  "Microsoft Corporation",
+        "UninstallString":  "\"C:\\Program Files (x86)\\Microsoft Visual Studio\\Installer\\setup.exe\" uninstall --installPath \"C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\"",
+        "Source":  "Registry"
+    },
+    {
+        "Name":  "Google Chrome",
+        "Version":  "144.0.7559.135",
+        "Publisher":  "Google LLC",
+        "UninstallString":  "\"C:\\Program Files\\Google\\Chrome\\Application\\144.0.7559.135\\Installer\\setup.exe\" --uninstall --channel=stable --system-level --verbose-logging",
+        "Source":  "Registry"
+    },
+    {
+        "Name":  "Trend Micro Security Agent",
+        "Version":  "6.7.4109",
+        "Publisher":  "Trend Micro Inc.",
+        "UninstallString":  "msiexec /x {BED0B8A2-2986-49F8-90D6-FA008D37A3D2} /qf /l+* \"C:\\WINDOWS\\temp\\wofie_uninstall.log\"",
+        "Source":  "Registry"
+    },
+    {
+        "Name":  "Microsoft Edge",
+        "Version":  "145.0.3800.65",
+        "Publisher":  "Microsoft Corporation",
+        "UninstallString":  "\"C:\\Program Files (x86)\\Microsoft\\Edge\\Application\\145.0.3800.65\\Installer\\setup.exe\" --uninstall --msedge --channel=stable --system-level --verbose-logging",
+        "Source":  "Registry"
+    },
+    {
+        "Name":  "Microsoft Help Viewer 2.2",
+        "Version":  "2.2.23107",
+        "Publisher":  "Microsoft Corporation",
+        "UninstallString":  "msiexec.exe /X{5730588A-33CA-373C-9D70-F716605B57D2}",
+        "Source":  "Registry"
+    },
+    {
+        "Name":  "TrackIT Third Party 1.0.0.0",
+        "Version":  "1.0.0.0",
+        "Publisher":  "Allied Recruitment",
+        "UninstallString":  "C:\\Program Files (x86)\\TrackIT Third Party\\uninst.exe",
+        "Source":  "Registry"
+    },
+    {
+        "Name":  "WinRAR 4.01 (32-bit)",
+        "Version":  "4.01.0",
+        "Publisher":  "win.rar GmbH",
+        "UninstallString":  "C:\\Program Files (x86)\\WinRAR\\uninstall.exe",
+        "Source":  "Registry"
+    },
+    {
+        "Name":  "Microsoft Visual C++ 2013 Redistributable (x64) - 12.0.40664",
+        "Version":  "12.0.40664.0",
+        "Publisher":  "Microsoft Corporation",
+        "UninstallString":  "\"C:\\ProgramData\\Package Cache\\{042d26ef-3dbe-4c25-95d3-4c1b11b235a7}\\vcredist_x64.exe\"  /uninstall",
+        "Source":  "Registry"
+    },
+    {
+        "Name":  "Application Insights Tools for Visual Studio 2015",
+        "Version":  "7.0.20622.1",
+        "Publisher":  "Microsoft Corporation",
+        "UninstallString":  "MsiExec.exe /I{0E4C791E-B78E-477D-BD5A-CDD0985BA6EC}",
+        "Source":  "Registry"
+    },
+    {
+        "Name":  "Microsoft Visual C++ v14 Redistributable (x86) - 14.50.35719",
+        "Version":  "14.50.35719.0",
+        "Publisher":  "Microsoft Corporation",
+        "UninstallString":  "\"C:\\ProgramData\\Package Cache\\{0e4ccf1b-d073-4cfe-8a24-e86185719b56}\\VC_redist.x86.exe\"  /uninstall",
+        "Source":  "Registry"
+    },
+    {
+        "Name":  "vs_CoreEditorFonts",
+        "Version":  "17.7.40001",
+        "Publisher":  "Microsoft Corporation",
+        "UninstallString":  "MsiExec.exe /I{1851460E-0E63-4117-B5BA-25A2F045801B}",
+        "Source":  "Registry"
+    },
+    {
+        "Name":  "Microsoft .NET Framework 4.5.1 SDK",
+        "Version":  "4.5.51641",
+        "Publisher":  "Microsoft Corporation",
+        "UninstallString":  "MsiExec.exe /X{19A5926D-66E1-46FC-854D-163AA10A52D3}",
+        "Source":  "Registry"
+    },
+    {
+        "Name":  "Entity Framework 6.1.3 Tools  for Visual Studio 2015",
+        "Version":  "14.0.40302.0",
+        "Publisher":  "Microsoft Corporation",
+        "UninstallString":  "MsiExec.exe /X{1A8A9739-BAD7-491F-B5B9-A79A2B965422}",
+        "Source":  "Registry"
+    },
+    {
+        "Name":  "Microsoft Visual Studio Professional 2015",
+        "Version":  "14.0.23107.10",
+        "Publisher":  "Microsoft Corporation",
+        "UninstallString":  "\"C:\\ProgramData\\Package Cache\\{1ef6a030-1244-4d01-95f3-299c0e3a3362}\\vs_professional.exe\"  /uninstall",
+        "Source":  "Registry"
+    },
+    {
+        "Name":  "Microsoft Windows Desktop Runtime - 5.0.17 (x64)",
+        "Version":  "5.0.17.31219",
+        "Publisher":  "Microsoft Corporation",
+        "UninstallString":  "\"C:\\ProgramData\\Package Cache\\{20d5df4e-006c-4d6d-a0dc-490d009b9786}\\windowsdesktop-runtime-5.0.17-win-x64.exe\"  /uninstall",
+        "Source":  "Registry"
+    },
+    {
+        "Name":  "Prerequisites for SSDT ",
+        "Version":  "12.0.2000.8",
+        "Publisher":  "Microsoft Corporation",
+        "UninstallString":  "MsiExec.exe /I{21373064-AD95-48DB-A32E-0D9E08EF7355}",
+        "Source":  "Registry"
+    },
+    {
+        "Name":  "Microsoft SQL Server 2014 Management Objects ",
+        "Version":  "12.0.2000.8",
+        "Publisher":  "Microsoft Corporation",
+        "UninstallString":  "MsiExec.exe /I{2774595F-BC2A-4B12-A25B-0C37A37049B0}",
+        "Source":  "Registry"
+    },
+    {
+        "Name":  "Microsoft .NET Framework 4.5.2 Multi-Targeting Pack (ENU)",
+        "Version":  "4.5.51209",
+        "Publisher":  "Microsoft Corporation",
+        "UninstallString":  "MsiExec.exe /X{290FC320-2F5A-329E-8840-C4193BD7A9EE}",
+        "Source":  "Registry"
+    },
+    {
+        "Name":  "Microsoft .NET Framework 4.6 Targeting Pack",
+        "Version":  "4.6.00081",
+        "Publisher":  "Microsoft Corporation",
+        "UninstallString":  "MsiExec.exe /X{2CC6A4A7-AAC2-46C9-9DBB-3727B5954F65}",
+        "Source":  "Registry"
+    },
+    {
+        "Name":  "Microsoft .NET Framework 4.6 Targeting Pack (ENU)",
+        "Version":  "4.6.00081",
+        "Publisher":  "Microsoft Corporation",
+        "UninstallString":  "MsiExec.exe /X{3D3CEBE6-40EA-4C48-97FD-73828281AB4A}",
+        "Source":  "Registry"
+    },
+    {
+        "Name":  "Microsoft Report Viewer 2015 Runtime",
+        "Version":  "12.0.2402.15",
+        "Publisher":  "Microsoft Corporation",
+        "UninstallString":  "MsiExec.exe /I{3ECE8FC7-7020-4756-A71C-C345D4725B77}",
+        "Source":  "Registry"
+    },
+    {
+        "Name":  "Microsoft SQL Server 2014 T-SQL Language Service ",
+        "Version":  "12.0.2000.8",
+        "Publisher":  "Microsoft Corporation",
+        "UninstallString":  "MsiExec.exe /I{47D08E7A-92A1-489B-B0BF-415516497BCE}",
+        "Source":  "Registry"
+    },
+    {
+        "Name":  "cloudflared",
+        "Version":  "2025.11.1",
+        "Publisher":  "cloudflare",
+        "UninstallString":  "MsiExec.exe /I{4E770F36-669B-4959-9C32-3F8ABC7E2BEE}",
+        "Source":  "Registry"
+    },
+    {
+        "Name":  "Microsoft .NET Framework 4.5 Multi-Targeting Pack",
+        "Version":  "4.5.50710",
+        "Publisher":  "Microsoft Corporation",
+        "UninstallString":  "MsiExec.exe /X{56E962F0-4FB0-3C67-88DB-9EAA6EEFC493}",
+        "Source":  "Registry"
+    },
+    {
+        "Name":  "Microsoft SQL Server Data Tools - enu (14.0.50616.0)",
+        "Version":  "14.0.50616.0",
+        "Publisher":  "Microsoft Corporation",
+        "UninstallString":  "MsiExec.exe /X{58246C80-3941-4B69-AE31-264644E2ADB8}",
+        "Source":  "Registry"
+    },
+    {
+        "Name":  "Microsoft .NET Framework 4.5.1 Multi-Targeting Pack",
+        "Version":  "4.5.50932",
+        "Publisher":  "Microsoft Corporation",
+        "UninstallString":  "MsiExec.exe /X{6A0C6700-EA93-372C-8871-DCCF13D160A4}",
+        "Source":  "Registry"
+    },
+    {
+        "Name":  "Fusion Service",
+        "Version":  "2.2.14.0",
+        "Publisher":  "Dell.Inc",
+        "UninstallString":  "\"C:\\ProgramData\\Package Cache\\{6e578348-d226-4341-a69f-26274feac293}\\FusionService.exe\"  /uninstall",
+        "Source":  "Registry"
+    },
+    {
+        "Name":  "Chrome Remote Desktop Host",
+        "Version":  "145.0.7632.25",
+        "Publisher":  "Google LLC",
+        "UninstallString":  "MsiExec.exe /I{6F72B3C6-D42E-4818-8A53-729446C45F08}",
+        "Source":  "Registry"
+    },
+    {
+        "Name":  "Microsoft System CLR Types for SQL Server 2014",
+        "Version":  "12.0.2402.11",
+        "Publisher":  "Microsoft Corporation",
+        "UninstallString":  "MsiExec.exe /I{718FFB65-F6E4-4D62-861F-ED10ED32C936}",
+        "Source":  "Registry"
+    },
+    {
+        "Name":  "Composer - PHP Dependency Manager",
+        "Version":  null,
+        "Publisher":  "getcomposer.org",
+        "UninstallString":  "\"C:\\Program Files (x86)\\ComposerSetup\\unins000.exe\"",
+        "Source":  "Registry"
+    },
+    {
+        "Name":  "Visual Studio 2015 Update 3 (KB3022398)",
+        "Version":  "14.0.25420",
+        "Publisher":  "Microsoft Corporation",
+        "UninstallString":  "\"C:\\ProgramData\\Package Cache\\{7a68448b-9cf2-4049-bd73-5875f1aa7ba2}\\vsupdate_KB3022398.exe\"  /uninstall",
+        "Source":  "Registry"
+    },
+    {
+        "Name":  "Microsoft Visual C++ 2013 Redistributable (x64) - 12.0.21005",
+        "Version":  "12.0.21005.1",
+        "Publisher":  "Microsoft Corporation",
+        "UninstallString":  "\"C:\\ProgramData\\Package Cache\\{7f51bdb9-ee21-49ee-94d6-90afc321780e}\\vcredist_x64.exe\"  /uninstall",
+        "Source":  "Registry"
+    },
+    {
+        "Name":  "SAP Crystal Reports runtime engine for .NET Framework (32-bit)",
+        "Version":  "13.0.24.2970",
+        "Publisher":  "SAP",
+        "UninstallString":  "MsiExec.exe /I{817393F4-AAE9-4217-B3BF-C94D79D20F6B}",
+        "Source":  "Registry"
+    },
+    {
+        "Name":  "Python Launcher",
+        "Version":  "3.11.7150.0",
+        "Publisher":  "Python Software Foundation",
+        "UninstallString":  "MsiExec.exe /X{8C230F75-C203-4DD2-8212-EAEFF6E6C58D}",
+        "Source":  "Registry"
+    },
+    {
+        "Name":  "Microsoft Access database engine 2010 (English)",
+        "Version":  "14.0.7015.1000",
+        "Publisher":  "Microsoft Corporation",
+        "UninstallString":  "MsiExec.exe /I{90140000-00D1-0409-0000-0000000FF1CE}",
+        "Source":  "Registry"
+    },
+    {
+        "Name":  "Microsoft Visual C++ v14 Redistributable (x64) - 14.50.35719",
+        "Version":  "14.50.35719.0",
+        "Publisher":  "Microsoft Corporation",
+        "UninstallString":  "\"C:\\ProgramData\\Package Cache\\{91ee571b-0e8a-4c65-9eaf-2e2f5fc60c00}\\VC_redist.x64.exe\"  /uninstall",
+        "Source":  "Registry"
+    },
+    {
+        "Name":  "Microsoft Visual C++ 2012 Redistributable (x86) - 11.0.60610",
+        "Version":  "11.0.60610.1",
+        "Publisher":  "Microsoft Corporation",
+        "UninstallString":  "\"C:\\ProgramData\\Package Cache\\{95716cce-fc71-413f-8ad5-56c2892d4b3a}\\vcredist_x86.exe\"  /uninstall",
+        "Source":  "Registry"
+    },
+    {
+        "Name":  "Intel(R) Integrated Sensor Solution",
+        "Version":  "3.10.100.4589",
+        "Publisher":  "Intel Corporation",
+        "UninstallString":  "\"C:\\ProgramData\\Package Cache\\{98abd012-d98a-4461-ac18-159cb08307be}\\SetupISS.exe\"  /uninstall",
+        "Source":  "Registry"
+    },
+    {
+        "Name":  "Microsoft Visual C++ 2012 Redistributable (x64) - 11.0.60610",
+        "Version":  "11.0.60610.1",
+        "Publisher":  "Microsoft Corporation",
+        "UninstallString":  "\"C:\\ProgramData\\Package Cache\\{a1909659-0a08-4554-8af1-2175904903a1}\\vcredist_x64.exe\"  /uninstall",
+        "Source":  "Registry"
+    },
+    {
+        "Name":  "Microsoft Windows Desktop Runtime - 8.0.24 (x64)",
+        "Version":  "8.0.24.35722",
+        "Publisher":  "Microsoft Corporation",
+        "UninstallString":  "\"C:\\ProgramData\\Package Cache\\{a2467e34-8d77-4d67-ae7e-5edbbafbeb16}\\windowsdesktop-runtime-8.0.24-win-x64.exe\"  /uninstall",
+        "Source":  "Registry"
+    },
+    {
+        "Name":  "Microsoft .NET SDK 6.0.310 (x64)",
+        "Version":  "6.3.1023.12605",
+        "Publisher":  "Microsoft Corporation",
+        "UninstallString":  "\"C:\\ProgramData\\Package Cache\\{ab8c5851-0da6-4f95-a319-2780402212aa}\\dotnet-sdk-6.0.310-win-x64.exe\"  /uninstall",
+        "Source":  "Registry"
+    },
+    {
+        "Name":  "Microsoft .NET Framework 4.6 SDK",
+        "Version":  "4.6.00081",
+        "Publisher":  "Microsoft Corporation",
+        "UninstallString":  "MsiExec.exe /X{B5915D37-0637-4A26-A3AA-C5DC9F856370}",
+        "Source":  "Registry"
+    },
+    {
+        "Name":  "Microsoft .NET Framework 4.5.2 Multi-Targeting Pack",
+        "Version":  "4.5.51209",
+        "Publisher":  "Microsoft Corporation",
+        "UninstallString":  "MsiExec.exe /X{B941AFB4-8851-33A1-9E72-0C33D463C41C}",
+        "Source":  "Registry"
+    },
+    {
+        "Name":  "Microsoft Visual C++ 2013 Redistributable (x86) - 12.0.21005",
+        "Version":  "12.0.21005.1",
+        "Publisher":  "Microsoft Corporation",
+        "UninstallString":  "\"C:\\ProgramData\\Package Cache\\{ce085a78-074e-4823-8dc1-8a721b94b76d}\\vcredist_x86.exe\"  /uninstall",
+        "Source":  "Registry"
+    },
+    {
+        "Name":  "Dell SupportAssist Remediation",
+        "Version":  "5.5.14.0",
+        "Publisher":  "Dell Inc.",
+        "UninstallString":  "\"C:\\ProgramData\\Package Cache\\{cfdd42cb-404f-4d32-b448-12b588a2ad76}\\DellSupportAssistRemediationServiceInstaller.exe\"  /uninstall",
+        "Source":  "Registry"
+    },
+    {
+        "Name":  "Update for  (KB2504637)",
+        "Version":  "1",
+        "Publisher":  "Microsoft Corporation",
+        "UninstallString":  "C:\\WINDOWS\\SysWOW64\\msiexec.exe /package {CFEF48A8-BFB8-3EAC-8BA5-DE4F8AA267CE} /uninstall {815F0BC1-7E54-300C-9ACA-C9460FDF6F78} /qb+ REBOOTPROMPT=\u0026quot;\u0026quot;",
+        "Source":  "Registry"
+    },
+    {
+        "Name":  "Dell SupportAssist OS Recovery Plugin for Dell Update",
+        "Version":  "5.5.14.0",
+        "Publisher":  "Dell Inc.",
+        "UninstallString":  "\"C:\\ProgramData\\Package Cache\\{d0ab664c-e704-4396-b9bc-ad1a7327731f}\\DellUpdateSupportAssistPlugin.exe\"  /uninstall",
+        "Source":  "Registry"
+    },
+    {
+        "Name":  "Microsoft .NET Framework 4.5.1 Multi-Targeting Pack (ENU)",
+        "Version":  "4.5.50932",
+        "Publisher":  "Microsoft Corporation",
+        "UninstallString":  "MsiExec.exe /X{D3517C62-68A5-37CF-92F7-93C029A89681}",
+        "Source":  "Registry"
+    },
+    {
+        "Name":  "Dell Digital Delivery Services",
+        "Version":  "5.0.49.0",
+        "Publisher":  "Dell Inc.",
+        "UninstallString":  "MsiExec.exe /X{E530ABB7-9DCC-421B-B751-484375E8374A}",
+        "Source":  "Registry"
+    },
+    {
+        "Name":  "Dell Connected Service Delivery SubAgent",
+        "Version":  "1.0.0.0",
+        "Publisher":  "Dell Technologies, Inc.",
+        "UninstallString":  "\"C:\\Program Files (x86)\\InstallShield Installation Information\\{F66B758E-EC5C-410A-BC09-1F5412F9F00E}\\Dell.CSD.SubAgent.exe\" -remove -runfromtemp",
+        "Source":  "Registry"
+    },
+    {
+        "Name":  "Postman-win64-7.29.1",
+        "Version":  "7.29.1",
+        "Publisher":  "Postman",
+        "UninstallString":  "\"C:\\Users\\administrator.ALLIED\\AppData\\Local\\Postman\\Update.exe\" --uninstall",
+        "Source":  "Registry"
+    },
+    {
+        "Name":  "Microsoft Visual Studio Code (User)",
+        "Version":  "1.105.1",
+        "Publisher":  "Microsoft Corporation",
+        "UninstallString":  "\"C:\\Users\\administrator.ALLIED\\AppData\\Local\\Programs\\Microsoft VS Code\\unins000.exe\"",
+        "Source":  "Registry"
+    }
+]

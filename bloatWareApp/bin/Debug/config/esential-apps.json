@@ -23,6 +23,18 @@
       "installerPath": "\\\\persvr02\\trackit$\\0_Installer\\ChromeSetup.exe",
       "silentArgs": "/install",
       "detectName": "Google Chrome"
+    },
+    {
+      "name": "Microsoft Visual C++ 2013 Redistributable (x64) - 12.0.21005",
+      "installerPath": "\\\\persvr02\\trackit$\\0_Installer\\vcredist_x64.exe",
+      "silentArgs": "/install",
+      "detectName": "Microsoft Visual C++ 2013 Redistributable (x64) - 12.0.21005"
+    },
+    {
+      "name": "MySQL Connector/ODBC 5.3",
+      "installerPath": "\\\\persvr02\\trackit$\\0_Installer\\mysql-connector-odbc-5.3.14-winx64.msi",
+      "silentArgs": "",
+      "detectName": "MySQL Connector/ODBC 5.3"
     }
   ]
 }

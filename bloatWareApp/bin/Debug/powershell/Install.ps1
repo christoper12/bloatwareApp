@@ -116,13 +116,37 @@ function Install-App {
     }
 
     # ============================
-    # STANDARD EXE / MSI INSTALLER
+    # MSI INSTALLER
     # ============================
-    $process = Start-Process `
-        -FilePath $Path `
-        -ArgumentList $Args `
-        -Wait `
-        -PassThru
+    if ($extension -eq ".msi") {
+
+        Write-Log "$Name detected as MSI installer"
+
+        $msiArgs = "/i `"$Path`" $Args"
+
+        Write-Log "Executing: msiexec.exe $msiArgs"
+
+        $process = Start-Process `
+            -FilePath "msiexec.exe" `
+            -ArgumentList $msiArgs `
+            -Wait `
+            -PassThru
+    }
+    else {
+
+        # ============================
+        # EXE INSTALLER
+        # ============================
+        Write-Log "$Name detected as EXE installer"
+
+        Write-Log "Executing: $Path $Args"
+
+        $process = Start-Process `
+            -FilePath $Path `
+            -ArgumentList $Args `
+            -Wait `
+            -PassThru
+    }
 
     if ($process.ExitCode -ne 0) {
         Write-Log "Install $Name failed. ExitCode: $($process.ExitCode)"
