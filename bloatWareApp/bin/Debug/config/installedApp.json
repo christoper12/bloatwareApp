@@ -28,6 +28,265 @@
         "Source":  "Registry"
     },
     {
+        "Name":  "Microsoft 365 Apps for enterprise - en-us",
+        "Version":  "16.0.19628.20204",
+        "Publisher":  "Microsoft Corporation",
+        "UninstallString":  "\"C:\\Program Files\\Common Files\\Microsoft Shared\\ClickToRun\\OfficeClickToRun.exe\" scenario=install scenariosubtype=ARP sourcetype=None productstoremove=O365ProPlusRetail.16_en-us_x-none culture=en-us version.16=16.0",
+        "Source":  "Registry"
+    },
+    {
+        "Name":  "Microsoft OneDrive",
+        "Version":  "26.017.0126.0002",
+        "Publisher":  "Microsoft Corporation",
+        "UninstallString":  "\"C:\\Program Files\\Microsoft OneDrive\\26.017.0126.0002\\OneDriveSetup.exe\"  /uninstall  /allusers ",
+        "Source":  "Registry"
+    },
+    {
+        "Name":  "Microsoft OneNote - en-us",
+        "Version":  "16.0.19628.20204",
+        "Publisher":  "Microsoft Corporation",
+        "UninstallString":  "\"C:\\Program Files\\Common Files\\Microsoft Shared\\ClickToRun\\OfficeClickToRun.exe\" scenario=install scenariosubtype=ARP sourcetype=None productstoremove=OneNoteFreeRetail.16_en-us_x-none culture=en-us version.16=16.0",
+        "Source":  "Registry"
+    },
+    {
+        "Name":  "PostgreSQL 14",
+        "Version":  "14",
+        "Publisher":  "PostgreSQL Global Development Group",
+        "UninstallString":  "\"C:\\Program Files\\PostgreSQL\\14\\uninstall-postgresql.exe\"",
+        "Source":  "Registry"
+    },
+    {
+        "Name":  "SQLiteStudio",
+        "Version":  "3.4.3",
+        "Publisher":  "sqlitestudio.pl",
+        "UninstallString":  "\"C:\\Program Files\\SQLiteStudio\\uninstall.exe\"",
+        "Source":  "Registry"
+    },
+    {
+        "Name":  "SQLyog 11.11 (64 bit)",
+        "Version":  "11.11 (64 bit)",
+        "Publisher":  "Webyog Inc.",
+        "UninstallString":  "C:\\Program Files\\SQLyog\\uninst.exe",
+        "Source":  "Registry"
+    },
+    {
+        "Name":  "SQLyog Community 13.1.7 (64 bit)",
+        "Version":  "13.1.7 (64 bit)",
+        "Publisher":  "Webyog Inc.",
+        "UninstallString":  "C:\\Program Files\\SQLyog Community\\uninst.exe",
+        "Source":  "Registry"
+    },
+    {
+        "Name":  "Sublime Text",
+        "Version":  null,
+        "Publisher":  "Sublime HQ Pty Ltd",
+        "UninstallString":  "\"C:\\Program Files\\Sublime Text\\unins000.exe\"",
+        "Source":  "Registry"
+    },
+    {
+        "Name":  "XAMPP",
+        "Version":  "8.2.12-0",
+        "Publisher":  "Apache Friends",
+        "UninstallString":  "\"C:\\xampp2\\uninstall.exe\"",
+        "Source":  "Registry"
+    },
+    {
+        "Name":  "Dell SupportAssist",
+        "Version":  "4.10.6.48716",
+        "Publisher":  "Dell Inc.",
+        "UninstallString":  "MsiExec.exe /X{00B9D238-5A72-4BD9-B2DC-0144D8DBD5C8}",
+        "Source":  "Registry"
+    },
+    {
+        "Name":  "Microsoft SQL Server 2014 Transact-SQL ScriptDom",
+        "Version":  "12.0.2000.8",
+        "Publisher":  "Microsoft Corporation",
+        "UninstallString":  "MsiExec.exe /I{020CDFE0-C127-4047-B571-37C82396B662}",
+        "Source":  "Registry"
+    },
+    {
+        "Name":  "Microsoft ODBC Driver 17 for SQL Server",
+        "Version":  "17.10.6.1",
+        "Publisher":  "Microsoft Corporation",
+        "UninstallString":  "MsiExec.exe /I{0E0F96AC-80DE-4400-A40C-429D63293651}",
+        "Source":  "Registry"
+    },
+    {
+        "Name":  "IIS 10.0 Express",
+        "Version":  "10.0.10007",
+        "Publisher":  "Microsoft Corporation",
+        "UninstallString":  "MsiExec.exe /X{0F4F67F8-21E1-422D-B31C-B3800F4D6E36}",
+        "Source":  "Registry"
+    },
+    {
+        "Name":  "SmartByte Drivers and Services",
+        "Version":  "3.1122.728.7",
+        "Publisher":  "Rivet Networks",
+        "UninstallString":  "MsiExec.exe /I{19A754FE-0343-4311-835F-33EAB7ADEA7B}",
+        "Source":  "Registry"
+    },
+    {
+        "Name":  "Microsoft SQL Server 2014 Management Objects  (x64)",
+        "Version":  "12.0.2000.8",
+        "Publisher":  "Microsoft Corporation",
+        "UninstallString":  "MsiExec.exe /I{1F9EB3B6-AED7-4AA7-B8F1-8E314B74B2A5}",
+        "Source":  "Registry"
+    },
+    {
+        "Name":  "Java 8 Update 261 (64-bit)",
+        "Version":  "8.0.2610.12",
+        "Publisher":  "Oracle Corporation",
+        "UninstallString":  "MsiExec.exe /X{26A24AE4-039D-4CA4-87B4-2F64180261F0}",
+        "Source":  "Registry"
+    },
+    {
+        "Name":  "Java 8 Update 271 (64-bit)",
+        "Version":  "8.0.2710.9",
+        "Publisher":  "Oracle Corporation",
+        "UninstallString":  "MsiExec.exe /X{26A24AE4-039D-4CA4-87B4-2F64180271F0}",
+        "Source":  "Registry"
+    },
+    {
+        "Name":  "TortoiseGit 2.18.0.0 (64 bit)",
+        "Version":  "2.18.0.0",
+        "Publisher":  "TortoiseGit",
+        "UninstallString":  "MsiExec.exe /I{27942F30-68E5-4E0E-B187-BCDB6D7F3903}",
+        "Source":  "Registry"
+    },
+    {
+        "Name":  "Microsoft .NET SDK 9.0.306 (x64) from Visual Studio",
+        "Version":  "9.3.625.47604",
+        "Publisher":  "Microsoft Corporation",
+        "UninstallString":  "MsiExec.exe /X{2F38A089-CBC1-44DF-8561-08C0A3D80710}",
+        "Source":  "Registry"
+    },
+    {
+        "Name":  "Dell Connected Service Delivery",
+        "Version":  "1.0.0.0",
+        "Publisher":  "Dell Technologies, Inc.",
+        "UninstallString":  "MsiExec.exe /X{3FB1CCCE-13CF-4C2F-A8AB-AA4724050A57}",
+        "Source":  "Registry"
+    },
+    {
+        "Name":  "Dell Update for Windows 10",
+        "Version":  "4.3.0",
+        "Publisher":  "Dell Inc.",
+        "UninstallString":  "MsiExec.exe /X{41D2D254-D869-4CD8-B440-5DF49083C4BA}",
+        "Source":  "Registry"
+    },
+    {
+        "Name":  "Microsoft SQL Server 2012 Native Client",
+        "Version":  "11.0.2100.60",
+        "Publisher":  "Microsoft Corporation",
+        "UninstallString":  "MsiExec.exe /I{49D665A2-4C2A-476E-9AB8-FCC425F526FC}",
+        "Source":  "Registry"
+    },
+    {
+        "Name":  "Microsoft System CLR Types for SQL Server 2019",
+        "Version":  "15.0.2000.5",
+        "Publisher":  "Microsoft Corporation",
+        "UninstallString":  "MsiExec.exe /I{5BC7E9EB-13E8-45DB-8A60-F2481FEB4595}",
+        "Source":  "Registry"
+    },
+    {
+        "Name":  "Java SE Development Kit 8 Update 271 (64-bit)",
+        "Version":  "8.0.2710.9",
+        "Publisher":  "Oracle Corporation",
+        "UninstallString":  "MsiExec.exe /X{64A3A4F4-B792-11D6-A78A-00B0D0180271}",
+        "Source":  "Registry"
+    },
+    {
+        "Name":  "Node.js",
+        "Version":  "24.12.0",
+        "Publisher":  "Node.js Foundation",
+        "UninstallString":  "MsiExec.exe /I{686EA7E1-608A-4B99-A50A-448A2B2A7E73}",
+        "Source":  "Registry"
+    },
+    {
+        "Name":  "Microsoft System CLR Types for SQL Server 2014",
+        "Version":  "12.0.2402.11",
+        "Publisher":  "Microsoft Corporation",
+        "UninstallString":  "MsiExec.exe /I{68BA34E8-9B9D-4A74-83F0-7D366B532D75}",
+        "Source":  "Registry"
+    },
+    {
+        "Name":  "Microsoft Visual Studio Installer",
+        "Version":  "4.3.2029.11392",
+        "Publisher":  "Microsoft Corporation",
+        "UninstallString":  "\"C:\\Program Files (x86)\\Microsoft Visual Studio\\Installer\\setup.exe\" /uninstall",
+        "Source":  "Registry"
+    },
+    {
+        "Name":  "Microsoft SQL Server Compact 4.0 SP1 x64 ENU",
+        "Version":  "4.0.8876.1",
+        "Publisher":  "Microsoft Corporation",
+        "UninstallString":  "MsiExec.exe /X{78909610-D229-459C-A936-25D92283D3FD}",
+        "Source":  "Registry"
+    },
+    {
+        "Name":  "MySQL Connector/ODBC 5.3",
+        "Version":  "5.3.14",
+        "Publisher":  "Oracle Corporation",
+        "UninstallString":  "MsiExec.exe /I{8F1753C5-4394-4310-A3CC-C9AC85D02220}",
+        "Source":  "Registry"
+    },
+    {
+        "Name":  "Microsoft SQL Server 2012 Command Line Utilities",
+        "Version":  "11.0.2100.60",
+        "Publisher":  "Microsoft Corporation",
+        "UninstallString":  "MsiExec.exe /I{9D573E71-1077-4C7E-B4DB-4E22A5D2B48B}",
+        "Source":  "Registry"
+    },
+    {
+        "Name":  "Microsoft Teams Meeting Add-in for Microsoft Office",
+        "Version":  "1.25.28902",
+        "Publisher":  "Microsoft",
+        "UninstallString":  "MsiExec.exe /I{A7AB73A3-CB10-4AA5-9D38-6AEFFBDE4C91}",
+        "Source":  "Registry"
+    },
+    {
+        "Name":  "Microsoft .NET Version Manager (x64) 1.0.0-beta5",
+        "Version":  "1.0.10609.0",
+        "Publisher":  "Microsoft Corporation",
+        "UninstallString":  "MsiExec.exe /X{C5A4ABA3-1ABA-3EF8-B2D5-C3FA37F59738}",
+        "Source":  "Registry"
+    },
+    {
+        "Name":  "Microsoft .NET SDK 10.0.100-rc.2.25502.107 (x64) from Visual Studio",
+        "Version":  "40.9.60483",
+        "Publisher":  "Microsoft Corporation",
+        "UninstallString":  "MsiExec.exe /X{D09E656E-C206-4E08-A835-354A6B717D50}",
+        "Source":  "Registry"
+    },
+    {
+        "Name":  "Microsoft Web Deploy 4.0",
+        "Version":  "10.0.9419",
+        "Publisher":  "Microsoft Corporation",
+        "UninstallString":  "MsiExec.exe /I{DE4FFB86-1944-4273-B040-92E920BD6861}",
+        "Source":  "Registry"
+    },
+    {
+        "Name":  "Dell Core Services",
+        "Version":  "1.11.12.0",
+        "Publisher":  "Dell, Inc.",
+        "UninstallString":  "MsiExec.exe /I{E0DBD23A-8403-4805-AC00-4CB897BAA18E}",
+        "Source":  "Registry"
+    },
+    {
+        "Name":  "Microsoft SQL Server 2019 LocalDB",
+        "Version":  "15.0.4382.1",
+        "Publisher":  "Microsoft Corporation",
+        "UninstallString":  "MsiExec.exe /I{E5B3A478-C4C3-49E3-8384-A12D4B2008D4}",
+        "Source":  "Registry"
+    },
+    {
+        "Name":  "Microsoft .NET SDK 10.0.101 (x64) from Visual Studio",
+        "Version":  "40.10.18029",
+        "Publisher":  "Microsoft Corporation",
+        "UninstallString":  "MsiExec.exe /X{EB0869A4-724B-45F8-A32D-71AD21D3125D}",
+        "Source":  "Registry"
+    },
+    {
         "Name":  "Visual Studio Community 2026",
         "Version":  "18.1.1",
         "Publisher":  "Microsoft Corporation",
@@ -50,9 +309,9 @@
     },
     {
         "Name":  "Google Chrome",
-        "Version":  "144.0.7559.135",
+        "Version":  "145.0.7632.109",
         "Publisher":  "Google LLC",
-        "UninstallString":  "\"C:\\Program Files\\Google\\Chrome\\Application\\144.0.7559.135\\Installer\\setup.exe\" --uninstall --channel=stable --system-level --verbose-logging",
+        "UninstallString":  "\"C:\\Program Files\\Google\\Chrome\\Application\\145.0.7632.109\\Installer\\setup.exe\" --uninstall --channel=stable --system-level --verbose-logging",
         "Source":  "Registry"
     },
     {
@@ -147,14 +406,14 @@
         "Source":  "Registry"
     },
     {
-        "Name":  "Prerequisites for SSDT ",
+        "Name":  "Prerequisites for SSDT",
         "Version":  "12.0.2000.8",
         "Publisher":  "Microsoft Corporation",
         "UninstallString":  "MsiExec.exe /I{21373064-AD95-48DB-A32E-0D9E08EF7355}",
         "Source":  "Registry"
     },
     {
-        "Name":  "Microsoft SQL Server 2014 Management Objects ",
+        "Name":  "Microsoft SQL Server 2014 Management Objects",
         "Version":  "12.0.2000.8",
         "Publisher":  "Microsoft Corporation",
         "UninstallString":  "MsiExec.exe /I{2774595F-BC2A-4B12-A25B-0C37A37049B0}",
@@ -189,7 +448,7 @@
         "Source":  "Registry"
     },
     {
-        "Name":  "Microsoft SQL Server 2014 T-SQL Language Service ",
+        "Name":  "Microsoft SQL Server 2014 T-SQL Language Service",
         "Version":  "12.0.2000.8",
         "Publisher":  "Microsoft Corporation",
         "UninstallString":  "MsiExec.exe /I{47D08E7A-92A1-489B-B0BF-415516497BCE}",
@@ -235,13 +494,6 @@
         "Version":  "145.0.7632.25",
         "Publisher":  "Google LLC",
         "UninstallString":  "MsiExec.exe /I{6F72B3C6-D42E-4818-8A53-729446C45F08}",
-        "Source":  "Registry"
-    },
-    {
-        "Name":  "Microsoft System CLR Types for SQL Server 2014",
-        "Version":  "12.0.2402.11",
-        "Publisher":  "Microsoft Corporation",
-        "UninstallString":  "MsiExec.exe /I{718FFB65-F6E4-4D62-861F-ED10ED32C936}",
         "Source":  "Registry"
     },
     {

@@ -96,24 +96,34 @@ Public Class frmInstallApp
             }
         End If
 
-        ' 2. Ambil data dari UI (DINAMIS)
+        ' 2. Detect extension installer
+        Dim ext As String = IO.Path.GetExtension(installerPath).ToLower()
+
+        Dim silentArgs As String = "/install"   ' default untuk EXE
+
+        If ext = ".msi" Then
+            silentArgs = ""      ' MSI → Full UI
+            ' atau: silentArgs = "/qf"
+        End If
+
+        ' 3. Build object
         Dim app As New AppConfig With {
             .name = name,
             .installerPath = installerPath,
-            .silentArgs = "/install",
+            .silentArgs = silentArgs,
             .detectName = name
         }
 
-        ' 3. Cek apakah aplikasi sudah ada (berdasarkan name)
-        Dim existingApp = root.applications.FirstOrDefault(Function(a) a.name.Equals(name, StringComparison.OrdinalIgnoreCase))
+        ' 4. Cek existing
+        Dim existingApp = root.applications.FirstOrDefault(
+        Function(a) a.name.Equals(name, StringComparison.OrdinalIgnoreCase)
+        )
 
         If existingApp IsNot Nothing Then
-            ' Update data
             existingApp.installerPath = installerPath
-            existingApp.silentArgs = "/install"
+            existingApp.silentArgs = silentArgs
             existingApp.detectName = name
         Else
-            ' Insert baru
             root.applications.Add(app)
         End If
 
@@ -127,5 +137,9 @@ Public Class frmInstallApp
         File.WriteAllText(jsonPath, newJson)
 
         'MessageBox.Show("Data aplikasi berhasil disimpan ke JSON")
+    End Sub
+
+    Private Sub frmInstallApp_Load(sender As Object, e As EventArgs) Handles MyBase.Load
+
     End Sub
 End Class

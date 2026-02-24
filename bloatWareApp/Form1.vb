@@ -906,7 +906,7 @@ Public Class Form1
                 MsgBox("Please select the installer file for '" & normalizedName & "' in the next dialog.", MsgBoxStyle.Information, "Select Installer")
                 Dim ofd As New OpenFileDialog()
                 ofd.Title = "Please select the path for the 'Essential' installer."
-                ofd.Filter = "Installer (*.exe;*.msi)|*.exe;*.msi"
+                'ofd.Filter = "Installer (*.exe;*.msi)|*.exe;*.msi"
 
                 If ofd.ShowDialog() = DialogResult.OK Then
                     installerPath = ofd.FileName
@@ -947,8 +947,36 @@ Public Class Form1
             Dim installedSet As New HashSet(Of String)(_allApps.Select(Function(a) a.Name.Trim()), StringComparer.OrdinalIgnoreCase)
 
             ' 4. Essential yang BELUM terpasang
-            Dim missingEssentialApps =
-            essentialSet.Except(installedSet).ToList()
+            'Dim missingEssentialApps = essentialSet.Except(installedSet).ToList()
+            Dim missingEssentialApps As New List(Of String)
+
+            For Each essentialApp In essentialSet
+
+                Dim isTrackIt = essentialApp.IndexOf("trackit", StringComparison.OrdinalIgnoreCase) >= 0
+
+                If isTrackIt Then
+                    ' =========================
+                    ' RULE KHUSUS TRACKIT
+                    ' =========================
+
+                    ' contoh rule:
+                    ' dianggap installed kalau ADA app apapun yg contain "trackit"
+                    Dim trackItInstalled = installedSet.Any(Function(i) i.IndexOf("trackit", StringComparison.OrdinalIgnoreCase) >= 0)
+
+                    If Not trackItInstalled Then
+                        missingEssentialApps.Add(essentialApp)
+                    End If
+
+                Else
+                    ' =========================
+                    ' RULE LAMA (NORMAL)
+                    ' =========================
+                    If Not installedSet.Contains(essentialApp) Then
+                        missingEssentialApps.Add(essentialApp)
+                    End If
+                End If
+
+            Next
 
             ' 5. Render ke grid
             dgEsential.Rows.Clear()

@@ -36,7 +36,7 @@ Public Class startupForm
             "Startup Loader Error",
             MessageBoxButtons.OK,
             MessageBoxIcon.Error
-        )
+                )
                 Return
             End If
 
@@ -73,12 +73,16 @@ Public Class startupForm
                 finalItems.Add(item)
 
 
-                Dim bindingList As New BindingList(Of StartupItem)(finalItems)
+                Dim bindingList As New SortableBindingList(Of StartupItem)(finalItems)
                 Dim bs As New BindingSource(bindingList, Nothing)
 
                 IsLoading = True
                 dgStartup.DataSource = bs
                 IsLoading = False
+            Next
+
+            For Each col As DataGridViewColumn In dgStartup.Columns
+                col.SortMode = DataGridViewColumnSortMode.Automatic
             Next
 
             AllStartupItems = finalItems
@@ -129,6 +133,13 @@ Public Class startupForm
 
         dgStartup.Columns.Clear()
 
+        dgStartup.Columns.Add(New DataGridViewCheckBoxColumn With {
+            .Name = "colEnabled",
+            .HeaderText = "Active Status",
+            .DataPropertyName = "IsEnabled",
+            .ReadOnly = True
+        })
+
         dgStartup.Columns.Add(New DataGridViewTextBoxColumn With {
             .Name = "colName",
             .HeaderText = "Name",
@@ -171,7 +182,7 @@ Public Class startupForm
 
         dgOptionalStratup.Columns.Add(New DataGridViewCheckBoxColumn With {
             .Name = "colEnabled",
-            .HeaderText = "Enabled",
+            .HeaderText = "Active Status",
             .DataPropertyName = "IsEnabled"
         })
 
@@ -225,7 +236,7 @@ Public Class startupForm
 
         dgEssentialStratup.Columns.Add(New DataGridViewCheckBoxColumn With {
             .Name = "colEnabled",
-            .HeaderText = "Enabled",
+            .HeaderText = "Active Status",
             .DataPropertyName = "IsEnabled"
         })
 
@@ -279,7 +290,7 @@ Public Class startupForm
 
         dgBloatwareStratup.Columns.Add(New DataGridViewCheckBoxColumn With {
             .Name = "colEnabled",
-            .HeaderText = "Enabled",
+            .HeaderText = "Active Status",
             .DataPropertyName = "IsEnabled"
         })
 

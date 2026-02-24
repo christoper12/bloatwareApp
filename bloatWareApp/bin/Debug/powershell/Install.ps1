@@ -139,13 +139,24 @@ function Install-App {
         # ============================
         Write-Log "$Name detected as EXE installer"
 
-        Write-Log "Executing: $Path $Args"
 
-        $process = Start-Process `
-            -FilePath $Path `
-            -ArgumentList $Args `
-            -Wait `
-            -PassThru
+        if ([string]::IsNullOrWhiteSpace($Args)) {
+            Write-Log "Executing: $Path"
+
+            $process = Start-Process `
+                -FilePath $Path `
+                -Wait `
+                -PassThru
+        }
+        else {
+            Write-Log "Executing: $Path $Args"
+
+            $process = Start-Process `
+                -FilePath $Path `
+                -ArgumentList $Args `
+                -Wait `
+                -PassThru
+        }
     }
 
     if ($process.ExitCode -ne 0) {

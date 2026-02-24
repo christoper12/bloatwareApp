@@ -50,21 +50,65 @@ function Get-InstalledApps {
     #     }
     # }
 
+    # $programsAndFeatures = foreach ($path in $paths) {
+    #     Get-ItemProperty $path -ErrorAction SilentlyContinue |
+    #     Where-Object {
+    #         $_.DisplayName -and
+    #         $_.SystemComponent -ne 1
+    #     } |
+    #     Select-Object DisplayName, DisplayVersion, Publisher, InstallDate, UninstallString
+    # }
+
+    # foreach ($program in $programsAndFeatures) {
+    #     # Hindari duplikat nama
+    #     if ($apps.Name -contains $program.DisplayName) { continue }
+
+    #     $apps += [PSCustomObject]@{
+    #         Name            = $program.DisplayName
+    #         Version         = $program.DisplayVersion
+    #         Publisher       = $program.Publisher
+    #         UninstallString = $program.UninstallString
+    #         Source          = "Registry"
+    #     }
+    # }
+
     $programsAndFeatures = foreach ($path in $paths) {
-        Get-ItemProperty $path -ErrorAction SilentlyContinue |
-        Where-Object {
-            $_.DisplayName -and
-            $_.SystemComponent -ne 1
-        } |
-        Select-Object DisplayName, DisplayVersion, Publisher, InstallDate, UninstallString
+
+        Get-ChildItem $path -ErrorAction SilentlyContinue |
+        ForEach-Object {
+
+            try {
+                $app = Get-ItemProperty $_.PSPath -ErrorAction Stop
+
+                if (-not [string]::IsNullOrWhiteSpace($app.DisplayName) -and
+                    ($null -eq $app.SystemComponent -or $app.SystemComponent -ne 1)) {
+
+                    [PSCustomObject]@{
+                        DisplayName     = $app.DisplayName
+                        DisplayVersion  = $app.DisplayVersion
+                        Publisher       = $app.Publisher
+                        InstallDate     = $app.InstallDate
+                        UninstallString = $app.UninstallString
+                    }
+                }
+            }
+            catch {
+                $null
+            }
+        }
     }
 
+    $seen = New-Object System.Collections.Generic.HashSet[string]
+
     foreach ($program in $programsAndFeatures) {
-        # Hindari duplikat nama
-        if ($apps.Name -contains $program.DisplayName) { continue }
+
+        $name = $program.DisplayName.Trim()
+
+        # Dedup (case-insensitive)
+        if (-not $seen.Add($name.ToLower())) { continue }
 
         $apps += [PSCustomObject]@{
-            Name            = $program.DisplayName
+            Name            = $name
             Version         = $program.DisplayVersion
             Publisher       = $program.Publisher
             UninstallString = $program.UninstallString
