@@ -35,6 +35,12 @@
       "installerPath": "\\\\persvr02\\trackit$\\0_Installer\\mysql-connector-odbc-5.3.14-winx64.msi",
       "silentArgs": "",
       "detectName": "MySQL Connector/ODBC 5.3"
+    },
+    {
+      "name": "3CX Desktop App",
+      "installerPath": "\\\\persvr02\\trackit$\\0_Installer\\3CXDesktopApp-18.13.792\\3CXDesktopApp-18.13.792.msi",
+      "silentArgs": "",
+      "detectName": "3CX Desktop App"
     }
   ]
 }

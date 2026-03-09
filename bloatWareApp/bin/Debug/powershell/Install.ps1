@@ -132,6 +132,29 @@ function Install-App {
             -Wait `
             -PassThru
     }
+    # if ($extension -eq ".msi") {
+
+    #     Write-Log "$Name detected as MSI installer"
+
+    #     $tempMsi = Join-Path $env:TEMP (Split-Path $Path -Leaf)
+    #     Write-Log "TEMP folder: $env:TEMP"
+    #     Write-Log "Copying MSI to: $tempMsi"
+    #     Copy-Item $Path $tempMsi -Force
+
+    #     $logFile = Join-Path $env:TEMP "$Name-install.log"
+
+    #     $msiArgs = "/i `"$tempMsi`" $Args /L*v `"$logFile`""
+
+    #     Write-Log "Executing: msiexec.exe $msiArgs"
+
+    #     $process = Start-Process `
+    #         -FilePath "msiexec.exe" `
+    #         -ArgumentList $msiArgs `
+    #         -Wait `
+    #         -PassThru
+
+    #     Write-Log "Exit Code: $($process.ExitCode)"
+    # }
     else {
 
         # ============================

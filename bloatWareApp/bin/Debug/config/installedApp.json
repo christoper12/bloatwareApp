@@ -29,21 +29,21 @@
     },
     {
         "Name":  "Microsoft 365 Apps for enterprise - en-us",
-        "Version":  "16.0.19628.20204",
+        "Version":  "16.0.19725.20126",
         "Publisher":  "Microsoft Corporation",
         "UninstallString":  "\"C:\\Program Files\\Common Files\\Microsoft Shared\\ClickToRun\\OfficeClickToRun.exe\" scenario=install scenariosubtype=ARP sourcetype=None productstoremove=O365ProPlusRetail.16_en-us_x-none culture=en-us version.16=16.0",
         "Source":  "Registry"
     },
     {
         "Name":  "Microsoft OneDrive",
-        "Version":  "26.017.0126.0002",
+        "Version":  "26.022.0203.0006",
         "Publisher":  "Microsoft Corporation",
-        "UninstallString":  "\"C:\\Program Files\\Microsoft OneDrive\\26.017.0126.0002\\OneDriveSetup.exe\"  /uninstall  /allusers ",
+        "UninstallString":  "\"C:\\Program Files\\Microsoft OneDrive\\26.022.0203.0006\\OneDriveSetup.exe\"  /uninstall  /allusers ",
         "Source":  "Registry"
     },
     {
         "Name":  "Microsoft OneNote - en-us",
-        "Version":  "16.0.19628.20204",
+        "Version":  "16.0.19725.20126",
         "Publisher":  "Microsoft Corporation",
         "UninstallString":  "\"C:\\Program Files\\Common Files\\Microsoft Shared\\ClickToRun\\OfficeClickToRun.exe\" scenario=install scenariosubtype=ARP sourcetype=None productstoremove=OneNoteFreeRetail.16_en-us_x-none culture=en-us version.16=16.0",
         "Source":  "Registry"
@@ -147,24 +147,10 @@
         "Source":  "Registry"
     },
     {
-        "Name":  "TortoiseGit 2.18.0.0 (64 bit)",
-        "Version":  "2.18.0.0",
-        "Publisher":  "TortoiseGit",
-        "UninstallString":  "MsiExec.exe /I{27942F30-68E5-4E0E-B187-BCDB6D7F3903}",
-        "Source":  "Registry"
-    },
-    {
         "Name":  "Microsoft .NET SDK 9.0.306 (x64) from Visual Studio",
         "Version":  "9.3.625.47604",
         "Publisher":  "Microsoft Corporation",
         "UninstallString":  "MsiExec.exe /X{2F38A089-CBC1-44DF-8561-08C0A3D80710}",
-        "Source":  "Registry"
-    },
-    {
-        "Name":  "Dell Connected Service Delivery",
-        "Version":  "1.0.0.0",
-        "Publisher":  "Dell Technologies, Inc.",
-        "UninstallString":  "MsiExec.exe /X{3FB1CCCE-13CF-4C2F-A8AB-AA4724050A57}",
         "Source":  "Registry"
     },
     {
@@ -287,6 +273,20 @@
         "Source":  "Registry"
     },
     {
+        "Name":  "TortoiseGit 2.18.0.1 (64 bit)",
+        "Version":  "2.18.0.1",
+        "Publisher":  "TortoiseGit",
+        "UninstallString":  "MsiExec.exe /I{F7CC5B9C-115F-4D1B-AB7D-EC61BC32B79A}",
+        "Source":  "Registry"
+    },
+    {
+        "Name":  "Dell Connected Service Delivery",
+        "Version":  "1.1.0.0",
+        "Publisher":  "Dell Technologies, Inc.",
+        "UninstallString":  "MsiExec.exe /X{F8CE37E8-FE69-4964-9878-EA947E4E4D89}",
+        "Source":  "Registry"
+    },
+    {
         "Name":  "Visual Studio Community 2026",
         "Version":  "18.1.1",
         "Publisher":  "Microsoft Corporation",
@@ -309,23 +309,23 @@
     },
     {
         "Name":  "Google Chrome",
-        "Version":  "145.0.7632.109",
+        "Version":  "145.0.7632.117",
         "Publisher":  "Google LLC",
-        "UninstallString":  "\"C:\\Program Files\\Google\\Chrome\\Application\\145.0.7632.109\\Installer\\setup.exe\" --uninstall --channel=stable --system-level --verbose-logging",
+        "UninstallString":  "\"C:\\Program Files\\Google\\Chrome\\Application\\145.0.7632.117\\Installer\\setup.exe\" --uninstall --channel=stable --system-level --verbose-logging",
         "Source":  "Registry"
     },
     {
         "Name":  "Trend Micro Security Agent",
-        "Version":  "6.7.4109",
+        "Version":  "6.7.4121",
         "Publisher":  "Trend Micro Inc.",
         "UninstallString":  "msiexec /x {BED0B8A2-2986-49F8-90D6-FA008D37A3D2} /qf /l+* \"C:\\WINDOWS\\temp\\wofie_uninstall.log\"",
         "Source":  "Registry"
     },
     {
         "Name":  "Microsoft Edge",
-        "Version":  "145.0.3800.65",
+        "Version":  "145.0.3800.82",
         "Publisher":  "Microsoft Corporation",
-        "UninstallString":  "\"C:\\Program Files (x86)\\Microsoft\\Edge\\Application\\145.0.3800.65\\Installer\\setup.exe\" --uninstall --msedge --channel=stable --system-level --verbose-logging",
+        "UninstallString":  "\"C:\\Program Files (x86)\\Microsoft\\Edge\\Application\\145.0.3800.82\\Installer\\setup.exe\" --uninstall --msedge --channel=stable --system-level --verbose-logging",
         "Source":  "Registry"
     },
     {
@@ -462,6 +462,13 @@
         "Source":  "Registry"
     },
     {
+        "Name":  "Chrome Remote Desktop Host",
+        "Version":  "146.0.7680.5",
+        "Publisher":  "Google LLC",
+        "UninstallString":  "MsiExec.exe /I{5330D53F-D1E1-479C-A54D-58C33DA3AAD4}",
+        "Source":  "Registry"
+    },
+    {
         "Name":  "Microsoft .NET Framework 4.5 Multi-Targeting Pack",
         "Version":  "4.5.50710",
         "Publisher":  "Microsoft Corporation",
@@ -487,13 +494,6 @@
         "Version":  "2.2.14.0",
         "Publisher":  "Dell.Inc",
         "UninstallString":  "\"C:\\ProgramData\\Package Cache\\{6e578348-d226-4341-a69f-26274feac293}\\FusionService.exe\"  /uninstall",
-        "Source":  "Registry"
-    },
-    {
-        "Name":  "Chrome Remote Desktop Host",
-        "Version":  "145.0.7632.25",
-        "Publisher":  "Google LLC",
-        "UninstallString":  "MsiExec.exe /I{6F72B3C6-D42E-4818-8A53-729446C45F08}",
         "Source":  "Registry"
     },
     {
@@ -644,17 +644,31 @@
         "Source":  "Registry"
     },
     {
-        "Name":  "Postman-win64-7.29.1",
-        "Version":  "7.29.1",
-        "Publisher":  "Postman",
-        "UninstallString":  "\"C:\\Users\\administrator.ALLIED\\AppData\\Local\\Postman\\Update.exe\" --uninstall",
+        "Name":  "Chrome Desktop Jarak Jauh",
+        "Version":  "1.0",
+        "Publisher":  "Google\\Chrome",
+        "UninstallString":  "\"C:\\Program Files\\Google\\Chrome\\Application\\chrome.exe\" --profile-directory=Default --uninstall-app-id=cmkncekebbebpfilplodngbpllndjkfo",
+        "Source":  "Registry"
+    },
+    {
+        "Name":  "Python 3.14.0",
+        "Version":  "3.14-64",
+        "Publisher":  "Python Software Foundation",
+        "UninstallString":  "\"C:\\Users\\csangjaya\\AppData\\Local\\Microsoft\\WindowsApps\\PythonSoftwareFoundation.PythonManager_3847v3x7pw1km\\pymanager.exe\" uninstall --yes --by-id \"pythoncore-3.14-64\"",
         "Source":  "Registry"
     },
     {
         "Name":  "Microsoft Visual Studio Code (User)",
-        "Version":  "1.105.1",
+        "Version":  "1.109.5",
         "Publisher":  "Microsoft Corporation",
-        "UninstallString":  "\"C:\\Users\\administrator.ALLIED\\AppData\\Local\\Programs\\Microsoft VS Code\\unins000.exe\"",
+        "UninstallString":  "\"C:\\Users\\csangjaya\\AppData\\Local\\Programs\\Microsoft VS Code\\unins000.exe\"",
+        "Source":  "Registry"
+    },
+    {
+        "Name":  "Python 3.11.7 (64-bit)",
+        "Version":  "3.11.7150.0",
+        "Publisher":  "Python Software Foundation",
+        "UninstallString":  "\"C:\\Users\\csangjaya\\AppData\\Local\\Package Cache\\{f1ae9112-e709-45d0-9767-bf7b3f56c6f4}\\python-3.11.7-amd64.exe\"  /uninstall",
         "Source":  "Registry"
     }
 ]
